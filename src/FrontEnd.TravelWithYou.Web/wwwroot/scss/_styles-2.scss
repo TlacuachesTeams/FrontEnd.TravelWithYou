@@ -1,0 +1,217 @@
+// Styles //
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-semibold-webfont';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+
+
+body { font-family: 'montserratregular', Arial, Helvetica, sans-serif; }
+
+
+a { color: $blue; text-decoration: none; }
+p { margin: 0; }
+
+::placeholder { color: $font-soft-gray!important; }
+
+
+
+// Cotizador
+.search { position: relative; margin-top: -520px; height: 520px; /*z-index: 9999; */
+    .box-search { background-color: $bg-soft-gray; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.5); box-shadow: 0 3px 5px 0 rgba(0,0,0,.5);
+        .nav-pills { 
+            .nav-link { font-weight: 600; color: $font-gray; padding: 15px 10px; font-size: .9em; -webkit-border-radius: 0; border-radius: 0; min-width: 140px;
+                &.active { color: $white; }
+                &:hover { background-color: $blue; color: $white; -webkit-border-radius: 0; border-radius: 0; } 
+            }
+        }
+        .inside-search { padding: 15px 20px; min-height: 260px; }
+        .title-search { background-color: $bg-soft-gray; color: $font-dark; padding: 15px 20px;
+            .t1 { font-weight: 600; font-size: 1.3em; line-height: 1.1em; margin-bottom: 8px; }
+            .t2 { font-size: .9em; margin-bottom: 5px; }
+        }
+        .tab-content { background-color: $white; border-left: 1px solid $border-color; }
+        .btn-search { padding: 6px 50px; font-weight: 600; font-size: 1.1em; margin-top: 8px;
+            &:hover { color: $white!important; }
+            &focus { color: $white; }
+        }
+        .bottom-search { background-color: $bg-soft-gray; padding: 10px 15px; overflow: hidden;
+            p { color: $font-dark; line-height: 1.1em; font-size: .85em; text-align: center; margin: 0; }
+            a { color: $blue; float: right; font-weight: 600;  margin: 5px 10px 0 0; line-height: 1.1em; 
+                &:hover { color: $blue-dark; }
+            }
+        }
+    }
+    .radio-flights { font-size: .8em; line-height: 1.8em; }
+    .data-select { color: $font-gray; font-size: .9em; padding: 4px; border: none;
+        &:focus { box-shadow: none; }
+        &:hover { border-color: $blue; }
+    }
+    .check-search { font-size: .8em; margin: -10px 0 10px 0; font-weight: 600; color: $blue; line-height: 1.7em; }
+
+}
+
+.box-input { background-color: $white; border: 1px solid $border-color; -webkit-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; padding: 4px; margin-bottom: 14px;
+    &:hover { border-color: $blue; }
+    &.bi-text {         
+        .form-control { border: 0; color: $font-gray; font-size: .9em; padding: 7px 4px;
+            &:focus { box-shadow: none; color: $blue; }
+            &:active { box-shadow: none; color: $blue; }
+        }
+        &.bi-icon { 
+            .form-control { padding-left: 30px; height: 28px; }
+        }
+    }
+    &.bi-date { 
+        .form-control { border: 0; color: $font-gray; font-size: .9em; padding: 0;
+            &:focus { box-shadow: none; color: $blue; }
+            &:active { box-shadow: none; color: $blue; }
+        }
+        &.bi-icon { 
+            .form-control { padding-left: 30px; background: url(../images/v-sprites.png) no-repeat; background-position: left -318px; background-size: 28px; }
+        }
+        label { font-size: .7em; margin: 0 0 0 30px; float: left; }
+    }
+    &.combo-room { padding: 4px 10px 4px 4px; margin-bottom: 10px; 
+        a { color: $font-gray; background: url(../images/v-sprites.png) no-repeat; background-position: left -286px; background-size: 28px; padding: 8px 0px 8px 30px; font-size: .9em; display: block; /*overflow: hidden; text-overflow: ellipsis; white-space: nowrap;*/
+            &:hover { color: $blue; }    
+            .txt-short { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 85%; }         
+        }
+        span { float: right; height: 30px; width: 30px; margin: -18px -5px 0 0;
+            &.ic-down { background: url(../images/icon-down.png) no-repeat; background-size: 24px; }
+        }
+    }   
+}
+
+.input-hotel { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -256px!important; background-size: 28px!important; }
+.input-flight { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -28px!important; background-size: 28px!important; }
+.input-flight-2 { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -341px!important; background-size: 28px!important; }
+.input-tour { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -85px!important; background-size: 28px!important; }
+.input-traslado { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -28px!important; background-size: 28px!important; }
+.input-traslado-2 { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -256px!important; background-size: 28px!important; }
+.input-autos { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -114px!important; background-size: 28px!important; }
+.input-autos-2 { background: #fff url(../images/v-sprites.png) no-repeat!important; background-position: left -114px!important; background-size: 28px!important; }
+
+
+.box-modal { border: 1px solid $border-color; background-color: $white; padding: 5px 15px 5px 15px; position: relative; top: -5px; -webkit-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; 
+    .box-modal-inn { margin-bottom: 10px;
+        .title-room { font-weight: 600; font-size: .9em; }
+        .delete-room { color: $red; font-size: .7em; float: right; margin: 3px 0 0 0; }
+        .form-label { font-size: .7em; margin: 0; }
+        .form-control { color: $font-gray; font-size: .9em; padding: 5px 10px 5px 10px; line-height: 1.2em; 
+            &:focus { box-shadow: none; }
+            &:hover { border-color: $blue; }
+        }
+        .form-select { color: $font-gray; font-size: .9em; padding: 5px; 
+            &:focus { box-shadow: none; }
+            &:hover { border-color: $blue; }
+        }
+        button { padding: 0 10px; font-size: 1.6em; line-height: 1.2em;
+            &:focus { box-shadow: none; } 
+        }
+        .top-room { margin-bottom: 5px; margin-top: 2px; }
+    }
+    .more-room { font-weight: 600; font-size: .8em; }    
+}
+
+.msi-banner { background-color: $blue; min-height: 100px; }
+
+
+// Only box //
+.only-box { margin: 10px 0!important; max-width: 600px; position: relative; z-index: 999; }
+.btn-primary { color: #fff; }
+
+
+// Autocomplete
+.combo-hotel-list { min-height: 100px; position: absolute; background-color: $white; width: 300px; margin: 1px 0 0 0; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.3); box-shadow: 0 2px 4px 0 rgba(0,0,0,.3); z-index: 999; 
+    .combo-hl-block { border-bottom: 1px solid $bg-soft-gray; padding: 0; 
+    h5 { font-size: .65em; letter-spacing: .04em; margin: 0; padding: 4px 10px; font-weight: 600; color: $font-dark; background-color: $bg-gray; }
+    ul { margin: 0; padding: 0;
+        li { font-size: .8em; list-style: none;
+            &:last-child { border-bottom: 0; }
+            a { padding: 4px 10px 4px 25px; display: block; color: $font-gray;
+                &:hover { background-color: $dropdown-hover; text-decoration: none; color: $blue; } 
+                }
+            }
+        }
+    }
+}
+
+// Calendar colors //
+.hasDatepicker {         
+    .ui-widget.ui-widget-content { border-color: $white; width: 100%!important; }
+    .ui-datepicker table { margin-top: 8px; }
+    .ui-datepicker th { height: 30px; }
+    .ui-datepicker-calendar tr td { height: 40px; 
+        a { height: 40px; padding-top: 10px; }
+    }
+    .ui-datepicker-multi .ui-datepicker-group { float: inherit!important; }
+}
+
+
+// Source mixins
+
+// MIN Width
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) { }
+@include media-breakpoint-up(md) { }
+@include media-breakpoint-up(lg) { }
+@include media-breakpoint-up(xl) { }
+@include media-breakpoint-up(xxl) { }
+
+
+// MAX Width
+// No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }`
+@include media-breakpoint-down(sm) { 
+    // Menu responsivo // 
+    .top-bar { border-bottom: 0; 
+        .navbar { padding: 10px 0; }
+    }
+    .logo { width: 120px; }
+    .bt-menu { position: unset; }
+    .nav-main { margin-top: 10px;
+        .first-menu, .second-menu { position: unset; right: 0; margin: 0; 
+            ul { 
+                li { border-bottom: 1px solid $blue-2;
+                    a { padding: 8px!important; background: none; margin: 0!important; display: block; 
+                        &:hover { color: $blue!important; }
+                        &.sac-active { background: none; }
+                        &.nav-link { padding: 8px; }
+                    }
+                } 
+            }
+        }
+    }
+    .navbar-brand { position: absolute; left: 50%; transform: translateX(-50%); top: 6px; }
+    .dropdown-main-menu { left: unset; right: 0; }
+    .box-search .nav-pills .nav-link { min-width: 80px!important; }
+}
+
+@include media-breakpoint-down(md) { }
+@include media-breakpoint-down(lg) { }
+@include media-breakpoint-down(xl) { }
+@include media-breakpoint-down(xxl) { }
+
+
+// Single Breakpoint (Solo segmento)
+@include media-breakpoint-only(xs) { }
+@include media-breakpoint-only(sm) { }
+@include media-breakpoint-only(md) { }
+@include media-breakpoint-only(lg) { }
+@include media-breakpoint-only(xl) { }
+@include media-breakpoint-only(xxl) { }
+
+// XX-Large devices (larger desktops, 1500px and up)
+@media (min-width: 1500px) { 
+    .carousel-item img { width: 100%; }
+    .carousel-inner { height: 600px; }
+}
+

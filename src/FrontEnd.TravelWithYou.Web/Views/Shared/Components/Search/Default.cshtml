@@ -1,0 +1,853 @@
+﻿@{ 
+    var tabHotelActive = false;
+    var tabFlightActive = false;
+    var tabPackageActive = false;
+    var tabTourActive = false;
+    var tabShuttleActive = false;
+    var tabCarActive = false;
+    switch (ViewBag.ViewType)
+    {
+        case "Home":
+            tabHotelActive = true;
+            break;
+        case "Hotel":
+            tabHotelActive = true;
+            break;
+        case "Flight":
+            tabFlightActive = true;
+            break;
+        case "Package":
+            tabPackageActive = true;
+            break;
+        case "Tour":
+            tabTourActive = true;
+            break;
+        case "Shuttle":
+            tabShuttleActive = true;
+            break;
+        case "Car":
+            tabCarActive = true;
+            break;
+    }
+
+}
+<section class="search">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="box-search">
+                    <div class="box-search-inside">
+
+         <!--               <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Hotel")
+            {
+                                    <a class="nav-link @(tabHotelActive? "active":"")" id="sb-hotel-tab" data-toggle="pill" href="#sb-hotel" role="tab" aria-controls="sb-hotel" aria-selected="true">
+                                        <span class="icon-hotel"></span> Hotel
+                                    </a>
+        }
+                                
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Flight")
+        {
+                                    <a class="nav-link @(tabFlightActive? "active":"")" id="sb-vuelo-tab" data-toggle="pill" href="#sb-vuelo" role="tab" aria-controls="sb-vuelo" aria-selected="false">
+                                        <span class="icon-flight"></span> Vuelos
+                                    </a>
+    }
+                                
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Package")
+                                {
+                                    <a class="nav-link @(tabPackageActive? "active":"")" id="sb-paquete-tab" data-toggle="pill" href="#sb-paquete" role="tab" aria-controls="sb-paquete" aria-selected="false">
+                                        <span class="icon-packages"></span> Vuelo + Hotel
+                                    </a>
+                                }
+                               
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Tour")
+                                {
+                                    <a class="nav-link @(tabTourActive? "active":"")" id="sb-tour-tab" data-toggle="pill" href="#sb-tour" role="tab" aria-controls="sb-tour" aria-selected="false">
+                                        <span class="icon-tours"></span> Tours
+                                    </a>
+                                }
+                                
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Shuttle")
+                                {
+                                    <a class="nav-link @(tabShuttleActive? "active":"")" id="sb-traslado-tab" data-toggle="pill" href="#sb-traslado" role="tab" aria-controls="sb-traslado" aria-selected="false">
+                                        <span class="icon-transportation"></span> Traslado
+                                    </a>
+                                }
+                                
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Car")
+                                {
+                                    <a class="nav-link @(tabCarActive? "active":"")" id="sb-autos-tab" data-toggle="pill" href="#sb-autos" role="tab" aria-controls="sb-autos" aria-selected="false">
+                                        <span class="icon-car"></span> Autos
+                                    </a>
+                                }
+                            </div>
+-->
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <!-- Hoteles -->
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Hotel")
+                                {
+                                    <div class="tab-pane fade @(tabHotelActive? "show active": "hide")" id="sb-hotel" role="tabpanel" aria-labelledby="sb-hotel-tab">
+                                        <div class="title-search">
+                                            <p class="t1">¿Ya tienes hotel para tus vacaciones?</p>
+                                            <p class="t2">Reserva la habitación ideal para ti.</p>
+                                        </div>
+                                        <div class="inside-search">
+                                            <form action="/hotels/cancun/">
+                                                <div class="row">
+
+                                                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-hotel destination-autocomplete" id="Destino" placeholder="¿A dónde?">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="initdate" class="form-label">Llegada</label>
+                                                            <input type="text" class="form-control" id="initdate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-12">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="enddate" class="form-label">Salida</label>
+                                                            <input type="text" class="form-control" id="enddate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12">
+                                                        <div class="box-input combo-room">
+                                                            <a data-toggle="collapse" href="#Combo" role="button" aria-expanded="false" aria-controls="Combo">
+                                                                <div class="txt-short">
+                                                                    1 Hab. - 1 Adultos, 1 Niño
+                                                                </div>
+                                                                <span class="icon-down"></span>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="collapse rooms " id="Combo">
+                                                            <div class="box-modal">
+                                                                <div class="box-modal-clone">
+                                                                    <div class="box-modal-inn" data-number="1">
+
+                                                                        <div class="row top-room">
+                                                                            <div class="col-lg-8 col-md-6 col-sm-6 col-8">
+                                                                                <label class="title-room">Habitacion 1</label>
+                                                                            </div>
+                                                                            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                                                <a href="#" class="delete-room d-none">Eliminar</a>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="row">
+                                                                            <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                                <label for="" class="form-label">Adultos</label>
+                                                                                <div class="input-group">
+                                                                                    <button class="btn btn-primary less-adults" type="button">-</button>
+                                                                                    <input type="text" class="form-control input-number" name="adults" value="1">
+                                                                                    <button class="btn btn-primary more-adults" type="button">+</button>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                                <label for="" class="form-label">Niños</label>
+                                                                                <div class="input-group">
+                                                                                    <button class="btn btn-primary less-children" type="button">-</button>
+                                                                                    <input name="children" type="text" class="form-control input-number" value="0">
+                                                                                    <button class="btn btn-primary more-children" type="button">+</button>
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12 ages">
+                                                                                <div class="row">
+                                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-6 mb-1 children-ages d-none">
+                                                                                        <label for="" class="form-label">Edad (Niño 1)</label>                                                                                    
+                                                                                        <select name="children-age" class="form-select" aria-label="Default select example">
+                                                                                            <option selected="">Edad</option>
+                                                                                            <option value="0">0 años</option>
+                                                                                            <option value="1">1 año</option>
+                                                                                            <option value="2">2 años</option>
+                                                                                            <option value="3">3 años</option>
+                                                                                            <option value="4">4 años</option>
+                                                                                            <option value="5">5 años</option>
+                                                                                            <option value="6">6 años</option>
+                                                                                            <option value="7">7 años</option>
+                                                                                            <option value="8">8 años</option>
+                                                                                            <option value="9">9 años</option>
+                                                                                            <option value="10">10 años</option>
+                                                                                            <option value="11">11 años</option>
+                                                                                            <option value="12">12 años</option>
+                                                                                            <option value="13">13 años</option>
+                                                                                            <option value="14">14 años</option>
+                                                                                            <option value="15">15 años</option>
+                                                                                            <option value="16">16 años</option>
+                                                                                            <option value="17">17 años</option>
+                                                                                        </select>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>   
+                                                                <a href="#" class="more-room">Agregar habitación</a>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-xl-1 col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+                                                        <button type="submit" class="btn btn-primary rounded-pill btn-search">Buscar</button>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!--<div class="bottom-search">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                                                    <p>¿Sabias que en paquete ahorras hasta un 40%?</p>
+                                                </div>
+                                                <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                                                    <a href="#">¡Ver ofertas en paquete!</a>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                    </div>
+                                }
+                                <!-- Fin Hoteles -->
+                                <!-- Vuelos -->
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Flight")
+                                {
+                                    <div class="tab-pane fade @(tabFlightActive? "show active": "hide")" id="sb-vuelo" role="tabpanel" aria-labelledby="sb-vuelo-tab">
+                                        <div class="title-search">
+                                            <p class="t1">¿Ya tienes vuelo para tus vacaciones?</p>
+                                            <p class="t2">Reserva el vuelo ideal para ti.</p>
+                                        </div>
+                                        <div class="inside-search">
+                                            <form action="/flights/cancun/mexico">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 radio-flights">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                            <label class="form-check-label" for="inlineRadio1">Redondo</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                            <label class="form-check-label" for="inlineRadio2">Sencillo</label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-flight" id="Origen" placeholder="¿De dónde?">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-flight-2" id="Destino" placeholder="¿A dónde?">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="w-100"></div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="initdate" class="form-label">Llegada</label>
+                                                            <input type="text" class="form-control" id="initdate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="enddate" class="form-label">Salida</label>
+                                                            <input type="text" class="form-control" id="enddate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="box-input combo-room">
+                                                            <a data-toggle="collapse" href="#Combo2" role="button" aria-expanded="false" aria-controls="Combo2">
+                                                                <div class="txt-short">
+                                                                    2 Adultos, 1 Niño
+                                                                </div>
+                                                                <span class="icon-down"></span>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="collapse " id="Combo2">
+                                                            <div class="box-modal">
+
+                                                                <div class="box-modal-inn">
+
+                                                                    <div class="row top-room">
+                                                                        <div class="col-lg-8 col-md-6 col-sm-6 col-6">
+                                                                            <label class="title-room">Pasajeros</label>
+                                                                        </div>
+                                                                        <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                                            <!--<a href="#" class="delete-room">Eliminar</a>-->
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Adultos</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="1">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Niños</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="0">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <!--
+                                            <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
+                                              <div class="row">
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-12 mb-1">
+                                                  <label for="" class="form-label">Edad (Niño 1)</label>
+                                                  <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Edad</option>
+                                                    <option value="1">0 años</option>
+                                                    <option value="2">1 año</option>
+                                                    <option value="3">2 años</option>
+                                                  </select>
+                                                </div>
+
+                                              </div>
+                                            </div>
+                                            -->
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="offset-xl-7 col-xl-7 offset-lg-0 col-lg-12 offset-md-0 col-md-6 offset-sm-0 col-sm-12 offset-0 col-12 text-center">
+                                                        <button type="submit" class="btn btn-primary rounded-pill btn-search">Buscar</button>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="bottom-search">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                                                    <p>¿Sabias que en paquete ahorras hasta un 40%?</p>
+                                                </div>
+                                                <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                                                    <a href="#">¡Ver ofertas en paquete!</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- Fin de Vuelos -->
+                                <!-- Paquetes-->
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Package")
+                                {
+                                    <div class="tab-pane fade @(tabPackageActive? "show active": "hide")" id="sb-paquete" role="tabpanel" aria-labelledby="sb-paquete-tab">
+                                        <div class="title-search">
+                                            <p class="t1">¿Ya tienes paquete para tus vacaciones?</p>
+                                            <p class="t2">Reserva el paquete ideal para ti.</p>
+                                        </div>
+                                        <div class="inside-search">
+                                            <form action="/packages/cancun/mexico/">
+                                                <div class="row">
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-flight" id="Origen" placeholder="Origen">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-flight-2" id="Destino" placeholder="Destino">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="initdate" class="form-label">Llegada</label>
+                                                            <input type="text" class="form-control" id="initdate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="enddate" class="form-label">Salida</label>
+                                                            <input type="text" class="form-control" id="enddate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="box-input combo-room">
+                                                            <a data-toggle="collapse" href="#Combo3" role="button" aria-expanded="false" aria-controls="Combo3">
+                                                                <div class="txt-short">
+                                                                    1 Hab. - 2 Adultos, 1 Niño
+                                                                </div>
+                                                                <span class="icon-down"></span>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="collapse " id="Combo3">
+                                                            <div class="box-modal">
+
+                                                                <div class="box-modal-inn">
+
+                                                                    <div class="row top-room">
+                                                                        <div class="col-lg-8 col-md-6 col-sm-6 col-8">
+                                                                            <label class="title-room">Habitacion 1</label>
+                                                                        </div>
+                                                                        <div class="col-lg-4 col-md-6 col-sm-6 col-4">
+                                                                            <!--<a href="#" class="delete-room">Eliminar</a>-->
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Adultos</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="1">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Niños</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="2">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-6 mb-1">
+                                                                                    <label for="" class="form-label">Edad (Niño 1)</label>
+                                                                                    <select class="form-select" aria-label="Default select example">
+                                                                                        <option selected>Edad</option>
+                                                                                        <option value="1">0 años</option>
+                                                                                        <option value="2">1 año</option>
+                                                                                        <option value="3">2 años</option>
+                                                                                    </select>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="box-modal-inn">
+
+                                                                    <div class="row top-room">
+                                                                        <div class="col-lg-8 col-md-6 col-sm-6 col-8">
+                                                                            <label class="title-room">Habitacion 2</label>
+                                                                        </div>
+                                                                        <div class="col-lg-4 col-md-6 col-sm-6 col-4">
+                                                                            <a href="#" class="delete-room">Eliminar</a>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Adultos</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="1">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Niños</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="0">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12">
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-6 mb-1">
+                                                                                    <label for="" class="form-label">Edad (Niño 1)</label>
+                                                                                    <select class="form-select" aria-label="Default select example">
+                                                                                        <option selected>Edad</option>
+                                                                                        <option value="1">0 años</option>
+                                                                                        <option value="2">1 año</option>
+                                                                                        <option value="3">2 años</option>
+                                                                                    </select>
+                                                                                </div>
+
+                                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-6 mb-1">
+                                                                                    <label for="" class="form-label">Edad (Niño 2)</label>
+                                                                                    <select class="form-select" aria-label="Default select example">
+                                                                                        <option selected>Edad</option>
+                                                                                        <option value="1">0 años</option>
+                                                                                        <option value="2">1 año</option>
+                                                                                        <option value="3">2 años</option>
+                                                                                    </select>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                                <a href="#" class="more-room">Agregar habitación</a>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="offset-xl-7 col-xl-7 offset-lg-0 col-lg-12 offset-md-0 col-md-6 offset-sm-0 col-sm-12 offset-0 col-12 text-center">
+                                                        <button type="submit" class="btn btn-primary rounded-pill btn-search">Buscar</button>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="bottom-search">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                                                    <p>¿Sabias que en paquete ahorras hasta un 40%?</p>
+                                                </div>
+                                                <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                                                    <a href="#">¡Ver ofertas en paquete!</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- Fin de Paquete -->
+                                <!-- Tours -->
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Tour")
+                                {
+                                    <div class="tab-pane fade @(tabTourActive? "show active": "hide")" id="sb-tour" role="tabpanel" aria-labelledby="sb-tour-tab">
+                                        <div class="title-search">
+                                            <p class="t1">¿Ya elegiste un tour para tus vacaciones?</p>
+                                            <p class="t2">Reserva la actividad ideal para ti.</p>
+                                        </div>
+                                        <div class="inside-search">
+                                            <form action="/tours/cancun/">
+                                                <div class="row">
+
+                                                    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-tour" id="Origen" placeholder="Destino / Tour">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="initdate" class="form-label">Fecha</label>
+                                                            <input type="text" class="form-control" id="initdate" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+                                                        <button type="submit" class="btn btn-primary rounded-pill btn-search">Buscar</button>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!--<div class="bottom-search">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                                                    <p>¿Sabias que en paquete ahorras hasta un 40%?</p>
+                                                </div>
+                                                <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                                                    <a href="#">¡Ver ofertas en paquete!</a>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                    </div>
+                                }
+                                <!-- Fin de Tours -->
+                                <!-- Traslados -->
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Shuttle")
+                                {
+                                    <div class="tab-pane fade @(tabShuttleActive? "show active": "hide")" id="sb-traslado" role="tabpanel" aria-labelledby="sb-traslado-tab">
+                                        <div class="title-search">
+                                            <p class="t1">¿Ya elegiste un traslado para tus vacaciones?</p>
+                                            <p class="t2">Reservalo de una vez aqui.</p>
+                                        </div>
+                                        <div class="inside-search">
+                                            <form action="/shuttles/cancun/">
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 radio-flights">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                                            <label class="form-check-label" for="inlineRadio3">Desde el aeropuerto</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                                            <label class="form-check-label" for="inlineRadio4">Hacia el aeropuerto</label>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-traslado" id="" placeholder="Desde">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-traslado-2" id="" placeholder="Hasta">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-inline-flex">
+                                                        <div class="box-input bi-date bi-icon w-75">
+                                                            <label for="initdate" class="form-label">Llegada de vuelo</label>
+                                                            <input type="text" class="form-control" id="initdate" placeholder="">
+                                                        </div>
+                                                        <div class="box-input w-25">
+                                                            <select class="form-select data-select" aria-label="Default select example">
+                                                                <option selected>Hora</option>
+                                                                <option value="1">00:00</option>
+                                                                <option value="2">00:30</option>
+                                                                <option value="3">01:00</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>                                                    
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                                        <div class="box-input combo-room">
+                                                            <a data-toggle="collapse" href="#Combo4" role="button" aria-expanded="false" aria-controls="Combo4">
+                                                                <div class="txt-short">
+                                                                    2 Adultos, 1 Niño
+                                                                </div>
+                                                                <span class="icon-down"></span>
+                                                            </a>
+                                                        </div>
+
+                                                        <div class="collapse " id="Combo4">
+                                                            <div class="box-modal">
+
+                                                                <div class="box-modal-inn">
+
+                                                                    <div class="row top-room">
+                                                                        <div class="col-lg-8 col-md-6 col-sm-6 col-8">
+                                                                            <label class="title-room">Pasajeros</label>
+                                                                        </div>
+                                                                        <div class="col-lg-4 col-md-6 col-sm-6 col-4">
+                                                                            <!--<a href="#" class="delete-room">Eliminar</a>-->
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="row">
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Adultos</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="1">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-7">
+                                                                            <label for="" class="form-label">Niños</label>
+                                                                            <div class="input-group">
+                                                                                <button class="btn btn-primary" type="button">-</button>
+                                                                                <input type="text" class="form-control input-number" value="2">
+                                                                                <button class="btn btn-primary" type="button">+</button>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+
+                                                     <div class="col-lg-2 col-md-2 col-sm-2 col-2 text-center">
+                                                        <button type="submit" class="btn btn-primary rounded-pill btn-search">Buscar</button>
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-check check-search">
+                                                            <input class="form-check-input" type="checkbox" value="" id="agregarRegreso">
+                                                            <label class="form-check-label" for="agregarRegreso">
+                                                                Quiero agregar el regreso
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-lg-4 col-md-4 col-sm-4 col-4"></div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4 col-4 d-inline-flex">
+                                                        <div class="box-input bi-date bi-icon w-75">
+                                                            <label for="enddate" class="form-label">Partida de vuelo</label>
+                                                            <input type="text" class="form-control" id="enddate" placeholder="">
+                                                        </div>
+                                                        <div class="box-input w-25">
+                                                            <select class="form-select data-select" aria-label="Default select example">
+                                                                <option selected>Hora</option>
+                                                                <option value="1">00:00</option>
+                                                                <option value="2">00:30</option>
+                                                                <option value="3">01:00</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!--<div class="bottom-search">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                                                    <p>¿Sabias que en paquete ahorras hasta un 40%?</p>
+                                                </div>
+                                                <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                                                    <a href="#">¡Ver ofertas en paquete!</a>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                    </div>
+                                }
+                                <!-- Fin de Traslados -->
+                                <!-- Autos -->
+                                @if (ViewBag.ViewType == "Home" || ViewBag.ViewType == "Car")
+                                {
+                                    <div class="tab-pane fade @(tabCarActive? "show active": "hide")" id="sb-autos" role="tabpanel" aria-labelledby="sb-autos-tab">
+                                        <div class="title-search">
+                                            <p class="t1">¿Ya elegiste un auto para tus vacaciones?</p>
+                                            <p class="t2">Reservalo de una vez aqui.</p>
+                                        </div>
+                                        <div class="inside-search">
+                                            <form action="/cars/cancun/mexico/">
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-autos" id="" placeholder="Lugar de retiro">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="box-input bi-text bi-icon">
+                                                            <input type="text" class="form-control input-autos-2" id="" placeholder="Lugar de devolución">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-check check-search">
+                                                            <input class="form-check-input" type="checkbox" value="" id="nuevoDestino">
+                                                            <label class="form-check-label" for="nuevoDestino">
+                                                                Quiero devolverlo en otro destino
+                                                            </label>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-7">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="initdate" class="form-label">Fecha de retiro</label>
+                                                            <input type="text" class="form-control" id="initdate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-4 col-sm-6 col-5">
+                                                        <div class="box-input">
+                                                            <select class="form-select data-select" aria-label="Default select example">
+                                                                <option selected>Hora</option>
+                                                                <option value="1">00:00</option>
+                                                                <option value="2">00:30</option>
+                                                                <option value="3">01:00</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+
+                                                    <div class="col-lg-6 col-md-6 col-sm-6 col-7">
+                                                        <div class="box-input bi-date bi-icon">
+                                                            <label for="enddate" class="form-label">Fecha de devolución</label>
+                                                            <input type="text" class="form-control" id="enddate" placeholder="">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-4 col-md-4 col-sm-6 col-5">
+                                                        <div class="box-input">
+                                                            <select class="form-select data-select" aria-label="Default select example">
+                                                                <option selected>Hora</option>
+                                                                <option value="1">00:00</option>
+                                                                <option value="2">00:30</option>
+                                                                <option value="3">01:00</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="offset-xl-7 col-xl-7 offset-lg-0 col-lg-12 offset-md-0 col-md-6 offset-sm-0 col-sm-12 offset-0 col-12 text-center">
+                                                        <button type="submit" class="btn btn-primary rounded-pill btn-search">Buscar</button>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="bottom-search">
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-6 col-sm-12 col-12">
+                                                    <p>¿Sabias que en paquete ahorras hasta un 40%?</p>
+                                                </div>
+                                                <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                                                    <a href="#">¡Ver ofertas en paquete!</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- Fin de Autos-->
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>

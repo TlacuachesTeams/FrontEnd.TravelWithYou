@@ -1,0 +1,1423 @@
+﻿{  
+  "Countries": [
+    {
+      "Title": "Destinos de México",
+      "Description": "Disfruta de los mejores destinos de México y alrededores",
+      "Galleries": [
+        {
+          "GalleryId": 1,
+          "Title": "Acapulco",
+          "Description": "Acapulco, un balneario en la costa del Pacífico de México, se ubica en una gran bahía bordeado de edificios de muchos pisos y las montañas de la Sierra Madre del Sur. Se hizo famoso gracias al jet set en los años 1950 y 1960, y es conocido por su enérgica vida nocturna, las playas y el golf. Desde su icónico acantilado de La Quebrada, los clavadistas profesionales se lanzan desde 40 m para sumergirse en una pequeña caleta en el océano todos los días y noches.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-acapulco.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-acapulco.jpg"
+        },
+        {
+          "GalleryId": 2,
+          "Title": "Aguascalientes",
+          "Description": "Aguascalientes es una ciudad de la zona central de México, conocida por los edificios coloniales españoles de su centro histórico. En la Plaza Patria se ubica la Catedral de Nuestra Señora de la Asunción, con pinturas del siglo XVIII de Miguel Cabrera. El Palacio de Gobierno del siglo XVII es conocido por sus numerosos arcos interiores tallados. El Museo Nacional de la Muerte exhibe arte funerario y artefactos desde la época precolombina hasta la actualidad.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-aguascalientes.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-aguascalientes.jpg"
+        },
+        {
+          "GalleryId": 3,
+          "Title": "Baja California Norte",
+          "Description": "Baja California es un estado Mexicano en la Península de Baja California que limita con el estado de California de Estados Unidos. El paisaje se extiende por montañas y playas en el océano Pacífico y el golfo de California. Las ciudades cerca de la frontera con Estados Unidos incluyen Tijuana, conocida como un destino comercial y de bohemia, como también la ciudad de Rosarito, con sus amplias playas en el Pacífico.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-bajacalifornianorte.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-bajacalifornianorte.jpg"
+        },
+        {
+          "GalleryId": 4,
+          "Title": "Baja California Sur",
+          "Description": "Baja California Sur, oficialmente llamado Estado Libre y Soberano de Baja California Sur, es uno de los treinta y un estados que, junto con la Ciudad de México, forman los Estados Unidos Mexicanos.​​ Su capital y ciudad más poblada es La Paz, ubicado en el municipio de La Paz.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-bajacaliforniasur.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-bajacaliforniasur.jpg"
+        },
+        {
+          "GalleryId": 5,
+          "Title": "Cancún",
+          "Description": "Cancún es una ciudad de México ubicada en la península de Yucatán que limita con el mar Caribe y que es conocida por sus playas, los numerosos centros turísticos y la vida nocturna. Se compone de 2 áreas distintas: el área del centro más tradicional y la Zona Hotelera, la franja costera con hoteles altos, clubes nocturnos, tiendas y restaurantes. Cancún también es un destino popular entre estudiantes durante el período de vacaciones universitarias en la primavera.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-cancun.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-cancun.jpg"
+        },
+        {
+          "GalleryId": 6,
+          "Title": "Campeche",
+          "Description": "Campeche es una ciudad puerto de México, ubicada en el golfo de México. Es conocida por sus edificios coloniales barrocos conservados, la arquitectura militar y el distrito histórico amurallado. En respuesta a los ataques piratas, la ciudad se fortificó en el siglo XVII y 2 fortalezas sobre cerros son museos en la actualidad. El Fuerte de San Miguel alberga el Museo Arqueológico de Campeche, con artefactos de sitios mayas locales, como Edzná, Isla Jaina y Calakmul.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-campeche.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-campeche.jpg"
+        },
+        {
+          "GalleryId": 7,
+          "Title": "Coahuila",
+          "Description": "Coahuila, oficialmente llamado Estado Libre y Soberano de Coahuila de Zaragoza, ​ es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.​​ Su capital y ciudad más poblada es Saltillo.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-coahuila.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-cohauila.jpg"
+        },
+        {
+          "GalleryId": 8,
+          "Title": "Ciudad de México",
+          "Description": "México es un país entre los Estados Unidos y América Central, conocido por las playas en el Pacífico y el golfo de México, y su diverso paisaje de montañas, desiertos y selvas. Las ruinas antiguas, como Teotihuacán y la ciudad maya de Chichén Itzá, se distribuyen por el país, al igual que las ciudades de la época colonial española. En la capital Ciudad de México, las elegantes tiendas, los famosos museos y los restaurantes gourmet son parte de la vida moderna.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-ciudadmexico.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-ciudadmexico.jpg"
+        },
+        {
+          "GalleryId": 9,
+          "Title": "Colima",
+          "Description": "Colima es la capital del estado mexicano del mismo nombre. Se ubica cerca de la costa del Pacífico central, en un valle al sur del volcán Colima. El Jardín Libertad es su plaza principal y cuenta con un quiosco belga del siglo XIX y el Portal Medellín, un gran edificio con filas de arcos. La Catedral Basílica Menor de Colima tiene una fachada neoclásica. Junto a la catedral está el Palacio de Gobierno.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-colima.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-colima.jpg"
+        },
+        {
+          "GalleryId": 10,
+          "Title": "Chiapas",
+          "Description": "Chiapas es un estado del sur de México que limita con Guatemala. Sus zonas montañosas altas y el denso bosque tropical tienen varios sitios arqueológicos mayas y pueblos coloniales españoles. En la ciudad colonial de San Cristóbal de las Casas, el Templo y Ex-Convento Santo Domingo alberga una iglesia barroca y un museo que muestra artefactos regionales. En torno a él, hay un mercado donde se venden artículos, como tejidos coloridos.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-chiapas.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-chiapas.jpg"
+        },
+        {
+          "GalleryId": 11,
+          "Title": "Chihuahua",
+          "Description": "La ciudad de Chihuahua es la capital del estado de Chihuahua en el noroeste de México. Es conocida por la Catedral de Chihuahua española de estilo barroco y el Palacio de Gobierno del siglo XVIII, un nuevo edificio de gobierno con enormes murales que ilustran eventos históricos importantes de México. La ciudad también alberga el extremo este del ferrocarril Chepe, que recorre los desfiladeros teñidos de verde del área del Cañón del Cobre.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-chihuahua.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-chihuahua.jpg"
+        },
+        {
+          "GalleryId": 12,
+          "Title": "Durango",
+          "Description": "Durango es la ciudad capital del estado de Durango, en México. Es conocida por su centro histórico, con importantes edificios barrocos mexicanos y coloniales. En 1695 se comenzó a construir la Catedral Basílica adornada, que tiene arte sacro y tallados en madera en su interior. El Museo de la Ciudad 450, en un palacio convertido, tiene exhibiciones que recorren la historia de la ciudad. Bebeleche es un museo moderno con exhibiciones interactivas sobre ciencia y cultura.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-durango.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-durango.jpg"
+        },
+        {
+          "GalleryId": 13,
+          "Title": "Guanajuato",
+          "Description": "Guanajuato es una ciudad central de México. Es conocida por su historia minera de la plata y su arquitectura colonial. Su red de túneles, pasajes y calles estrechas se representa en el Callejón del Beso, llamado así porque los balcones están tan cerca entre ellos que una pareja alcanza a besarse. En un antiguo granero, se encuentra el museo de historia local y arte Alhóndiga de Granaditas, con exhibiciones precolombinas.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-guanajuato.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-guanajuato.jpg"
+        },
+        {
+          "GalleryId": 14,
+          "Title": "Hidalgo",
+          "Description": "Hidalgo es un estado del centro de México que se extiende al norte de Ciudad de México. La ventosa capital del estado, Pachuca tiene una torre del reloj, edificios coloniales, como la Iglesia barroca de San Francisco, y el Museo de Minería, que explora la historia minera de la región. Al oeste está Tula, un sitio arqueológico con pirámides y grandes columnas de piedra con forma de guerreros que datan del Imperio Tolteca.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-hidalgo.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-hidalgo.jpg"
+        },
+        {
+          "GalleryId": 15,
+          "Title": "Guadalajara",
+          "Description": "Guadalajara es una ciudad en el oeste de México. Es conocida por el tequila y la música mariachi, ambos nacidos en Jalisco, el estado del que Guadalajara es la capital. El centro histórico de Guadalajara tiene plazas coloniales y lugares emblemáticos como el Teatro Degollado neoclásico y una catedral con agujas doradas gemelas. El Palacio del Gobierno alberga famosos murales del pintor José Clemente Orozco.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-guadalajara.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-guadalajara.jpg"
+        },
+        {
+          "GalleryId": 16,
+          "Title": "Michoacán",
+          "Description": "Michoacán, oficialmente el Estado Libre y Soberano de Michoacán de Ocampo, es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-michoacan.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-michoacan.jpg"
+        },
+        {
+          "GalleryId": 17,
+          "Title": "Morelos",
+          "Description": "Morelos es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Cuernavaca. Está ubicado en la región centrosur del país, limitando al norte con Ciudad de México, al este con Puebla, al sur con Guerrero y al oeste con el Estado de México.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-morelos.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-morelos.jpg"
+        },
+        {
+          "GalleryId": 18,
+          "Title": "Riviera Nayarit",
+          "Description": "Nayarit es un pequeño estado en el oeste de México, entre las montañas arboladas de la Sierra Madre Occidental y el océano Pacífico. En el norte de la costa de la Riviera Nayarit, se encuentra la ciudad colonial de San Blas, cuyo fuerte San Basilio del siglo XVI protegió alguna vez el área de piratas. Justo al sur están las playas de la bahía de Matanchén aptas para el surf, mientras que en el norte está la isla Mexcaltitlán, considerada la cuna de la civilización Azteca.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-rivieranayarit.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-rivieranayarit.jpg"
+        },
+        {
+          "GalleryId": 19,
+          "Title": "Monterrey, Nuevo León",
+          "Description": "Nuevo León, oficialmente el Estado Libre y Soberano de Nuevo León, es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​Su capital y ciudad más poblada es Monterrey.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-nuevoleon.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-nuevoleon.jpg"
+        },
+        {
+          "GalleryId": 20,
+          "Title": "Oaxaca",
+          "Description": "Oaxaca es una ciudad del centro de México. Es conocida por sus edificios coloniales, muchos de los cuales están hechos de piedra volcánica verde. En la plaza central del Zócalo, se encuentra el Palacio de Gobierno, con coloridos murales que representan la historia regional. La plaza Alameda de León está frente a la fachada adornada de la Catedral de Oaxaca. La iglesia Templo de Santo Domingo del siglo XVI tiene un lujoso interior barroco y un convento antiguo a su lado.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-oaxaca.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-oaxaca.jpg"
+        },
+        {
+          "GalleryId": 21,
+          "Title": "Puebla",
+          "Description": "Puebla es una ciudad del área este central de México, al sureste de Ciudad de México. Es conocida por su historia culinaria, la arquitectura colonial y las cerámicas. La cerámica pintada de Talavera que adorna varios edificios es elaborada localmente. La Catedral de Puebla, de la época renacentista, tiene campanarios altos y se yergue frente a la plaza central, el Zócalo. El Museo Amparo ofrece grandes exhibiciones de arte prehispánico, como cerámicas y fragmentos de murales.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-puebla.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-puebla.jpg"
+        },
+        {
+          "GalleryId": 22,
+          "Title": "Querétaro",
+          "Description": "Santiago de Querétaro es una ciudad del centro de México. Es conocida por su arquitectura colonial española bien conservada, con un sorprendente acueducto de piedra rosa. Entre los edificios barrocos destacados se incluyen la iglesia Santa Rosa de Viterbo. Cerca está el Templo de San Francisco de color ocre, en el Jardín Zenea, la plaza principal de la ciudad. En el antiguo convento de la iglesia, el Museo Regional de Querétaro exhibe artefactos prehispánicos, coloniales y republicanos.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-queretaro.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-queretaro.jpg"
+        },
+        {
+          "GalleryId": 23,
+          "Title": "San Luis Potosí",
+          "Description": "San Luis Potosí es una ciudad del centro de México. Fue un importante centro minero del oro y la plata en el Camino Real de Tierra Adentro, una ruta comercial de mediados del siglo XVI al siglo XIX. Es conocida por los edificios coloniales, como el imponente Templo de San Francisco de la época barroca, que domina el frondoso Jardín de San Francisco. Cerca, se encuentra el Templo del Carmen, que data del siglo XVIII y tiene una fachada con adornos tallados. ",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-sanluispotosi.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-sanluispotosi.jpg"
+        },
+        {
+          "GalleryId": 24,
+          "Title": "Sinaloa",
+          "Description": "Sinaloa. Oficialmente llamado Estado Libre y Soberano de Sinaloa, es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Culiacán Rosales.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-sinaloa.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-sinaloa.jpg"
+        },
+        {
+          "GalleryId": 25,
+          "Title": "Sonora",
+          "Description": "Sonora es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Hermosillo.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-sonora.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-sonora.jpg"
+        },
+        {
+          "GalleryId": 26,
+          "Title": "Tabasco",
+          "Description": "Tabasco es un estado mexicano con una costa en el norte que bordea el golfo de México. En su capital, Villahermosa, está el Parque Museo La Venta, conocido por su zoológico y las colosales esculturas de piedra que datan de la civilización olmeca. El gran Museo de Historia de Tabasco documenta el área desde la época prehistórica, mientras que el Museo Regional de Antropología tiene exhibiciones sobre las civilizaciones nativas mayas y olmecas.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-tabasco.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-tabasco.jpg"
+        },
+        {
+          "GalleryId": 27,
+          "Title": "Tamaulipas",
+          "Description": "Tamaulipas, oficialmente Estado Libre y Soberano de Tamaulipas, es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.​​ Su capital es Ciudad Victoria y su ciudad más poblada es Reynosa.​ Fue fundado el 7 de febrero de 1824.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-tamaulipas.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-tamaulipas.jpg"
+        },
+        {
+          "GalleryId": 28,
+          "Title": "Tlaxcala",
+          "Description": "Tlaxcala es un pequeño estado en el centro de México, al este de Ciudad de México. En el sur, el sitio arqueológico de Cacaxtla exhibe coloridos frescos mayas, mientras que las ruinas cercanas de Xochitecatl incluyen antiguas pirámides. Al noreste de aquí, la capital del estado de Tlaxcala tiene una arquitectura notable, como el Palacio de Gobierno de Tlaxcala, con una fachada de baldosas naranjas y murales que representan la historia local.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-tlaxcala.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-tlaxcala.jpg"
+        },
+        {
+          "GalleryId": 29,
+          "Title": "Veracruz",
+          "Description": "Veracruz, también conocida como Heroica Veracruz, es una ciudad portuaria mexicana, que se encuentra en la costa del Golfo de México, en el estado de Veracruz. Es uno de los puertos más antiguos y grandes del país, fundado en el siglo XVI por colonizadores españoles. En una isla se ubica San Juan de Ulúa, una fortaleza colonial y antiguo complejo carcelario que mira desde lo alto al puerto y funciona actualmente como un museo de historia.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-veracruz.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-veracruz.jpg"
+        },
+        {
+          "GalleryId": 30,
+          "Title": "Mérida y Yucatán",
+          "Description": "Mérida, la animada capital del estado de Yucatán en México, tiene una rica herencia maya y colonial. El punto central de la ciudad es la Plaza de la Independencia, que tiene a sus costados la Catedral de Mérida, similar a una fortaleza, y la Iglesia de la Tercera Orden, de caliza blanca. Ambas iglesias de la era colonial se construyeron con antigüedades de los antiguos templos mayas. La Casa de Montejo, una mansión del siglo XVI, es un sitio icónico de la arquitectura plateresca colonial.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-meridayucatan.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-meridayucatan.jpg"
+        },
+        {
+          "GalleryId": 31,
+          "Title": "Los Cabos",
+          "Description": "Los Cabos es uno de los cinco municipios del estado de Baja California Sur, México, y se localiza en el extremo sur del estado. La cabecera municipal es San José del Cabo y la ciudad más importante es Cabo San Lucas a 32 km de la cabecera. Esta área es uno de los destinos turísticos más importantes de México.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-loscabos.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-loscabos.jpg"
+        },
+        {
+          "GalleryId": 32,
+          "Title": "Zacatecas",
+          "Description": "Zacatecas es un estado del centronorte de México, al noroeste de Ciudad de México. En él se encuentra el sitio arqueológico La Quemada, un gran asentamiento precolombino con un museo, una pirámide sobre un cerro y columnas. La capital del estado, también llamada Zacatecas, se encuentra a gran altura y alberga la antigua mina de plata El Edén, con un tren subterráneo que pasa por formaciones rocosas únicas, exhibiciones de depósitos de minerales y antiguas máquinas mineras.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-zacatecas.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-zacatecas.jpg"
+        },
+        {
+          "GalleryId": 33,
+          "Title": "Puerto Vallarta",
+          "Description": "Puerto Vallarta es un balneario en la costa del Pacífico de México, en el estado de Jalisco. Es famoso por sus playas, los deportes acuáticos y la vida nocturna. En el centro con adoquines, se encuentra la adornada iglesia de Nuestra Señora de Guadalupe, además de tiendas de moda y una variedad de restaurantes y bares. El Malecón es un paseo costero con esculturas contemporáneas, bares, salones y clubes nocturnos.",
+          "ImagePathLarge": "/images/destinations/mexico/banners/large-zacatecas.jpg",
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-zacatecas.jpg"
+        }
+      ],
+      "Destinations": [
+        {
+          "DestinationId": 1,
+          "DestinationName": "Acapulco",
+          "DestinationUri": "acapulco",
+          "ImagePath": "/images/destinations/mexico/acapulco/destination-acapulco.jpg",
+          "Title": "Acapulco",
+          "Description": "Acapulco, un balneario en la costa del Pacífico de México, se ubica en una gran bahía bordeado de edificios de muchos pisos y las montañas de la Sierra Madre del Sur. Se hizo famoso gracias al jet set en los años 1950 y 1960, y es conocido por su enérgica vida nocturna, las playas y el golf. Desde su icónico acantilado de La Quebrada, los clavadistas profesionales se lanzan desde 40 m para sumergirse en una pequeña caleta en el océano todos los días y noches.",
+          "Latitude": 16.8680495,
+          "Longitude": -99.8940182,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Acapulco",
+              "Description": "Acapulco, un balneario en la costa del Pacífico de México, se ubica en una gran bahía bordeado de edificios de muchos pisos y las montañas de la Sierra Madre del Sur. Se hizo famoso gracias al jet set en los años 1950 y 1960, y es conocido por su enérgica vida nocturna, las playas y el golf. Desde su icónico acantilado de La Quebrada, los clavadistas profesionales se lanzan desde 40 m para sumergirse en una pequeña caleta en el océano todos los días y noches.",
+              "ImagePathLarge": "/images/destinations/mexico/acapulco/banners/large-acapulco.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/acapulco/banners/small-acapulco.jpg"
+            }
+          ],
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "La Quebrada",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/laquebrada.jpg",
+              "Description": "La Quebrada es un acantilado de 45 mts de altura y que ya es tradición aquí en Acapulco. Desde 1934 los clavados que realizaban los pobladores guerrerenses se fueron haciendo famosos debido a su grado de dificultad y peligro. La Quebrada además nos ofrece un Restaurant dónde podrás comer deliciosamente mientras admiras el paisaje de el Puerto de Acapulco, cuenta con un mirador desde dónde puedes observar los clavados además de ver a los pelícanos atrapando su comida.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Punta Diamante",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/puntadiamante.jpg",
+              "Description": "Acapulco Diamante, también conocida como Punta Diamante, es una de las tres zonas turísticas en las que se divide el puerto de Acapulco, en la costa sur de México.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Capilla de la Paz",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/capillapaz.jpg",
+              "Description": "La capilla Ecuménica La Paz, mejor conocida solamente como capilla de la Paz, está ubicada en la parte más alta del cerro El Guitarrón, brazo montañoso que rodea a la bahía de Acapulco, Guerrero, en el sur de México.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "Costera Miguel Alemán",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/costeramiguelaleman.jpg",
+              "Description": "La Avenida Costera Miguel Alemán es la principal arteria vial y turística del puerto de Acapulco, Guerrero, en el sur de México. Se extiende en 12.2 km de longitud atravesando el amplio litoral de la Bahía de Acapulco del puerto de poniente a oriente.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Clavadistas de la Quebrada con Cena",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/clavadistasquebradacena.jpg",
+              "Description": "Desde el Hotel El Mirador, con su restaurante la Perla, podrás disfrutar del espectáculo de los clavadistas. Es una chulada, muy tradicional y bueno, la cena es una maravilla.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Mural de Diego Rivera",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/muraldiegorivera.jpg",
+              "Description": "Propiedad que fue el estudio del artista Diego Rivera, cuyo exterior está decorado con sus luminosos murales.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 7,
+              "Title": "Yate Bonanza",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/yatebonanza.jpg",
+              "Description": "Vive una tarde o noche de fiesta en Acapulco a bordo del mejor yate de recreo; el Yate Bonanza. Disfruta del show latino tropical, baila al ritmo del grupo musical y pasa un momento de risa y diversión con los mejores imitadores de tus artistas favoritos.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 8,
+              "Title": "Zocalo",
+              "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/zocalo.jpg",
+              "Description": "La plaza Álvarez es la principal plaza del puerto de Acapulco, Guerrero, México, localizada en el centro de la ciudad, frente a la Avenida Costera Miguel Alemán, su principal arteria vehicular. Es conocida también como el Zócalo de Acapulco o Zócalo porteño.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            }
+          ]
+        },
+        {
+          "DestinationId": 2,
+          "DestinationName": "Aguascalientes",
+          "DestinationUri": "aguascalientes",
+          "ImagePath": "/images/destinations/mexico/aguascalientes/destination-aguascalientes.jpg",
+          "Title": "Aguascalientes",
+          "Description": "Aguascalientes es una ciudad de la zona central de México, conocida por los edificios coloniales españoles de su centro histórico. En la Plaza Patria se ubica la Catedral de Nuestra Señora de la Asunción, con pinturas del siglo XVIII de Miguel Cabrera. El Palacio de Gobierno del siglo XVII es conocido por sus numerosos arcos interiores tallados. El Museo Nacional de la Muerte exhibe arte funerario y artefactos desde la época precolombina hasta la actualidad.",
+          "Latitude": 22.0000001,
+          "Longitude": -102.5000001,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Aguascalientes",
+              "Description": "Acapulco, un balneario en la costa del Pacífico de México, se ubica en una gran bahía bordeado de edificios de muchos pisos y las montañas de la Sierra Madre del Sur. Se hizo famoso gracias al jet set en los años 1950 y 1960, y es conocido por su enérgica vida nocturna, las playas y el golf. Desde su icónico acantilado de La Quebrada, los clavadistas profesionales se lanzan desde 40 m para sumergirse en una pequeña caleta en el océano todos los días y noches.",
+              "ImagePathLarge": "/images/destinations/mexico/aguascalientes/banners/large-aguascalientes.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/aguascalientes/banners/small-aguascalientes.jpg"
+            }
+          ],
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "Templo de San Antonio",
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/templosanantonio.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Catedral Basílica de Muestra Señora de la Asunción",
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/catedralasuncion.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Templo del Señor del Encino",
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/temploencino.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "Palacio de Gobierno",
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/palaciogobierno.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Patio de las Jacarandas",
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/patiojacarandas.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Castillo Douglas",
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/castillodouglas.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 7,
+              "Title": "San Marcos Church",
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/castillodouglas.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            }
+          ]
+        },
+        {
+          "DestinationId": 3,
+          "DestinationName": "Baja California Norte",
+          "DestinationUri": "bajacalifornianorte",
+          "ImagePath": "/images/destinations/mexico/bajacalifornianorte/destination-bajacalifornianorte.jpg",
+          "Title": "Aguascalientes",
+          "Description": "Aguascalientes es una ciudad de la zona central de México, conocida por los edificios coloniales españoles de su centro histórico. En la Plaza Patria se ubica la Catedral de Nuestra Señora de la Asunción, con pinturas del siglo XVIII de Miguel Cabrera. El Palacio de Gobierno del siglo XVII es conocido por sus numerosos arcos interiores tallados. El Museo Nacional de la Muerte exhibe arte funerario y artefactos desde la época precolombina hasta la actualidad.",
+          "Latitude": 32.5132984,
+          "Longitude": -117.0412813,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Baja California Norte",
+              "Description": "Baja California es un estado Mexicano en la Península de Baja California que limita con el estado de California de Estados Unidos. El paisaje se extiende por montañas y playas en el océano Pacífico y el golfo de California. Las ciudades cerca de la frontera con Estados Unidos incluyen Tijuana, conocida como un destino comercial y de bohemia, como también la ciudad de Rosarito, con sus amplias playas en el Pacífico.",
+              "ImagePathLarge": "/images/destinations/mexico/aguascalientes/banners/large-aguascalientes.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/aguascalientes/banners/small-aguascalientes.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 4,
+          "DestinationName": "Baja California Sur",
+          "DestinationUri": "bajacaliforniasur",
+          "ImagePath": "/images/destinations/mexico/bajacaliforniasur/destination-bajacaliforniasur.jpg",
+          "Title": "Baja California Sur",
+          "Description": "Baja California Sur, oficialmente llamado Estado Libre y Soberano de Baja California Sur, es uno de los treinta y un estados que, junto con la Ciudad de México, forman los Estados Unidos Mexicanos.​​ Su capital y ciudad más poblada es La Paz, ubicado en el municipio de La Paz.",
+          "Latitude": 25.5818014,
+          "Longitude": -111.5706164,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Baja California Sur",
+              "Description": "Baja California es un estado Mexicano en la Península de Baja California que limita con el estado de California de Estados Unidos. El paisaje se extiende por montañas y playas en el océano Pacífico y el golfo de California. Las ciudades cerca de la frontera con Estados Unidos incluyen Tijuana, conocida como un destino comercial y de bohemia, como también la ciudad de Rosarito, con sus amplias playas en el Pacífico.",
+              "ImagePathLarge": "/images/destinations/mexico/bajacaliforniasur/banners/large-bajacaliforniasur.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/bajacaliforniasur/banners/small-bajacaliforniasur.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 5,
+          "DestinationName": "Cancún",
+          "DestinationUri": "Cancún",
+          "ImagePath": "/images/destinations/mexico/cancun/destination-cancun.jpg",
+          "Title": "Cancún",
+          "Description": "Cancún es una ciudad de México ubicada en la península de Yucatán que limita con el mar Caribe y que es conocida por sus playas, los numerosos centros turísticos y la vida nocturna. Se compone de 2 áreas distintas: el área del centro más tradicional y la Zona Hotelera, la franja costera con hoteles altos, clubes nocturnos, tiendas y restaurantes. Cancún también es un destino popular entre estudiantes durante el período de vacaciones universitarias en la primavera.",
+          "Latitude": 21.1617854,
+          "Longitude": -86.8510468,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Cancun Magico",
+              "Description": "Es un destino lleno de playas hermosas, que podras visitar en familia",
+              "ImagePathLarge": "/images/destinations/mexico/cancun/banners/large-cancun.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/cancun/banners/small-cancun.jpg"
+            }
+          ],
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "Torre Escénica",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/torreescenica.jpg",
+              "Description": "La plataforma gira, así que le da una vista increíble de la laguna Nichupté y el mar Caribe. Vale la pena totalmente.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Avenida Kukulcan",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/avenidakukulcan.jpg",
+              "Description": "Puede tomar el servicio de transporte para ver tanto de Cancún como quieras a través de la Avenida Kukulkán. Muy divertido de ver la variedad de playas, hoteles, restaurantes, tiendas, sitios culturales, etc.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Zona Arqueológica El Rey",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/zonaarqueologicaelrey.jpg",
+              "Description": "El Rey es un yacimiento arqueológico de la cultura maya precolombina, localizado en el sureste de México, en el territorio que hoy ocupa el estado de Quintana Roo, precisamente en el centro turístico de Cancún.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "El Parque de Las Palapas",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/parquelaspalapas.jpg",
+              "Description": "Parque pavimentado, con zonas de juego, mesas a la sombra y un escenario al aire libre para actuaciones.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Parroquia de Cristo Resucitado",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/parroquiacristoresucitado.jpg",
+              "Description": "Iglesia moderna al aire libre, con espacios verdes y misas en inglés y español.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Avenida Tulum",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/avenidatulum.jpg",
+              "Description": "El sitio en si es asombroso y es genial si puedes ir con un guía de turístico para escuchar el detalle de la historia.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Estadio Beto Avila",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/estadiobetoavila.jpg",
+              "Description": "El sitio en si es asombroso y es genial si puedes ir con un guía de turístico para escuchar el detalle de la historia.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Templo de Alácran",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/temploalacran.jpg",
+              "Description": "Templo del Alacrán Yamil Lu'um Cancún, el nombre se le dio por una representación zoomorfa de un alacrán que se encontró en él. Hallarás un templo sobre un acantilado con restos de algunas columnas y muros del adoratorio, se cree que funcionaba como un punto de observación o a manera de faro, la caminata en la playa hace a este sitio un lugar único.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 7,
+              "Title": "Zona Arqueológica de Yamil Lu'um",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/zonaarqueologicayamilluum.jpg",
+              "Description": "Restos arqueológicos de un pequeño templo maya construido en torno del siglo XIII y ubicado en una loma costera.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 8,
+              "Title": "Plaza de Toros Cancún",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/plazadetoros.jpg",
+              "Description": "La Plaza de Toros de Cancún, se encuentra localizada entre la Avenida Bonampak y Sayil, en el centro de la ciudad de Cancún, México, al paso obligado de miles de personas de la zona. Fue inaugurada el 20 de diciembre de 1989, y está catalogada como uno de los edificios representativos de la ciudad de Cancún. Es considerada un lugar emblemático, e incluso un icono del crecimiento económico y social de Cancún.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 9,
+              "Title": "Malecon Tajamar",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/malecontajamar.jpg",
+              "Description": "Queda por el centrp de Cancún y cerca de plaza las Americas, por la avenida Bonampak.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 10,
+              "Title": "Mirador",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/mirador.jpg",
+              "Description": "Esta playa la ubicamos en el kilómetro 18 del boulevard Kukulcán, en la Zona Hotelera de Cancún. La entrada a la playa es gratuita y está abierta a todas horas, pero ten en cuenta que los salvavidas solo estarán presentes durante el día.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 11,
+              "Title": "Playa Tortugas",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/playatortugas.jpg",
+              "Description": "Playa Tortugas es una de las playas públicas más populares de Cancún y ofrece una cultura festiva diseñada cuidadosamente para los turistas. El trayecto en coche desde el centro de la ciudad es corto, y la playa está llena de gente de toda clase. El ambiente es emocionante, y este es el lugar indicado si lo que buscas es andar de fiesta en Cancún. Juega voleibol de playa o salta desde el muelle con la gente local, antes de relajarte con un cocktail. Playa Tortugas es una excelente playa para practicar actividades acuáticas, como snorkeling, natación y bungee jumping.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 12,
+              "Title": "Punta Cancún Faro",
+              "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/puntacancunfaro.jpg",
+              "Description": "Punta Cancún es una saliente de tierra que marca el límite norte de la isla de Cancún del estado de Quintana Roo, en la costa oriental de la península de Yucatán sobre el litoral del mar Caribe.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            }
+          ]
+        },
+        {
+          "DestinationId": 6,
+          "DestinationName": "Campeche",
+          "DestinationUri": "campeche",
+          "ImagePath": "/images/destinations/mexico/campeche/destination-campeche.jpg",
+          "Title": "Campeche",
+          "Description": "Campeche es una ciudad puerto de México, ubicada en el golfo de México. Es conocida por sus edificios coloniales barrocos conservados, la arquitectura militar y el distrito histórico amurallado. En respuesta a los ataques piratas, la ciudad se fortificó en el siglo XVII y 2 fortalezas sobre cerros son museos en la actualidad. El Fuerte de San Miguel alberga el Museo Arqueológico de Campeche, con artefactos de sitios mayas locales, como Edzná, Isla Jaina y Calakmul.",
+          "Latitude": 19.3292055,
+          "Longitude": -89.9439148,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Campeche",
+              "Description": "Campeche es una ciudad puerto de México, ubicada en el golfo de México. Es conocida por sus edificios coloniales barrocos conservados, la arquitectura militar y el distrito histórico amurallado. En respuesta a los ataques piratas, la ciudad se fortificó en el siglo XVII y 2 fortalezas sobre cerros son museos en la actualidad. El Fuerte de San Miguel alberga el Museo Arqueológico de Campeche, con artefactos de sitios mayas locales, como Edzná, Isla Jaina y Calakmul.",
+              "ImagePathLarge": "/images/destinations/mexico/campeche/banners/large-campeche.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/campeche/banners/small-campeche.jpg"
+            }
+          ],
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "Zona Arqueologica Edzna",
+              "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/edzna.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Centro Histórico de San Francisno de Campeche",
+              "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/sanfrancisco.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Old City Wall",
+              "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/oldcitymall.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "La Catedral",
+              "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/lacatedral.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "El Malecón",
+              "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/malecon.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "La Chicanná",
+              "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/chicana.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            }
+          ]
+        },
+        {
+          "DestinationId": 7,
+          "DestinationName": "Coahuila",
+          "DestinationUri": "coahuila",
+          "ImagePath": "/images/destinations/mexico/coahuila/destination-coahuila.jpg",
+          "Title": "Coahuila",
+          "Description": "Coahuila, oficialmente llamado Estado Libre y Soberano de Coahuila de Zaragoza, ​ es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.​​ Su capital y ciudad más poblada es Saltillo.",
+          "Latitude": 27.3333331,
+          "Longitude": -102.0000001,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Coahuila",
+              "Description": "Coahuila, oficialmente llamado Estado Libre y Soberano de Coahuila de Zaragoza, ​ es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.​​ Su capital y ciudad más poblada es Saltillo.",
+              "ImagePathLarge": "/images/destinations/mexico/coahuila/banners/large-coahuila.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/coahuila/banners/small-coahuila.jpg"
+            }
+          ],
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "Cristo de las Noas",
+              "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/cristonoas.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Iglesia de Santo Madero",
+              "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/iglesiasantomadero.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Poza Azul",
+              "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/pozaazul.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "Catedral de Santiago de Saltillo",
+              "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/catedralsantiago.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Canal de la Perla",
+              "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/canalperla.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            }
+          ]
+        },
+        {
+          "DestinationId": 8,
+          "DestinationName": "Ciudad de México",
+          "DestinationUri": "ciudadmexico",
+          "ImagePath": "/images/destinations/mexico/ciudadmexico/destination-ciudadmexico.jpg",
+          "Title": "Ciudad de México",
+          "Description": "México es un país entre los Estados Unidos y América Central, conocido por las playas en el Pacífico y el golfo de México, y su diverso paisaje de montañas, desiertos y selvas. Las ruinas antiguas, como Teotihuacán y la ciudad maya de Chichén Itzá, se distribuyen por el país, al igual que las ciudades de la época colonial española. En la capital Ciudad de México, las elegantes tiendas, los famosos museos y los restaurantes gourmet son parte de la vida moderna.",
+          "Latitude": 19.4326296,
+          "Longitude": -99.1331785,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Ciudad de México",
+              "Description": "México es un país entre los Estados Unidos y América Central, conocido por las playas en el Pacífico y el golfo de México, y su diverso paisaje de montañas, desiertos y selvas. Las ruinas antiguas, como Teotihuacán y la ciudad maya de Chichén Itzá, se distribuyen por el país, al igual que las ciudades de la época colonial española. En la capital Ciudad de México, las elegantes tiendas, los famosos museos y los restaurantes gourmet son parte de la vida moderna.",
+              "ImagePathLarge": "/images/destinations/mexico/ciudadmexico/banners/large-ciudadmexico.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/ciudadmexico/banners/small-ciudadmexico.jpg"
+            }
+          ],
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "Castillo de Chapultepec",
+              "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/chapultepec.jpg",
+              "Description": "Este icono arquitectónico e histórico de la Ciudad de México, construido durante la época virreinal, fue sede del Heroico Colegio Militar, institución que tendría una actuación memorable en 1847 durante la Batalla de Chapultepec contra las fuerzas invasoras estadounidenses.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Museo Nacional de Antropología",
+              "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/museoantropologia.jpg",
+              "Description": "Se encuentra situado en pleno Bosque de Chapultepec y desde 1964 alberga la colección antropológica y etnográfica más importante de México y una de las más grandes del mundo. México es un país de una variedad étnica y cultural única en el planeta y este museo recorre las particularidades de todos sus pueblos prehispánicos, con sus principales manifestaciones culturales.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Catedral Metropolitana de la Ciudad de México",
+              "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/catedralmetropolitana.jpg",
+              "Description": "Esta catedral situada frente al zócalo es la más grande del continente americano y su construcción tomó 250 años, entre los siglos XVI y XIX, razón por la cual es un muestrario de estilos artísticos, entre los que se reconocen gótico, barroco, plateresco, churrigueresco y neoclásico. Sus enormes dimensiones pueden apreciarse a través de sus 5 naves, 51 bóvedas, varios altares, 16 capillas y 35 campanas. Alberga tesoros en pinturas, esculturas, objetos de culto y otras piezas. Son dignos de admiración el soberbio Altar de los Reyes, el Altar Mayor, el Altar del Perdón, el coro, el órgano español, el órgano mexicano, así como los retablos, esculturas y arquitectura de sus numerosas capillas.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "Palacio Nacional",
+              "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/palacionacional.jpg",
+              "Description": "Es sede del gobierno nacional mexicano y se encuentra frente al zócalo, en el centro histórico de la Ciudad de México. La primera versión fue levantada en el siglo XVI, pero a lo largo de los últimos 5 siglos ha sufrido varias reconstrucciones y modificaciones, sobresaliendo por sus líneas barrocas. Sobre el balcón central que da al zócalo se encuentra la campana que fue tañida por Hidalgo durante el Grito de Dolores que dio inicio a la Independencia de México. Desde ese balcón, cada 16 de septiembre, el Presidente de la República rememora el famoso grito emancipador. El Palacio Nacional recibe una gran afluencia de visitantes, que van principalmente a admirar los 5 murales realizados por Diego Rivera sobre temas históricos de México.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Museo Frida Kahlo",
+              "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/museofridakahlo.jpg",
+              "Description": "Frida Kahlo se ha convertido en un icono, con miles de fans en el país y en todo el mundo y sus admiradores nacionales y extranjeros pueden tener una completa panorámica sobre su vida personal y artística, visitando la Casa Azul, casona familiar en la que nació y murió y sede de su museo. La Casa Azul se encuentra en el bello barrio mexiqueño de Coyoacán y sus acogedores espacios muestran cómo era la vida de soltera de Frida y también de casada, luego de su matrimonio con Diego Rivera.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Palacio de Bellas Artes",
+              "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/palaciobellasartes.jpg",
+              "Description": "Es una espléndida edificación en art Nouveau y art Decó situada en el centro histórico de la Ciudad de México, inaugurada en 1934 como principal recinto cultural del país. Su sala central tiene 1.677 asientos y el gran telón del escenario, artísticamente realizado por la Casa Tiffany de Nueva York, pesa 24 toneladas y es antifuego. El Palacio de Bellas Artes es sede, entre otras instituciones culturales, de la Orquesta Sinfónica Nacional, la Compañía Nacional de Danza, la Compañía Nacional de Ópera y la Compañía Nacional de Teatro. Por el escenario del palacio han pasado las mejores orquestas sinfónicas del mundo y estrellas de la música culta, como María Callas, Teresa Braganza, Luciano Pavarotti, Plácido Domingo y Mstislav Rostropóvic; bailarines como Rudolf Nuréyev; y, abriendo un inusual espacio a la música pop, el popular cantante mexicano Juan Gabriel.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 7,
+              "Title": "Museo Suomaya",
+              "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/suomaya.jpg",
+              "Description": "Fue instituido por el magnate mexicano Carlos Slim para honrar la memoria de su fallecida esposa, Doña Soumaya Domit, y cuenta con dos sedes, siendo la más importante la de Plaza Carso, en Nuevo Polanco. La edificación de Plaza Carso es un emblema arquitectónico de la Ciudad de México por su diseño atrevido y vanguardista y es uno de los edificios favoritos de los capitalinos para fotografiar. El museo exhibe una valiosa colección de cuadros, piezas y documentos, muchos provenientes de la colección personal de Slim. Están representados los antiguos maestros europeos y las grandes figuras impresionistas y vanguardistas. También hay una importante muestra de pintura y fotografía mexicana, así como exposiciones de estampas, miniaturas, relicarios, monedas, billetes, vestuario y arte comercial.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            }
+          ]
+        },
+        {
+          "DestinationId": 9,
+          "DestinationName": "Colima",
+          "DestinationUri": "colima",
+          "ImagePath": "/images/destinations/mexico/colima/destination-colima.jpg",
+          "Title": "Colima",
+          "Description": "Colima es la capital del estado mexicano del mismo nombre. Se ubica cerca de la costa del Pacífico central, en un valle al sur del volcán Colima. El Jardín Libertad es su plaza principal y cuenta con un quiosco belga del siglo XIX y el Portal Medellín, un gran edificio con filas de arcos. La Catedral Basílica Menor de Colima tiene una fachada neoclásica. Junto a la catedral está el Palacio de Gobierno.",
+          "Latitude": 19.166667,
+          "Longitude": -104,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Colima",
+              "Description": "Colima es la capital del estado mexicano del mismo nombre. Se ubica cerca de la costa del Pacífico central, en un valle al sur del volcán Colima. El Jardín Libertad es su plaza principal y cuenta con un quiosco belga del siglo XIX y el Portal Medellín, un gran edificio con filas de arcos. La Catedral Basílica Menor de Colima tiene una fachada neoclásica. Junto a la catedral está el Palacio de Gobierno.",
+              "ImagePathLarge": "/images/destinations/mexico/colima/banners/large-colima.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/colima/banners/small-colima.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 10,
+          "DestinationName": "Chiapas",
+          "DestinationUri": "chiapas",
+          "ImagePath": "/images/destinations/mexico/chiapas/destination-chiapas.jpg",
+          "Title": "Chiapas",
+          "Description": "Chiapas es un estado del sur de México que limita con Guatemala. Sus zonas montañosas altas y el denso bosque tropical tienen varios sitios arqueológicos mayas y pueblos coloniales españoles. En la ciudad colonial de San Cristóbal de las Casas, el Templo y Ex-Convento Santo Domingo alberga una iglesia barroca y un museo que muestra artefactos regionales. En torno a él, hay un mercado donde se venden artículos, como tejidos coloridos.",
+          "Latitude": 16.5000001,
+          "Longitude": -92.5000001,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Chiapas",
+              "Description": "Chiapas es un estado del sur de México que limita con Guatemala. Sus zonas montañosas altas y el denso bosque tropical tienen varios sitios arqueológicos mayas y pueblos coloniales españoles. En la ciudad colonial de San Cristóbal de las Casas, el Templo y Ex-Convento Santo Domingo alberga una iglesia barroca y un museo que muestra artefactos regionales. En torno a él, hay un mercado donde se venden artículos, como tejidos coloridos.",
+              "ImagePathLarge": "/images/destinations/mexico/chiapas/banners/large-chiapas.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/chiapas/banners/small-chiapas.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 11,
+          "DestinationName": "Chihuahua",
+          "DestinationUri": "chihuahua",
+          "ImagePath": "/images/destinations/mexico/chihuahua/destination-chihuahua.jpg",
+          "Title": "Chihuahua",
+          "Description": "La ciudad de Chihuahua es la capital del estado de Chihuahua en el noroeste de México. Es conocida por la Catedral de Chihuahua española de estilo barroco y el Palacio de Gobierno del siglo XVIII, un nuevo edificio de gobierno con enormes murales que ilustran eventos históricos importantes de México. La ciudad también alberga el extremo este del ferrocarril Chepe, que recorre los desfiladeros teñidos de verde del área del Cañón del Cobre.",
+          "Latitude": 28.5000001,
+          "Longitude": -106.0000001,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Chihuahua",
+              "Description": "La ciudad de Chihuahua es la capital del estado de Chihuahua en el noroeste de México. Es conocida por la Catedral de Chihuahua española de estilo barroco y el Palacio de Gobierno del siglo XVIII, un nuevo edificio de gobierno con enormes murales que ilustran eventos históricos importantes de México. La ciudad también alberga el extremo este del ferrocarril Chepe, que recorre los desfiladeros teñidos de verde del área del Cañón del Cobre.",
+              "ImagePathLarge": "/images/destinations/mexico/chihuahua/banners/large-chihuahua.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/chihuahua/banners/small-chihuahua.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 12,
+          "DestinationName": "Durango",
+          "DestinationUri": "durango",
+          "ImagePath": "/images/destinations/mexico/durango/destination-durango.jpg",
+          "Title": "Durango",
+          "Description": "Durango es la ciudad capital del estado de Durango, en México. Es conocida por su centro histórico, con importantes edificios barrocos mexicanos y coloniales. En 1695 se comenzó a construir la Catedral Basílica adornada, que tiene arte sacro y tallados en madera en su interior. El Museo de la Ciudad 450, en un palacio convertido, tiene exhibiciones que recorren la historia de la ciudad. Bebeleche es un museo moderno con exhibiciones interactivas sobre ciencia y cultura.",
+          "Latitude": 24.833333,
+          "Longitude": -104.833333,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Durango",
+              "Description": "Durango es la ciudad capital del estado de Durango, en México. Es conocida por su centro histórico, con importantes edificios barrocos mexicanos y coloniales. En 1695 se comenzó a construir la Catedral Basílica adornada, que tiene arte sacro y tallados en madera en su interior. El Museo de la Ciudad 450, en un palacio convertido, tiene exhibiciones que recorren la historia de la ciudad. Bebeleche es un museo moderno con exhibiciones interactivas sobre ciencia y cultura.",
+              "ImagePathLarge": "/images/destinations/mexico/durango/banners/large-durango.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/durango/banners/small-durango.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 13,
+          "DestinationName": "Guanajuato",
+          "DestinationUri": "guanajuato",
+          "ImagePath": "/images/destinations/mexico/guanajuato/destination-guanajuato.jpg",
+          "Title": "Guanajuato",
+          "Description": "Durango es la ciudad capital del estado de Durango, en México. Es conocida por su centro histórico, con importantes edificios barrocos mexicanos y coloniales. En 1695 se comenzó a construir la Catedral Basílica adornada, que tiene arte sacro y tallados en madera en su interior. El Museo de la Ciudad 450, en un palacio convertido, tiene exhibiciones que recorren la historia de la ciudad. Bebeleche es un museo moderno con exhibiciones interactivas sobre ciencia y cultura.",
+          "Latitude": 20.9876996,
+          "Longitude": -101,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Guanajuato",
+              "Description": "Durango es la ciudad capital del estado de Durango, en México. Es conocida por su centro histórico, con importantes edificios barrocos mexicanos y coloniales. En 1695 se comenzó a construir la Catedral Basílica adornada, que tiene arte sacro y tallados en madera en su interior. El Museo de la Ciudad 450, en un palacio convertido, tiene exhibiciones que recorren la historia de la ciudad. Bebeleche es un museo moderno con exhibiciones interactivas sobre ciencia y cultura.",
+              "ImagePathLarge": "/images/destinations/mexico/guanajuato/banners/large-guanajuato.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/guanajuato/banners/small-guanajuato.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 14,
+          "DestinationName": "Hidalgo",
+          "DestinationUri": "hidalgo",
+          "ImagePath": "/images/destinations/mexico/hidalgo/destination-hidalgo.jpg",
+          "Title": "Hidalgo",
+          "Description": "Durango es la ciudad capital del estado de Durango, en México. Es conocida por su centro histórico, con importantes edificios barrocos mexicanos y coloniales. En 1695 se comenzó a construir la Catedral Basílica adornada, que tiene arte sacro y tallados en madera en su interior. El Museo de la Ciudad 450, en un palacio convertido, tiene exhibiciones que recorren la historia de la ciudad. Bebeleche es un museo moderno con exhibiciones interactivas sobre ciencia y cultura.",
+          "Latitude": 20.5,
+          "Longitude": -99,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Hidalgo",
+              "Description": "Durango es la ciudad capital del estado de Durango, en México. Es conocida por su centro histórico, con importantes edificios barrocos mexicanos y coloniales. En 1695 se comenzó a construir la Catedral Basílica adornada, que tiene arte sacro y tallados en madera en su interior. El Museo de la Ciudad 450, en un palacio convertido, tiene exhibiciones que recorren la historia de la ciudad. Bebeleche es un museo moderno con exhibiciones interactivas sobre ciencia y cultura.",
+              "ImagePathLarge": "/images/destinations/mexico/guanajuato/banners/large-hidalgo.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/guanajuato/banners/small-hidalgo.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 15,
+          "DestinationName": "Guadalajara",
+          "DestinationUri": "guadalajara",
+          "ImagePath": "/images/destinations/mexico/guadalajara/destination-guadalajara.jpg",
+          "Title": "Guadalajara",
+          "Description": "Guadalajara es una ciudad en el oeste de México. Es conocida por el tequila y la música mariachi, ambos nacidos en Jalisco, el estado del que Guadalajara es la capital. El centro histórico de Guadalajara tiene plazas coloniales y lugares emblemáticos como el Teatro Degollado neoclásico y una catedral con agujas doradas gemelas. El Palacio del Gobierno alberga famosos murales del pintor José Clemente Orozco.",
+          "Latitude": 20.6720375,
+          "Longitude": -103.338396,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Guadalajara",
+              "Description": "Guadalajara es una ciudad en el oeste de México. Es conocida por el tequila y la música mariachi, ambos nacidos en Jalisco, el estado del que Guadalajara es la capital. El centro histórico de Guadalajara tiene plazas coloniales y lugares emblemáticos como el Teatro Degollado neoclásico y una catedral con agujas doradas gemelas. El Palacio del Gobierno alberga famosos murales del pintor José Clemente Orozco.",
+              "ImagePathLarge": "/images/destinations/mexico/guadalajara/banners/large-guadalajara.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/guadalajara/banners/small-guadalajara.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 16,
+          "DestinationName": "Michoacán",
+          "DestinationUri": "michoacan",
+          "ImagePath": "/images/destinations/mexico/michoacan/destination-michoacan.jpg",
+          "Title": "Michoacán",
+          "Description": "Michoacán, oficialmente el Estado Libre y Soberano de Michoacán de Ocampo, es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.",
+          "Latitude": 19.207098,
+          "Longitude": -101.878113,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Michoacán",
+              "Description": "Michoacán, oficialmente el Estado Libre y Soberano de Michoacán de Ocampo, es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.",
+              "ImagePathLarge": "/images/destinations/mexico/michoacan/banners/large-michoacan.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/michoacan/banners/small-michoacan.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 17,
+          "DestinationName": "Morelos",
+          "DestinationUri": "morelos",
+          "ImagePath": "/images/destinations/mexico/morelos/destination-morelos.jpg",
+          "Title": "Morelos",
+          "Description": "Morelos es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Cuernavaca. Está ubicado en la región centrosur del país, limitando al norte con Ciudad de México, al este con Puebla, al sur con Guerrero y al oeste con el Estado de México.",
+          "Latitude": 18.75,
+          "Longitude": -99,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Morelos",
+              "Description": "Morelos es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Cuernavaca. Está ubicado en la región centrosur del país, limitando al norte con Ciudad de México, al este con Puebla, al sur con Guerrero y al oeste con el Estado de México.",
+              "ImagePathLarge": "/images/destinations/mexico/morelos/banners/large-morelos.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/morelos/banners/small-morelos.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 18,
+          "DestinationName": "Riviera Nayarit",
+          "DestinationUri": "rivieranayarit",
+          "ImagePath": "/images/destinations/mexico/rivieranayarit/destination-rivieranayarit.jpg",
+          "Title": "Riviera Nayarit",
+          "Description": "Nayarit es un pequeño estado en el oeste de México, entre las montañas arboladas de la Sierra Madre Occidental y el océano Pacífico. En el norte de la costa de la Riviera Nayarit, se encuentra la ciudad colonial de San Blas, cuyo fuerte San Basilio del siglo XVI protegió alguna vez el área de piratas. Justo al sur están las playas de la bahía de Matanchén aptas para el surf, mientras que en el norte está la isla Mexcaltitlán, considerada la cuna de la civilización Azteca.",
+          "Latitude": 21.50951,
+          "Longitude": -104.89569,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Riviera Nayarit",
+              "Description": "Nayarit es un pequeño estado en el oeste de México, entre las montañas arboladas de la Sierra Madre Occidental y el océano Pacífico. En el norte de la costa de la Riviera Nayarit, se encuentra la ciudad colonial de San Blas, cuyo fuerte San Basilio del siglo XVI protegió alguna vez el área de piratas. Justo al sur están las playas de la bahía de Matanchén aptas para el surf, mientras que en el norte está la isla Mexcaltitlán, considerada la cuna de la civilización Azteca.",
+              "ImagePathLarge": "/images/destinations/mexico/rivieranayarit/banners/large-rivieranayarit.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/rivieranayarit/banners/small-rivieranayarit.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 19,
+          "DestinationName": "Monterrey Nuevo León",
+          "DestinationUri": "nuevoleon",
+          "ImagePath": "/images/destinations/mexico/bajacaliforniasur/destination-bajacaliforniasur.jpg",
+          "Title": "Monterrey Nuevo León",
+          "Description": "Nuevo León, oficialmente el Estado Libre y Soberano de Nuevo León, es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​Su capital y ciudad más poblada es Monterrey.",
+          "Latitude": 26.2384363,
+          "Longitude": -99.8873,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Monterrey Nuevo León",
+              "Description": "Nuevo León, oficialmente el Estado Libre y Soberano de Nuevo León, es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​Su capital y ciudad más poblada es Monterrey.",
+              "ImagePathLarge": "/images/destinations/mexico/nuevoleon/banners/large-nuevoleon.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/nuevoleon/banners/small-nuevoleon.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 20,
+          "DestinationName": "Oaxaca",
+          "DestinationUri": "oaxaca",
+          "ImagePath": "/images/destinations/mexico/oaxaca/destination-oaxaca.jpg",
+          "Title": "Oaxaca",
+          "Description": "Oaxaca es una ciudad del centro de México. Es conocida por sus edificios coloniales, muchos de los cuales están hechos de piedra volcánica verde. En la plaza central del Zócalo, se encuentra el Palacio de Gobierno, con coloridos murales que representan la historia regional. La plaza Alameda de León está frente a la fachada adornada de la Catedral de Oaxaca. La iglesia Templo de Santo Domingo del siglo XVI tiene un lujoso interior barroco y un convento antiguo a su lado.",
+          "Latitude": 17,
+          "Longitude": -96.5,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Oaxaca",
+              "Description": "Oaxaca es una ciudad del centro de México. Es conocida por sus edificios coloniales, muchos de los cuales están hechos de piedra volcánica verde. En la plaza central del Zócalo, se encuentra el Palacio de Gobierno, con coloridos murales que representan la historia regional. La plaza Alameda de León está frente a la fachada adornada de la Catedral de Oaxaca. La iglesia Templo de Santo Domingo del siglo XVI tiene un lujoso interior barroco y un convento antiguo a su lado.",
+              "ImagePathLarge": "/images/destinations/mexico/oaxaca/banners/large-oaxaca.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/oaxaca/banners/small-oaxaca.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 21,
+          "DestinationName": "Puebla",
+          "DestinationUri": "puebla",
+          "ImagePath": "/images/destinations/mexico/puebla/destination-puebla.jpg",
+          "Title": "Oaxaca",
+          "Description": "Oaxaca es una ciudad del centro de México. Es conocida por sus edificios coloniales, muchos de los cuales están hechos de piedra volcánica verde. En la plaza central del Zócalo, se encuentra el Palacio de Gobierno, con coloridos murales que representan la historia regional. La plaza Alameda de León está frente a la fachada adornada de la Catedral de Oaxaca. La iglesia Templo de Santo Domingo del siglo XVI tiene un lujoso interior barroco y un convento antiguo a su lado.",
+          "Latitude": 18.833333,
+          "Longitude": -98,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Oaxaca",
+              "Description": "Oaxaca es una ciudad del centro de México. Es conocida por sus edificios coloniales, muchos de los cuales están hechos de piedra volcánica verde. En la plaza central del Zócalo, se encuentra el Palacio de Gobierno, con coloridos murales que representan la historia regional. La plaza Alameda de León está frente a la fachada adornada de la Catedral de Oaxaca. La iglesia Templo de Santo Domingo del siglo XVI tiene un lujoso interior barroco y un convento antiguo a su lado.",
+              "ImagePathLarge": "/images/destinations/mexico/puebla/banners/large-puebla.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/puebla/banners/small-puebla.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 22,
+          "DestinationName": "Querétaro",
+          "DestinationUri": "queretaro",
+          "ImagePath": "/images/destinations/mexico/queretaro/destination-queretaro.jpg",
+          "Title": "Querétaro",
+          "Description": "Santiago de Querétaro es una ciudad del centro de México. Es conocida por su arquitectura colonial española bien conservada, con un sorprendente acueducto de piedra rosa. Entre los edificios barrocos destacados se incluyen la iglesia Santa Rosa de Viterbo. Cerca está el Templo de San Francisco de color ocre, en el Jardín Zenea, la plaza principal de la ciudad. En el antiguo convento de la iglesia, el Museo Regional de Querétaro exhibe artefactos prehispánicos, coloniales y republicanos.",
+          "Latitude": 20.8542575,
+          "Longitude": -99.84756,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Querétaro",
+              "Description": "Santiago de Querétaro es una ciudad del centro de México. Es conocida por su arquitectura colonial española bien conservada, con un sorprendente acueducto de piedra rosa. Entre los edificios barrocos destacados se incluyen la iglesia Santa Rosa de Viterbo. Cerca está el Templo de San Francisco de color ocre, en el Jardín Zenea, la plaza principal de la ciudad. En el antiguo convento de la iglesia, el Museo Regional de Querétaro exhibe artefactos prehispánicos, coloniales y republicanos.",
+              "ImagePathLarge": "/images/destinations/mexico/queretaro/banners/large-queretaro.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/queretaro/banners/small-queretaro.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 23,
+          "DestinationName": "San Luis Potosí",
+          "DestinationUri": "sanluispotosi",
+          "ImagePath": "/images/destinations/mexico/sanluispotosi/destination-sanluispotosi.jpg",
+          "Title": "San Luis Potosí",
+          "Description": "San Luis Potosí es una ciudad del centro de México. Fue un importante centro minero del oro y la plata en el Camino Real de Tierra Adentro, una ruta comercial de mediados del siglo XVI al siglo XIX. Es conocida por los edificios coloniales, como el imponente Templo de San Francisco de la época barroca, que domina el frondoso Jardín de San Francisco. Cerca, se encuentra el Templo del Carmen, que data del siglo XVIII y tiene una fachada con adornos tallados. ",
+          "Latitude": 22.5000001,
+          "Longitude": -100.4949145,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "San Luis Potosí",
+              "Description": "San Luis Potosí es una ciudad del centro de México. Fue un importante centro minero del oro y la plata en el Camino Real de Tierra Adentro, una ruta comercial de mediados del siglo XVI al siglo XIX. Es conocida por los edificios coloniales, como el imponente Templo de San Francisco de la época barroca, que domina el frondoso Jardín de San Francisco. Cerca, se encuentra el Templo del Carmen, que data del siglo XVIII y tiene una fachada con adornos tallados. ",
+              "ImagePathLarge": "/images/destinations/mexico/sanluispotosi/banners/large-sanluispotosi.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/sanluispotosi/banners/small-sanluispotosi.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 24,
+          "DestinationName": "Sinaloa",
+          "DestinationUri": "sinaloa",
+          "ImagePath": "/images/destinations/mexico/sinaloa/destination-sinaloa.jpg",
+          "Title": "Sinaloa",
+          "Description": "Sinaloa. Oficialmente llamado Estado Libre y Soberano de Sinaloa, es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Culiacán Rosales.",
+          "Latitude": 25.0000001,
+          "Longitude": -107.5000001,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Sinaloa",
+              "Description": "Sinaloa. Oficialmente llamado Estado Libre y Soberano de Sinaloa, es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Culiacán Rosales.",
+              "ImagePathLarge": "/images/destinations/mexico/sinaloa/banners/large-sinaloa.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/sinaloa/banners/small-sinaloa.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 25,
+          "DestinationName": "Sonora",
+          "DestinationUri": "sonora",
+          "ImagePath": "/images/destinations/mexico/sonora/destination-sonora.jpg",
+          "Title": "Sonora",
+          "Description": "Sonora es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Hermosillo.",
+          "Latitude": 29.3333331,
+          "Longitude": -110.6666671,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Sonora",
+              "Description": "Sonora es uno de los treinta y un estados que, junto con la Ciudad de México, conforman México.​​ Su capital y ciudad más poblada es Hermosillo.",
+              "ImagePathLarge": "/images/destinations/mexico/sonora/banners/large-sonora.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/sonora/banners/small-sonora.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 26,
+          "DestinationName": "Tabasco",
+          "DestinationUri": "tabasco",
+          "ImagePath": "/images/destinations/mexico/tabasco/destination-tabasco.jpg",
+          "Title": "Tabasco",
+          "Description": "Tabasco es un estado mexicano con una costa en el norte que bordea el golfo de México. En su capital, Villahermosa, está el Parque Museo La Venta, conocido por su zoológico y las colosales esculturas de piedra que datan de la civilización olmeca. El gran Museo de Historia de Tabasco documenta el área desde la época prehistórica, mientras que el Museo Regional de Antropología tiene exhibiciones sobre las civilizaciones nativas mayas y olmecas.",
+          "Latitude": 17.9507864,
+          "Longitude": -92.4831221,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Tabasco",
+              "Description": "Tabasco es un estado mexicano con una costa en el norte que bordea el golfo de México. En su capital, Villahermosa, está el Parque Museo La Venta, conocido por su zoológico y las colosales esculturas de piedra que datan de la civilización olmeca. El gran Museo de Historia de Tabasco documenta el área desde la época prehistórica, mientras que el Museo Regional de Antropología tiene exhibiciones sobre las civilizaciones nativas mayas y olmecas.",
+              "ImagePathLarge": "/images/destinations/mexico/tabasco/banners/large-tabasco.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/tabasco/banners/small-tabasco.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 27,
+          "DestinationName": "Tamaulipas",
+          "DestinationUri": "tamaulipas",
+          "ImagePath": "/images/destinations/mexico/tamaulipas/destination-tamaulipas.jpg",
+          "Title": "Tamaulipas",
+          "Description": "Tamaulipas, oficialmente Estado Libre y Soberano de Tamaulipas, es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.​​ Su capital es Ciudad Victoria y su ciudad más poblada es Reynosa.​ Fue fundado el 7 de febrero de 1824.",
+          "Latitude": 23.9891553,
+          "Longitude": -98.7026825,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Tamaulipas",
+              "Description": "Tamaulipas, oficialmente Estado Libre y Soberano de Tamaulipas, es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.​​ Su capital es Ciudad Victoria y su ciudad más poblada es Reynosa.​ Fue fundado el 7 de febrero de 1824.",
+              "ImagePathLarge": "/images/destinations/mexico/tamaulipas/banners/large-tamaulipas.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/tamaulipas/banners/small-tamaulipas.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 28,
+          "DestinationName": "Tlaxcala",
+          "DestinationUri": "tlaxcala",
+          "ImagePath": "/images/destinations/mexico/tlaxcala/destination-tlaxcala.jpg",
+          "Title": "Tlaxcala",
+          "Description": "Tlaxcala es un pequeño estado en el centro de México, al este de Ciudad de México. En el sur, el sitio arqueológico de Cacaxtla exhibe coloridos frescos mayas, mientras que las ruinas cercanas de Xochitecatl incluyen antiguas pirámides. Al noreste de aquí, la capital del estado de Tlaxcala tiene una arquitectura notable, como el Palacio de Gobierno de Tlaxcala, con una fachada de baldosas naranjas y murales que representan la historia local.",
+          "Latitude": 19.416667,
+          "Longitude": -98.166667,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Tlaxcala",
+              "Description": "Tlaxcala es un pequeño estado en el centro de México, al este de Ciudad de México. En el sur, el sitio arqueológico de Cacaxtla exhibe coloridos frescos mayas, mientras que las ruinas cercanas de Xochitecatl incluyen antiguas pirámides. Al noreste de aquí, la capital del estado de Tlaxcala tiene una arquitectura notable, como el Palacio de Gobierno de Tlaxcala, con una fachada de baldosas naranjas y murales que representan la historia local.",
+              "ImagePathLarge": "/images/destinations/mexico/tlaxcala/banners/large-tlaxcala.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/tlaxcala/banners/small-tlaxcala.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 29,
+          "DestinationName": "Veracruz",
+          "DestinationUri": "veracruz",
+          "ImagePath": "/images/destinations/mexico/veracruz/destination-veracruz.jpg",
+          "Title": "Veracruz",
+          "Description": "Veracruz, también conocida como Heroica Veracruz, es una ciudad portuaria mexicana, que se encuentra en la costa del Golfo de México, en el estado de Veracruz. Es uno de los puertos más antiguos y grandes del país, fundado en el siglo XVI por colonizadores españoles. En una isla se ubica San Juan de Ulúa, una fortaleza colonial y antiguo complejo carcelario que mira desde lo alto al puerto y funciona actualmente como un museo de historia.",
+          "Latitude": 19.1798858,
+          "Longitude": -96.135648,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Veracruz",
+              "Description": "Veracruz, también conocida como Heroica Veracruz, es una ciudad portuaria mexicana, que se encuentra en la costa del Golfo de México, en el estado de Veracruz. Es uno de los puertos más antiguos y grandes del país, fundado en el siglo XVI por colonizadores españoles. En una isla se ubica San Juan de Ulúa, una fortaleza colonial y antiguo complejo carcelario que mira desde lo alto al puerto y funciona actualmente como un museo de historia.",
+              "ImagePathLarge": "/images/destinations/mexico/veracruz/banners/large-veracruz.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/veracruz/banners/small-veracruz.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 30,
+          "DestinationName": "Mérida y Yucatán",
+          "DestinationUri": "meridayucatan",
+          "ImagePath": "/images/destinations/mexico/meridayucatan/destination-meridayucatan.jpg",
+          "Title": "Mérida y Yucatán",
+          "Description": "Mérida, la animada capital del estado de Yucatán en México, tiene una rica herencia maya y colonial. El punto central de la ciudad es la Plaza de la Independencia, que tiene a sus costados la Catedral de Mérida, similar a una fortaleza, y la Iglesia de la Tercera Orden, de caliza blanca. Ambas iglesias de la era colonial se construyeron con antigüedades de los antiguos templos mayas. La Casa de Montejo, una mansión del siglo XVI, es un sitio icónico de la arquitectura plateresca colonial.",
+          "Latitude": 20.9670759,
+          "Longitude": -89.6237402,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Mérida y Yucatán",
+              "Description": "Mérida, la animada capital del estado de Yucatán en México, tiene una rica herencia maya y colonial. El punto central de la ciudad es la Plaza de la Independencia, que tiene a sus costados la Catedral de Mérida, similar a una fortaleza, y la Iglesia de la Tercera Orden, de caliza blanca. Ambas iglesias de la era colonial se construyeron con antigüedades de los antiguos templos mayas. La Casa de Montejo, una mansión del siglo XVI, es un sitio icónico de la arquitectura plateresca colonial.",
+              "ImagePathLarge": "/images/destinations/mexico/meridayucatan/banners/large-meridayucatan.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/meridayucatan/banners/small-meridayucatan.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 31,
+          "DestinationName": "Los Cabos",
+          "DestinationUri": "loscabos",
+          "ImagePath": "/images/destinations/mexico/loscabos/destination-loscabos.jpg",
+          "Title": "Los Cabos",
+          "Description": "Los Cabos es uno de los cinco municipios del estado de Baja California Sur, México, y se localiza en el extremo sur del estado. La cabecera municipal es San José del Cabo y la ciudad más importante es Cabo San Lucas a 32 km de la cabecera. Esta área es uno de los destinos turísticos más importantes de México.",
+          "Latitude": 23.2718481,
+          "Longitude": -109.6897684,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Los Cabos",
+              "Description": "Los Cabos es uno de los cinco municipios del estado de Baja California Sur, México, y se localiza en el extremo sur del estado. La cabecera municipal es San José del Cabo y la ciudad más importante es Cabo San Lucas a 32 km de la cabecera. Esta área es uno de los destinos turísticos más importantes de México.",
+              "ImagePathLarge": "/images/destinations/mexico/loscabos/banners/small-loscabos.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/loscabos/banners/small-loscabos.jpg"
+            }
+          ],
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "San Jose del Cabo Main Square",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/sanjosedelcabomainsquare.jpg",
+              "Description": "Lugar imperdible si estas en San José del cabo, una arquitectura colonial bien conservada y la iglesia en su interior es hermosa",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Parroquia San José",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/parroquiasanjose.jpg",
+              "Description": "El templo conserva tres vitrales emplomados de magnifica factura. Al centro de la nave principal arriba del altar mayor, se encuentra un vitral dedicado al Señor San José, allí podrá observar además del anagrama del santo, los símbolos icnográficos que le identifican. Otro vitral ubicado en la capilla de la Virgen de Guadalupe, representa los diversos símbolos marianos. Mientras que el vitral que se conserva en la capilla de Nuestro Padre Jesús Nazareno, muestra los símbolos de la Pasión de Cristo. El interior del templo es muy austero y sus monumentos sencillos. Tal vez la capilla de la Virgen de Guadalupe se distingue por su curioso trabajo de plateado, a que se sometió la cantera. En este lugar podrá observar un óleo de la Virgen de muy buena factura y una pequeña imagen del Santo Niño de Atocha, llamado aquí como Santo Niño de los Milagros, también podrá ver una curiosa imagen en miniatura de San Martín Caballero. En la capilla de Jesús Nazareno se conservan, además de dos esculturas del Nazareno, una profesional de tamaño natural y otra en miniatura. Destaca en este oratorio un muy buen óleo sobre tela del siglo XVIII conocido como Jesús de la Fe.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Rancho Collins",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/ranchocollins.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "Plaza Bonita",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazabonita.jpg",
+              "Description": "Plaza Bonita, un gran lugar para dar un paseo en el oeste de la Marina en Cabo San Lucas con bares, restaurantes, cafeterías y tiendas de souvenirs, cuero, joyería y más.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Plaza Amelia Wilkes",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
+              "Description": "Plaza Amelia Wilkes es una plaza pintoresca, con bellos Jardines ubicada en el corazón de Cabo San Lucas, Baja California Sur. Debe su nombre a la célebre Cabeña Amelia Wilkes Ceseña, quien que dio su vida al robustecimiento de nuestras raíces e historia como cabeños.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Plaza Mijares",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
+              "Description": "Enorme plaza urbana con mirador y un escenario donde se celebran varios eventos comunitarios.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 7,
+              "Title": "Pedregal de Cabo San Lucas",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
+              "Description": "Quiet Pedregal es una exclusiva área ubicada en una ladera con vistas panorámicas sobre el puerto deportivo y el océano. Los veraneantes frecuentan sus marisquerías y se alojan en complejos de lujo con bares en la piscina. Las cercanas playas de Lovers y Divorce Beach son famosas para nadar y tomar el sol, y los grupos de excursión de los barcos visitan la icónica formación rocosa de Arch. Un mercado semanal de agricultores ofrece frutas, pasteles y artesanías hechas a mano. ",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 8,
+              "Title": "Calvary Chapel",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
+              "Description": "",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 9,
+              "Title": "Iglesia de San Lucas",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/iglesiadesanlucas.jpg",
+              "Description": "La popular iglesia católica del centro de Cabo San Lucas es la Parroquia de San Lucas Evangelista (iglesia parroquial de San Lucas, el evangelista), es la principal iglesia católica en el área de Cabo San Lucas para misas bilingües a las 12 del mediodía todos los domingos.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 9,
+              "Title": "Cabo Unico Store",
+              "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/iglesiadesanlucas.jpg",
+              "Description": "Excelente y riquisimo lugar para comprar tequila o y otros destilados. El licor de vainilla y damiana son unicos de los cabos. Este es un lugar que no debes dejar de conocer.",
+              "Latitude": 1.0002220002,
+              "Longitude": 1.3333220,
+              "Galleries": []
+            }
+          ]
+        },
+        {
+          "DestinationId": 32,
+          "DestinationName": "Zacatecas",
+          "DestinationUri": "zacatecas",
+          "ImagePath": "/images/destinations/mexico/zacatecas/destination-zacatecas.jpg",
+          "Title": "Zacatecas",
+          "Description": "Zacatecas es un estado del centronorte de México, al noroeste de Ciudad de México. En él se encuentra el sitio arqueológico La Quemada, un gran asentamiento precolombino con un museo, una pirámide sobre un cerro y columnas. La capital del estado, también llamada Zacatecas, se encuentra a gran altura y alberga la antigua mina de plata El Edén, con un tren subterráneo que pasa por formaciones rocosas únicas, exhibiciones de depósitos de minerales y antiguas máquinas mineras.",
+          "Latitude": 23.0823582,
+          "Longitude": -103.2085698,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Zacatecas",
+              "Description": "Zacatecas es un estado del centronorte de México, al noroeste de Ciudad de México. En él se encuentra el sitio arqueológico La Quemada, un gran asentamiento precolombino con un museo, una pirámide sobre un cerro y columnas. La capital del estado, también llamada Zacatecas, se encuentra a gran altura y alberga la antigua mina de plata El Edén, con un tren subterráneo que pasa por formaciones rocosas únicas, exhibiciones de depósitos de minerales y antiguas máquinas mineras.",
+              "ImagePathLarge": "/images/destinations/mexico/zacatecas/banners/large-zacatecas.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/zacatecas/banners/small-zacatecas.jpg"
+            }
+          ],
+          "PointsInterest": []
+        },
+        {
+          "DestinationId": 33,
+          "DestinationName": "Puerto Vallarta",
+          "DestinationUri": "puertovallarta",
+          "ImagePath": "/images/destinations/mexico/puertovallarta/destination-puertovallarta.jpg",
+          "Title": "Puerto Vallarta",
+          "Description": "Puerto Vallarta es un balneario en la costa del Pacífico de México, en el estado de Jalisco. Es famoso por sus playas, los deportes acuáticos y la vida nocturna. En el centro con adoquines, se encuentra la adornada iglesia de Nuestra Señora de Guadalupe, además de tiendas de moda y una variedad de restaurantes y bares. El Malecón es un paseo costero con esculturas contemporáneas, bares, salones y clubes nocturnos.",
+          "Latitude": 19.3726699,
+          "Longitude": -99.2320098,
+          "Galleries": [
+            {
+              "GalleryId": 1,
+              "Title": "Puerto Vallarta",
+              "Description": "Puerto Vallarta es un balneario en la costa del Pacífico de México, en el estado de Jalisco. Es famoso por sus playas, los deportes acuáticos y la vida nocturna. En el centro con adoquines, se encuentra la adornada iglesia de Nuestra Señora de Guadalupe, además de tiendas de moda y una variedad de restaurantes y bares. El Malecón es un paseo costero con esculturas contemporáneas, bares, salones y clubes nocturnos.",
+              "ImagePathLarge": "/images/destinations/mexico/puertovallarta/banners/large-puertovallarta.jpg",
+              "ImagePathSmall": "/images/destinations/mexico/puertovallarta/banners/small-puertovallarta.jpg"
+            }
+          ],
+          "PointsInterest": []
+        }
+      ]
+    }
+  ]
+}

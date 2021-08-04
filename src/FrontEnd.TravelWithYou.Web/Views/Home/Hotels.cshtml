@@ -1,0 +1,489 @@
+﻿<!-- Cotizador -->
+@await Component.InvokeAsync("Search", new { ViewType = "Hotel" })
+
+<!-- Carousel -->
+<section class="slider">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active">1</li>
+            <li data-target="#myCarousel" data-slide-to="1">2</li>
+            <li data-target="#myCarousel" data-slide-to="2">3</li>
+            <li data-target="#myCarousel" data-slide-to="3">4</li>
+            <li data-target="#myCarousel" data-slide-to="4">5</li>
+            <li data-target="#myCarousel" data-slide-to="5">6</li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#myCarousel">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="~/images/bg-home1.jpg">                       
+                        <img src="~/images/bg-home1.jpg" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#myCarouse2">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="~/images/bg-home2.jpg">
+                        <img src="~/images/bg-home2.jpg" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#myCarouse3">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="~/images/bg-home3.jpg">
+                        <img src="~/images/bg-home3.jpg" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#myCarouse4">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="~/images/bg-home4.jpg">
+                        <img src="~/images/bg-home4.jpg" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#myCarouse5">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="~/images/bg-home5.jpg">
+                        <img src="~/images/bg-home5.jpg" alt="">
+                    </picture>
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="#myCarouse6">
+                    <picture>
+                        <source media="(min-width: 992px)" srcset="~/images/bg-home6.jpg">
+                        <img src="~/images/bg-home6.jpg" alt="">
+                    </picture>
+                </a>
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+</section>
+
+<div class="w-100"></div>
+
+
+
+<section class="block destinos">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <h1>¡Los mejores destinos!</h1>
+                <p>Descubre las ofertas que ofrecemos en cualquiera de los destinos de la Republica Méxicana y destinos internacionales...</p>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+                <div class="splide" id="splide">
+                    <div class="splide__track">
+
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+
+                                <div class="box-destiny">
+                                    <div class="bg-destiny">
+                                        <img src="~/images/destinations/destination-los-cabos.jpg" class="img-fluid">                                        
+                                    </div>
+                                    <span class="label-destination">Los Cabos</span>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-7 col-sm-8 col-7 destiny-list">
+                                            <ul>
+                                                <li>
+                                                    <span class="icon-departure"></span>
+                                                    <p>Vuelo</p>
+                                                </li>
+                                                <li>
+                                                    <span class="icon-hotel"></span>
+                                                    <p>Hotel</p>
+                                                </li>
+                                                <li>
+                                                    <span class="icon-packages"></span>
+                                                    <p>Paquete</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-5 col-sm-4 col-5">
+                                            <button class="btn btn-primary btn-sm rounded-pill">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="box-destiny">
+                                    <div class="bg-destiny">
+                                        <img src="~/images/destinations/destination-cancun.jpg" class="img-fluid">                                       
+                                    </div>
+                                     <span class="label-destination">Cancun</span>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-7 col-sm-8 col-7 destiny-list">
+                                            <ul>
+                                                <li>
+                                                    <span class="icon-departure"></span>
+                                                    <p>Vuelo</p>
+                                                </li>
+                                                <li>
+                                                    <span class="icon-hotel"></span>
+                                                    <p>Hotel</p>
+                                                </li>
+                                                <li>
+                                                    <span class="icon-tours"></span>
+                                                    <p>Tour</p>
+                                                </li>
+                                                <li>
+                                                    <span class="icon-packages"></span>
+                                                    <p>Paquete</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-5 col-sm-4 col-5">
+                                            <button class="btn btn-primary btn-sm rounded-pill">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="block ofertas">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <h1>¡Las mejores ofertas de viaje!</h1>
+                <p>Descubre nuestra oferta de viajes en más de 200 ciudades de la Republica Méxicana y destinos internacionales. Descubre nuestra oferta de viajes en más de 200 ciudades de la Republica Méxicana y destinos internacionales...</p>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+                <div class="splide" id="splide-2">
+                    <div class="splide__track">
+
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <div class="box-ofertas">
+                                    <span class="label-discount">Descuento de hasta <strong>-40%</strong></span>
+                                    <div class="img-ofertas">
+                                        <img src="~/images/pic-hotel-1.jpg" class="img-fluid">
+                                    </div>
+                                    <span class="label-promo">Desayuno incluido</span>
+                                    <div class="inside-ofertas">
+                                        <div class="box-first">
+                                            <span class="label-type">HOTEL</span>
+                                            <h3>Kristal Cancún</h3>
+                                            <div class="ranking">
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star"></span>
+                                            </div>
+                                            <p class="label-zone">Cancún</p>
+                                            <p class="label-date">18-21 de Dic.</p>
+                                            <div class="box-data">
+                                                <p>Solo habitación</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-price">
+                                            <span class="label-txt-price">Precio por noche</span>
+                                            <div class="box-price-inside">
+                                                <span class="label-old-price">MXN $13,029</span>
+                                                <p><small>MXN</small> $10,259</p>
+                                            </div>
+                                            <div class="box-bottom">
+                                                <button class="btn btn-success btn-sm rounded-pill">Me interesa</button>
+                                                <span>Precio final por 2 personas MXN $12,092</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="box-ofertas">
+                                    <span class="label-discount">Descuento de hasta <strong>-50%</strong></span>
+                                    <div class="img-ofertas">
+                                        <img src="~/images/pic-hotel-1.jpg" class="img-fluid">
+                                    </div>
+                                    <!--<span class="label-promo">Desayuno incluido</span>-->
+                                    <div class="inside-ofertas">
+                                        <div class="box-first">
+                                            <span class="label-type">VUELO REDONDO</span>
+                                            <h3>Puerto Vallarta</h3>
+                                            <p class="label-date">18-21 de Dic.</p>
+                                            <div class="box-data-flight">
+                                                <div class="row">
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                                        <img src="~/images/flight-1.jpg" class="img-fluid">
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                                        <p>21:15</p>
+                                                        <span>TIJ</span>
+                                                    </div>
+                                                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                                                        <small>2h 19min</small>
+                                                        <div class="flight-divider">
+                                                            <span class="left-circle"></span>
+                                                            <span class="right-circle"></span>
+                                                        </div>
+                                                        <small>Directo</small>
+                                                    </div>
+                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                                                        <p>23:20</p>
+                                                        <span>MEX</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-price">
+                                            <span class="label-txt-price">Precio por persona, vuelo redondo</span>
+                                            <div class="box-price-inside">
+                                                <!--<span class="label-old-price">MXN $5,178</span>-->
+                                                <p><small>MXN</small> $3,871</p>
+                                            </div>
+                                            <div class="box-bottom">
+                                                <button class="btn btn-success btn-sm rounded-pill">Me interesa</button>
+                                                <span>Precio final por 2 personas MXN $7,092</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="box-ofertas">
+                                    <span class="label-discount">Descuento de hasta <strong>-50%</strong></span>
+                                    <div class="img-ofertas">
+                                        <img src="~/images/pic-hotel-1.jpg" class="img-fluid">
+                                    </div>
+                                    <span class="label-promo">Todo Incluido</span>
+                                    <div class="inside-ofertas">
+                                        <div class="box-first">
+                                            <span class="label-type">VUELO + HOTEL</span>
+                                            <h3>Holiday Inn Express</h3>
+                                            <div class="ranking">
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star"></span>
+                                                <span class="icon-star-half"></span>
+                                            </div>
+                                            <p class="label-zone">Cancún</p>
+                                            <p class="label-date">18-21 de Dic.</p>
+                                            <div class="box-data">
+                                                <p>Solo habitación</p>
+                                            </div>
+                                        </div>
+                                        <div class="box-price">
+                                            <span class="label-txt-price">Hotel + Vuelo por persona</span>
+                                            <div class="box-price-inside">
+                                                <span class="label-old-price">MXN $13,029</span>
+                                                <p><small>MXN</small> $10,259</p>
+                                            </div>
+                                            <div class="box-bottom">
+                                                <button class="btn btn-success btn-sm rounded-pill">Me interesa</button>
+                                                <span>Precio final por 2 personas MXN $12,092</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="box-ofertas">
+                                    <span class="label-discount">Descuento de hasta <strong>-40%</strong></span>
+                                    <div class="img-ofertas">
+                                        <img src="~/images/pic-hotel-1.jpg" class="img-fluid">
+                                    </div>
+                                    <!--<span class="label-promo">Todo Incluido</span>-->
+                                    <div class="inside-ofertas">
+                                        <div class="box-first">
+                                            <span class="label-type">TOURS & EXPERIENCIAS</span>
+                                            <h3>Xcaret</h3>
+                                            <p class="label-zone">Cancún</p>
+                                            <p class="label-date">18-21 de Dic.</p>
+                                        </div>
+                                        <div class="box-price">
+                                            <span class="label-txt-price">Precio por adulto</span>
+                                            <div class="box-price-inside">
+                                                <span class="label-old-price">MXN $1,891</span>
+                                                <p><small>MXN</small> $1,282</p>
+                                            </div>
+                                            <div class="box-bottom">
+                                                <button class="btn btn-success btn-sm rounded-pill">Me interesa</button>
+                                                <span>Precio final por 2 personas MXN $2,459</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">Slide 05</li>
+                            <li class="splide__slide">Slide 06</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="block tours">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <h1>¡Los tours más vendidos!</h1>
+                <p>Descubre nuestra oferta de viajes en más de 200 ciudades de la Republica Méxicana y destinos internacionales. Descubre nuestra oferta de viajes en más de 200 ciudades de la Republica Méxicana y destinos internacionales...</p>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+                <div class="splide" id="splide-3">
+                    <div class="splide__track">
+
+                        <ul class="splide__list">
+
+                            <li class="splide__slide">
+                                <div class="box-tours">
+                                    <div class="bg-tours">
+                                        <img src="~/images/tour-1.jpg" class="img-fluid">
+                                    </div>
+                                    <span class="label-promo">4 Hrs</span>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-7 col-sm-8 col-7">
+                                            <div class="inside-tours">
+                                                <h3>ATV Xtreme Zip Line</h3>
+                                                <p class="price-tour"><small>MXN</small> $2,048</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-5 col-sm-4 col-5">
+                                            <button class="btn btn-primary btn-sm rounded-pill">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="box-tours">
+                                    <div class="bg-tours">
+                                        <img src="~/images/tour-2.jpg" class="img-fluid">
+                                    </div>
+                                    <span class="label-promo">Todo el dia</span>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-7 col-sm-8 col-7">
+                                            <div class="inside-tours">
+                                                <h3>Entrada Xcaret Plus</h3>
+                                                <p class="price-tour"><small>MXN</small> $1,627</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-5 col-sm-4 col-5">
+                                            <button class="btn btn-primary btn-sm rounded-pill">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">
+                                <div class="box-tours">
+                                    <div class="bg-tours">
+                                        <img src="~/images/tour-3.jpg" class="img-fluid">
+                                    </div>
+                                    <span class="label-promo">7 Hrs</span>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-7 col-sm-8 col-7">
+                                            <div class="inside-tours">
+                                                <h3>Albatros Plus</h3>
+                                                <p class="price-tour"><small>MXN</small> $1,829</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-5 col-sm-4 col-5">
+                                            <button class="btn btn-primary btn-sm rounded-pill">Ver más</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="splide__slide">Slide 4</li>
+                            <li class="splide__slide">Slide 5</li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="warranty-labels">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <img src="~/images/w-icon-1.jpg">
+                <h5>RESERVAS FLEXIBLES</h5>
+                <p>Los planes cambian. Es por eso que ofrecemos cancelación gratuita en la mayoría de hoteles y autos de alquiler.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <img src="~/images/w-icon-2.jpg">
+                <h5>OFERTAS INCREÍBLES</h5>
+                <p>Los planes cambian. Es por eso que ofrecemos cancelación gratuita en la mayoría de hoteles y autos de alquiler.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <img src="~/images/w-icon-3.jpg">
+                <h5>SIN VUELO? NO HAY PROBLEMA</h5>
+                <p>Los planes cambian. Es por eso que ofrecemos cancelación gratuita en la mayoría de hoteles y autos de alquiler.</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <img src="~/images/w-icon-4.jpg">
+                <h5>AYUDA 24/7</h5>
+                <p>Los planes cambian. Es por eso que ofrecemos cancelación gratuita en la mayoría de hoteles y autos de alquiler.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@await Component.InvokeAsync("Newsletter")
+
+<section class="msi-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="/images/msi-big.jpg">
+                    <source media="(min-width: 550px)" srcset="/images/msi.jpg">
+                    <img src="~/images/msi-small.jpg" alt="meses sin intereses">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>

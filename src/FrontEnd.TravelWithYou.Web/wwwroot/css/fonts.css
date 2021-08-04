@@ -1,0 +1,483 @@
+  @font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'montserratsemibold';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+        url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?hwsqrn');
+    src:  url('../fonts/icomoon.eot?hwsqrn#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?hwsqrn') format('truetype'),
+      url('../fonts/icomoon.woff?hwsqrn') format('woff'),
+      url('../fonts/icomoon.svg?hwsqrn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-youtube:before {
+    content: "\ea9d";
+  }
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-right:before {
+    content: "\e980";
+  }
+  .icon-left:before {
+    content: "\e981";
+  }
+  .icon-up:before {
+    content: "\e953";
+  }
+  .icon-down:before {
+    content: "\e92b";
+  }
+  .icon-check:before {
+    content: "\e922";
+  }
+  .icon-close:before {
+    content: "\e91a";
+  }
+  .icon-minus:before {
+    content: "\e937";
+  }
+  .icon-plus:before {
+    content: "\e944";
+  }
+  .icon-arrow-down:before {
+    content: "\e912";
+  }
+  .icon-arrow-left:before {
+    content: "\e913";
+  }
+  .icon-arrow-right:before {
+    content: "\e914";
+  }
+  .icon-arrow-up:before {
+    content: "\e915";
+  }
+  .icon-reset:before {
+    content: "\e972";
+  } 
+  .icon-flight:before {
+    content: "\e930";
+  }
+  .icon-departure:before {
+    content: "\e946";
+  }
+  .icon-arrive:before {
+    content: "\e95c";
+  }
+  .icon-car:before {
+    content: "\e920";
+  }
+  .icon-tours:before {
+    content: "\e926";
+  }
+  .icon-transportation:before {
+    content: "\e91e";
+  }
+  .icon-date:before {
+    content: "\e928";
+  }
+  .icon-check-out:before {
+    content: "\e924";
+  }
+  .icon-check-in:before {
+    content: "\e925";
+  }
+  .icon-location:before {
+    content: "\e935";
+  }
+  .icon-callcenter:before {
+    content: "\e96d";
+  }
+  .icon-faq:before {
+    content: "\e92e";
+  }
+  .icon-help:before {
+    content: "\e939";
+  }
+  .icon-special-rate:before {
+    content: "\e98d";
+  }
+  .icon-user:before {
+    content: "\e97b";
+  }
+  .icon-travel:before {
+    content: "\e969";
+  }
+  .icon-mosaic:before {
+    content: "\e95f";
+  }
+  .icon-disney:before {
+    content: "\e98e";
+  }
+  .icon-early-tender:before {
+    content: "\e987";
+  }
+  .icon-added-value:before {
+    content: "\e988";
+  }
+  .icon-discount-money:before {
+    content: "\e989";
+  }
+  .icon-discount-porcent:before {
+    content: "\e98a";
+  }
+  .icon-kids-free:before {
+    content: "\e98b";
+  }
+  .icon-free-night:before {
+    content: "\e98c";
+  }
+  .icon-bonus:before {
+    content: "\e932";
+  }
+  .icon-money:before {
+    content: "\e986";
+  }
+  .icon-catalog:before {
+    content: "\e92f";
+  }
+  .icon-margin:before {
+    content: "\e983";
+  }
+  .icon-provider:before {
+    content: "\e984";
+  }
+  .icon-contract:before {
+    content: "\e985";
+  }
+  .icon-checked:before {
+    content: "\e90a";
+  }
+  .icon-remove:before {
+    content: "\e97c";
+  }
+  .icon-filter:before {
+    content: "\e97d";
+  }
+  .icon-add:before {
+    content: "\e97e";
+  }
+  .icon-question:before {
+    content: "\e97f";
+  }
+  .icon-alert:before {
+    content: "\e952";
+  }
+  .icon-options:before {
+    content: "\e982";
+  }
+  .icon-admin:before {
+    content: "\e959";
+  }
+  .icon-keypad:before {
+    content: "\e979";
+  }
+  .icon-home:before {
+    content: "\e97a";
+  }
+  .icon-tour:before {
+    content: "\e903";
+  }
+  .icon-clean:before {
+    content: "\e974";
+  }
+  .icon-automatic:before {
+    content: "\e975";
+  }
+  .icon-manual:before {
+    content: "\e976";
+  }
+  .icon-speed-meter:before {
+    content: "\e977";
+  }
+  .icon-car-door:before {
+    content: "\e978";
+  }
+  .icon-currency:before {
+    content: "\e973";
+  }
+  .icon-password:before {
+    content: "\e94c";
+  }
+  .icon-print:before {
+    content: "\e971";
+  }
+  .icon-packages:before {
+    content: "\e93e";
+  }
+  .icon-hotel:before {
+    content: "\e965";
+  }
+  .icon-email:before {
+    content: "\e95a";
+  }
+  .icon-link:before {
+    content: "\e96a";
+  }
+  .icon-backpack:before {
+    content: "\e96b";
+  }
+  .icon-dashboard:before {
+    content: "\e96c";
+  }
+  .icon-passport:before {
+    content: "\e96e";
+  }
+  .icon-profile:before {
+    content: "\e96f";
+  }
+  .icon-notification:before {
+    content: "\e970";
+  }
+  .icon-backpack-bag:before {
+    content: "\e93c";
+  }
+  .icon-twobackpage:before {
+    content: "\e93d";
+  }
+  .icon-star:before {
+    content: "\e940";
+  }
+  .icon-star-half:before {
+    content: "\e968";
+  }
+  .icon-check-list:before {
+    content: "\e967";
+  }
+  .icon-circle:before {
+    content: "\e966";
+  }
+  .icon-trash:before {
+    content: "\e95b";
+  }
+  .icon-pets:before {
+    content: "\e906";
+  }
+  .icon-voucher:before {
+    content: "\e90d";
+  }
+  .icon-voucher-supplier:before {
+    content: "\e911";
+  }
+  .icon-golf:before {
+    content: "\e92a";
+  }
+  .icon-suitcase:before {
+    content: "\e957";
+  }
+  .icon-bag:before {
+    content: "\e958";
+  }
+  .icon-guitar:before {
+    content: "\e95d";
+  }
+  .icon-list:before {
+    content: "\e95e";
+  }
+  .icon-pay:before {
+    content: "\e960";
+  }
+  .icon-refund:before {
+    content: "\e961";
+  }
+  .icon-save:before {
+    content: "\e962";
+  }
+  .icon-shopping:before {
+    content: "\e963";
+  }
+  .icon-shop:before {
+    content: "\e964";
+  }
+  .icon-roomservice:before {
+    content: "\e900";
+  }
+  .icon-restaurant:before {
+    content: "\e901";
+  }
+  .icon-clock:before {
+    content: "\e902";
+  }
+  .icon-left-p:before {
+    content: "\e904";
+  }
+  .icon-right-p:before {
+    content: "\e905";
+  }
+  .icon-gym:before {
+    content: "\e907";
+  }
+  .icon-laundry:before {
+    content: "\e908";
+  }
+  .icon-search:before {
+    content: "\e909";
+  }
+  .icon-flag:before {
+    content: "\e94a";
+  }
+  .icon-camera:before {
+    content: "\e94b";
+  }
+  .icon-hours:before {
+    content: "\e90b";
+  }
+  .icon-aditional-services:before {
+    content: "\e90c";
+  }
+  .icon-adult:before {
+    content: "\e90e";
+  }
+  .icon-air-conditioner:before {
+    content: "\e90f";
+  }
+  .icon-all-inclusive:before {
+    content: "\e910";
+  }
+  .icon-bagagge:before {
+    content: "\e916";
+  }
+  .icon-bar:before {
+    content: "\e917";
+  }
+  .icon-bathroom:before {
+    content: "\e918";
+  }
+  .icon-beach:before {
+    content: "\e919";
+  }
+  .icon-bike:before {
+    content: "\e91b";
+  }
+  .icon-boat:before {
+    content: "\e91c";
+  }
+  .icon-breakfast:before {
+    content: "\e91d";
+  }
+  .icon-cancel:before {
+    content: "\e91f";
+  }
+  .icon-carry-on-baggage:before {
+    content: "\e921";
+  }
+  .icon-checked-baggage:before {
+    content: "\e923";
+  }
+  .icon-complements:before {
+    content: "\e927";
+  }
+  .icon-dolphin:before {
+    content: "\e929";
+  }
+  .icon-edit:before {
+    content: "\e92c";
+  }
+  .icon-extreme-sport:before {
+    content: "\e92d";
+  }
+  .icon-gift:before {
+    content: "\e931";
+  }
+  .icon-itinerary:before {
+    content: "\e933";
+  }
+  .icon-kids:before {
+    content: "\e934";
+  }
+  .icon-map:before {
+    content: "\e936";
+  }
+  .icon-info:before {
+    content: "\e938";
+  }
+  .icon-no-smoking:before {
+    content: "\e94e";
+  }
+  .icon-on-board-services:before {
+    content: "\e94f";
+  }
+  .icon-order:before {
+    content: "\e94d";
+  }
+  .icon-park:before {
+    content: "\e949";
+  }
+  .icon-parking:before {
+    content: "\e948";
+  }
+  .icon-payments:before {
+    content: "\e947";
+  }
+  .icon-phone:before {
+    content: "\e945";
+  }
+  .icon-pool:before {
+    content: "\e943";
+  }
+  .icon-porcent:before {
+    content: "\e93a";
+  }
+  .icon-protection:before {
+    content: "\e93b";
+  }
+  .icon-special-services:before {
+    content: "\e93f";
+  }
+  .icon-taxi:before {
+    content: "\e941";
+  }
+  .icon-pyramid:before {
+    content: "\e942";
+  }
+  .icon-tv:before {
+    content: "\e951";
+  }
+  .icon-warning:before {
+    content: "\e954";
+  }
+  .icon-water-sport:before {
+    content: "\e956";
+  }
+  .icon-wifi:before {
+    content: "\e955";
+  }  
+  

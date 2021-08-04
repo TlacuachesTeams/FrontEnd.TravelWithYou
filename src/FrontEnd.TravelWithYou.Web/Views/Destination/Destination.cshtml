@@ -1,0 +1,140 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor  IHttpContextAccesor;
+@using FrontEnd.TravelWithYou.Entities.Api.Destinations;
+@model DestinationRS
+
+@if (Model != null)
+{
+    if (Model.Countries != null && Model.Countries.Any())
+    {
+        var country = Model.Countries.FirstOrDefault();
+        var destination = country.Destinations.FirstOrDefault();
+
+        <section class="slider">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    @{
+                        int index = 0;
+                        string active = "";
+
+                    }
+                    @foreach (var gallery in destination.Galleries)
+                    {
+                        if (index == 0)
+                        {
+                            active = " active";
+                        }
+                        else
+                        {
+                            active = "";
+                        }
+                        <li data-target="#myCarousel" data-slide-to="@index" class="@active"></li>
+                    }
+                </ol>
+                <div class="carousel-inner">
+                    @{
+                        index = 0;
+                        active = "";
+
+                    }
+                    @foreach (var gallery in destination.Galleries)
+                    {
+
+                        if (index == 0)
+                        {
+                            active = " active";
+                        }
+                        else
+                        {
+                            active = "";
+                        }
+                        <div class="carousel-item @active">
+                            <a href="#myCarousel">
+                                <picture>
+                                    <source media="(min-width: 992px)" srcset="@gallery.ImagePathLarge">
+                                    <img src="@gallery.ImagePathSmall"
+                                         onError="this.onerror=null;this.src='/images/destinations/nobanner.png';$(this).prev().attr('srcset','/images/destinations/nobanner.png');"
+                                         alt="@gallery.Title"
+                                         data-image="@gallery.ImagePathSmall">
+                                </picture>
+                            </a>
+                        </div>
+                        index += 1;
+                    }
+
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+
+        <div class="w-100"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h1>@destination.Title</h1>
+                    <p>@destination.Description</p>
+                </div>
+            </div>
+        </div>
+        @if (destination.PointsInterest != null)
+        {
+            <div class="container">
+                <div class="row">
+                    <div class="destinations-list">
+                        @foreach (var point in destination.PointsInterest)
+                        {
+                            <div class="box-destiny mt-3 mb-3">
+                                @*<div class="bg-destiny">
+
+                                    </div>*@
+                                <div class="row">
+                                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                                        <img src="@point.ImagePath"
+                                             onError="this.onerror=null;this.src='/images/destinations/nopointinterest.png';"
+                                             title="@point.Title"
+                                             alt="@point.Title"
+                                             class="img-fluid"
+                                             data-image="@destination.ImagePath">
+                                    </div>
+                                    <div class="col-lg-10 col-md-10 col-sm-10 col-10">
+                                        <h2 class="m-2">@point.Title</h2>
+                                        <p class="m-2">@point.Description</p>
+                                        @*<div class="col-lg-12 col-md-4 col-sm-12 col-12">
+                                                <a href="/destino/@destination.DestinationUri" class="btn btn-primary btn-sm rounded-pill m-2">Ver más</a>
+                                            </div>*@
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                    <div class="destinations-list-map" style="display:none;">
+
+                    </div>
+                </div>
+            </div>
+
+        }
+    }
+}
+
+
+<script>
+        dataLayer.push({
+            event: "ev-load-destination",
+            ip: "@IHttpContextAccesor.HttpContext.Request.HttpContext.Connection.RemoteIpAddress;",
+            destination: {
+                id: 0,
+                name: "@ViewBag.DestinationUri"
+            },
+            quantity: 1
+        });
+</script>
+

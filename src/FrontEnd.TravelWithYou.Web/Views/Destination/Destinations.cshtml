@@ -1,0 +1,184 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor  IHttpContextAccesor;
+@using FrontEnd.TravelWithYou.Entities.Api.Destinations;
+@model DestinationRS
+
+@if (Model != null)
+{
+    if (Model.Countries != null && Model.Countries.Any())
+    {
+
+        int index = 0;
+        string active = "";
+        var firstCountry = Model.Countries.FirstOrDefault();
+        /*var destination = firstCountry.Destinations.FirstOrDefault();*/
+
+        <section class="slider">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators" style="display:none;">
+                    @foreach (var gallery in firstCountry.Galleries)
+                    {
+                        if (index == 0)
+                        {
+                            active = " active";
+                        }
+                        else
+                        {
+                            active = "";
+                        }
+                        <li data-target="#myCarousel" data-slide-to="@index" class="@active"></li>
+                        index += 1;
+                    }
+                </ol>
+                <div class="carousel-inner">
+                    @{
+                        index = 0;
+                        active = "";
+                    }
+                    @foreach (var country in Model.Countries)
+                    {
+                        @foreach (var gallery in country.Galleries)
+                        {
+
+                            if (index == 0)
+                            {
+                                active = " active";
+                            }
+                            else
+                            {
+                                active = "";
+                            }
+                            <div class="carousel-item @active">
+                                <a href="#myCarousel">
+                                    <picture>
+                                        <source media="(min-width: 992px)" srcset="@gallery.ImagePathLarge">
+                                        <img src="@gallery.ImagePathSmall"
+                                             onError="this.onerror=null;this.src='/images/destinations/nobanner.png';$(this).prev().attr('srcset','/images/destinations/nobanner.png');"
+                                             alt="@gallery.Title"
+                                             data-image="@gallery.ImagePathSmall">
+                                    </picture>
+                                </a>
+                            </div>
+                            index += 1;
+                        }
+                    }
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+
+        <div class="w-100"></div>
+
+        <section class="block destinations">
+            <div class="container">
+
+                <div class="row">
+                    <div class="filters-bar">
+                        <div class="row">
+
+                            <div class="col-xl-7 col-lg-5 col-md-5 col-sm-6 col-6">
+                                <p class="title-list">Mostrar lista: </p>
+                                <!--<a href="#" class="active-list"><span class="icon-mosaic"></span></a>-->
+                                <a href="#" id="icon-list"><span class="icon-list display-5"></span></a>
+                                <a href="#" id="icon-location"><span class="icon-location display-5"></span></a>
+                                <a href="#" class="d-block d-md-none"><span class="icon-filter"></span></a>
+                            </div>
+
+                            <div class="col-xl-5 col-lg-7 col-md-7 col-sm-6 col-6">
+                                <div class="row" id="filter-orderby">
+                                    <p for="" class="col-md-5 col-sm-5 col-12 col-form-label text-right">Ordenar por:</p>
+                                    <div class="col-md-7 col-sm-7 col-12">
+                                        <select id="orderby" class="form-select form-select-sm" onchange="destinations.getDestinations()">
+                                            <option value="1-A">Por Nombre (a-z)</option>
+                                            <option value="1-D">Por Nombre (z-a)</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                @foreach (var country in Model.Countries)
+                {
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <h1>@country.Title</h1>
+                        <p>@country.Description</p>
+                    </div>
+                    <div class="row">
+                        <div class="destinations-list">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="row" id="destinations-rows">
+                                    @(await Component.InvokeAsync("Destinations", new {
+                                        Destinations = country.Destinations,
+                                        OrderId = 1,
+                                        OrderType = "A"
+                                    }));
+                                    @*@foreach (var destination in country.Destinations)
+                                    {
+                                        string pathDestination = $"/destino/{destination.DestinationUri}";
+                                        <div name="box-destination" class="col-lg-2 col-md-2 col-sm-6 col-6">
+                                            <div class="box-destiny">
+                                                <div class="bg-destiny">
+                                                    <img src="@destination.ImagePath"
+                                                         onError="this.onerror=null;this.src='/images/destinations/nodestination.png';"
+                                                         title="@destination.DestinationName"
+                                                         alt="@destination.DestinationName"
+                                                         class="img-fluid"
+                                                         data-image="@destination.ImagePath">
+                                                </div>
+                                                <span class="label-destination">@destination.DestinationName</span>
+                                                <div class="col-lg-12 col-md-4 col-sm-12 col-12">
+                                                    <a href="@pathDestination" class="btn btn-primary btn-sm rounded-pill m-2">Ver más</a>
+                                                </div>
+                                            </div>
+                                        </div>                                       
+                                    }*@
+                                </div>
+                            </div>
+                        </div>
+                        <div class="destinations-list-map" style="display:none;">
+                            @*<p>Selecciona tu destino.</p>*@
+                            <div class="box-map">
+                                <div id="boxMap" class="box-map-info">
+                                </div>
+                            </div>
+                            @foreach (var destination in country.Destinations)
+                            {
+                                string pathDestination = $"/destino/{destination.DestinationUri}";
+                                <script>
+                                            googleMap.setValue(
+                                                @destination.Latitude,
+                                                @destination.Longitude,
+                                                '@destination.DestinationName',
+                                                '@destination.Description',
+                                                '@pathDestination');
+                                </script>
+                            }
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </section>
+        <script src="~/js/destinations.js"></script>
+        <script>
+            $(document).ready(function () {
+                destinations.ip = "@IHttpContextAccesor.HttpContext.Request.HttpContext.Connection.RemoteIpAddress;";
+                destinations.init();
+            });
+        </script>
+    }
+}
+
+
+
+

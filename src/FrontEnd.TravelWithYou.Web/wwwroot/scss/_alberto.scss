@@ -1,0 +1,308 @@
+@mixin border-top { background: #ff0; padding: 15px 0px 0px; }
+@mixin msj-boxes { padding: 13px 17px; background-color: $red; border-radius: 5px; }
+@mixin title-compra { color: $blue; text-align: left; display: block; padding: 10px 15px; font-family: "montserratsemibold"; font-weight: 600; font-size: .9em; }
+@mixin title-text { color: $font-gray; text-align: left; display: block; padding: 0px; font-family: "montserratregular"; font-size: .8em; line-height: 1.3em; margin-bottom: 6px; }
+@mixin stars { font-size: 0.8em; color: $yellow; margin: 0 -4px 0 0; }
+@mixin form-icons { background: url(/Content/images/v-sprites-2.png) no-repeat; background-size: 28px; }
+/*@mixin banks { background: url(/Content/images/v-sprites-3.jpg) no-repeat; background-size: 350px; width: 21px; }*/
+
+
+
+.covid-alerts { margin-bottom: 5px;
+    .alert { padding: 7px 0 5px !important; margin-bottom: 0; border: 0; border-radius: 0;
+        .covid { font-size: .7em !important; color: #044994; 
+           button { float: right; margin: -5px 0 0 0; }
+        }
+    }
+}
+
+
+.addons { margin-top: 10px; 
+    h1 { font-family: 'montserratsemibold'; font-size: 1.7em; font-weight: 600; line-height: 1.2em; color: $blue; margin: 20px 0 5px 0; }
+    h2 { font-family: 'montserratsemibold'; font-size: 1.4em; font-weight: 600; line-height: 1.2em; color: $font-dark; margin: 15px 0 10px 0; }
+}
+
+.congrats-box { @include msj-boxes(); overflow: hidden; 
+    span { font-size: 3.5em; font-weight: 600; line-height: 1em; float: left; color: $white; margin: -5px 3px -5px -5px; }
+    .cb-txt { float: left; max-width: 80%; }
+}
+.plus-box { @include msj-boxes(); background-color: $blue; margin-top: 50px; }
+.box-insurance { background-color: $white; margin: 5px 10px; padding: 5px 10px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1); box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); }
+    .box-insurance-price { margin-top: -3px; min-height: 56px; }
+    .bg-insurance { width: 40%; padding: 3px 0px 60px 4px; }
+    .price-insurance { margin: 10px 0px;
+        span { padding: 5px 10px; margin-top: 0px; font-size: 1.1em; font-family: "montserratsemibold"; color: $font-dark; text-align: right; float: right;
+            small { font-size: .7em; }
+        }
+    }
+    button { margin: 0px 10px; float: left; padding-left: 15px; padding-right: 15px; font-size: 0.8em; font-family: "montserratsemibold"; }
+}
+
+.p1 { font-family: "montserratsemibold"; font-size: 1.2em; color: $white; margin-bottom: 5px; line-height: 1.1em; }
+.p4 { font-family: "montserratregular"; font-size: .8em; color: $white; line-height: 1.1em; }
+
+.resumen-compra { margin: 10px 0 5px;
+    .box-resumen-compra { background-color: $white; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); margin-bottom: 15px;
+        h3 { font-family: "montserratsemibold"; font-size: 1.1em; line-height: 1.1em; font-weight: 600; color: $blue; margin: 0; overflow: hidden; text-overflow: ellipsis; white-space: inherit; }
+        .ranking { margin-top: -3px;
+            .icon-star { @include stars(); }
+            .icon-star-half { @include stars(); }        
+        }
+        .img-resumen { height: 70px; background: #e6eff4 url(/Content/images/hotel.jpg) no-repeat; background-position: center; background-size: 90%; margin: 0 0 10px 0; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px;
+            img { border-radius: 5px; width: 100%; height: 70px; object-fit: cover; }
+        }
+    }
+    .msi-img { background: #e6eff4 url(/Content/images/hotel.jpg) no-repeat; margin: 10px 0px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px;
+        img { border-radius: 5px; width: 100%; max-height: 70px; object-fit: cover; }
+    }
+}
+
+
+.bt-pagar { padding: 5px 40px; display: block; margin: 20px auto 50px; font-family: 'montserratregular'; font-weight: 600; font-size: 1.2em; -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); }
+
+.titulos-compra { color: $blue; text-align: left; display: block; padding: 10px 15px; font-family: "montserratsemibold"; background-color: $bg-soft-gray; border-bottom: 1px solid $border-color;
+    h4 { font-size: 1.1em; line-height: 1em; font-weight: 600; margin: 0; 
+        &.first { margin: 5px 0; font-size: 1.3em; }
+    }
+}
+.titulos-data { @include title-compra(); padding: 8px 25px; font-size: 1em; background-color: $bg-soft-gray; }
+
+.info-compra { @include title-compra();
+    small { font-size: 0.75em; font-family: 'montserratregular'; }
+}
+
+
+.cargos-title { @include title-text(); padding: 5px 0px; font-family: "montserratsemibold"; font-size: 1.2em; /*line-height: 3.5em;*/ }
+.cargos-text { @include title-text(); margin-left: 12px; line-height: 1.5em; }
+
+.info_2-title-text { font-size: .8em; }
+.info_2-text { color: $font-gray; font-size: .7em; margin-bottom: 10px; text-align: justify; }
+
+.container-compra { padding: 10px 15px; 
+    p { color: $font-gray; text-align: left; display: block; padding: 0px; font-size: .8em; line-height: 1.3em; margin-bottom: 6px; 
+        &.info-text-2 {  margin-bottom: 0; line-height: 1em; font-size: 0.6em; margin-top: 4px; }
+        &.text-black { font-size: .8em; 
+            strong { color: $font-dark; }
+        }
+    }    
+}
+
+.container-additional { padding: 15px 15px 20px; overflow: hidden;
+    .remove-addon { overflow: hidden;
+        a { font-size: .6em; color: $font-gray; text-align: right; margin-bottom: 5px; float: right;
+            &:hover { color: $red; }
+            span { float: right; margin: 2px 0 0 2px; font-size: 1.1em; } 
+        }
+    }
+    .cp-detail { overflow: hidden; margin-bottom: 5px;
+        p { font-size: 1.1em; line-height: 1.3em; margin: 0; font-family: "montserratsemibold"; color: $font-gray; width: 65%; float: left; margin-top: 4px;
+            a { color: $font-gray; font-weight: 600;
+                &:hover { color: $blue; }
+                span { font-weight: normal; color: $blue; } 
+            }
+        }
+        strong { color: $font-dark; text-align: right; float: right; font-family: "montserratsemibold"; 
+            small { font-size: .7em; margin-right: 3px; }
+        }        
+    }
+}
+
+.container-pagos { padding: 15px 15px 10px; overflow: hidden;
+    .cp-detail { overflow: hidden; margin-bottom: 5px;
+        p { font-size: .8em; line-height: 1.3em; margin: 0; font-family: "montserratsemibold"; color: $font-gray; width: 65%; float: left; margin-top: 4px;
+            a { color: $font-gray;
+                &:hover { color: $blue; }
+                span { font-weight: normal; color: $blue; } 
+            }
+        } 
+        strong { color: $font-dark; text-align: right; float: right; font-family: "montserratsemibold";
+            small { font-size: .7em; margin-right: 3px; }
+        }
+    }    
+}
+
+.container-total { padding: 15px 15px 20px; overflow: hidden; border-top: 1px solid $border-color;
+    .cp-detail { overflow: hidden; 
+        p { font-size: 1em; line-height: 1.3em; margin: 0; font-family: "montserratsemibold"; color: $font-dark; width: 65%; float: left; margin-top: 4px; } 
+        strong { color: $blue; text-align: right; float: right; font-family: "montserratsemibold"; font-size: 1.2em;
+            small { font-size: .7em; margin-right: 3px; }
+        }
+    }    
+}
+
+.resumen-price-inside { font-family: "montserratsemibold"; line-height: 1.2em; color: $font-dark; font-weight: 600; text-align: right; margin: 7px 0px; font-size: 1.3em;
+    a { font-family: 'montserratregular'; font-size: .7em; }
+    small { font-size: 0.675em !important; }
+}
+
+.resumen-total-inside { font-size: 1.1em; font-family: "montserratsemibold"; line-height: 1.2em; color: $font-dark; font-weight: 600; text-align: right; margin: 7px 0px;
+    small { color: $blue; font-size: 1em !important; }
+    strong { color: $blue; font-size: 1.3em; }
+}
+
+.inside-ofertas-2 { padding: 5px 10px;
+    .box-first-2 { min-height: 105px;
+        .ranking-2 { margin-top: -8px;
+            span { font-size: 0.8em; color: $yellow; margin: 0 -4px 0 0; }
+        }
+        .label-zone-2 { font-size: 0.8em; color: $font-gray; line-height: 1.2em; }
+        .box-data-2 p { font-size: 0.9em; font-family: "montserratsemibold"; padding-top: 0px; }
+        h3 { font-family: "montserratsemibold"; font-size: 1.3em; line-height: 1.3em; font-weight: 600; color: $blue; margin: 4px 0 0 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    }
+
+    .box-price-2 { border-top: 1px solid $border-color; padding: 10px 0; min-height: 105px;
+        .label-txt-price-2 { font-size: 0.6em; line-height: 1.2em; width: 50%; display: block; position: absolute; }
+        .box-price-inside-2 { margin-top: -3px; min-height: 56px;
+        .label-old-price-2 { text-align: right; font-size: 0.7em; text-decoration: line-through; display: block; color: $font-gray; }
+        p { font-size: 1.4em; font-family: "montserratsemibold"; line-height: 1.3em; color: $font-dark; font-weight: 600; text-align: right; }
+            small { font-size: 0.6em; font-weight: 400; }
+        }
+
+        .box-bottom-2 { 
+            button { font-size: 0.6em; font-family: "montserratsemibold"; padding: 5px 12px; }
+            span { font-size: 0.6em; line-height: 1.5em; float: right; width: 55%; color: $font-gray; text-align: right; }
+        }
+    }
+}
+
+.additional-info-shop { margin: 35px 0 0 0;
+    h5 { color: $blue; font-family: "montserratsemibold"; font-weight: 600; font-size: .9em; line-height: 1.3em; margin-bottom: 4px; }
+    p { color: $font-gray; font-size: .8em; line-height: 1.3em; margin: 0; }
+    .ce-detail { overflow: hidden; margin: 10px 10px 5px 10px;
+        p { font-size: .8em; line-height: 1.2em; margin: 0; font-family: "montserratsemibold"; color: $font-dark; width: 65%; float: left; margin-top: 4px; 
+            span { font-size: .7em; font-family: 'montserratregular'; color: $font-gray; } 
+        } 
+        strong { color: $font-dark; text-align: right; float: right; font-family: "montserratsemibold"; font-weight: normal;
+            small { font-size: .7em; margin-right: 3px; }
+        }
+    }    
+    .info-extra { color: $font-gray; 
+        p { font-size: .6em; text-align: justify; }
+        h6 { font-size: .7em; font-family: "montserratsemibold"; }
+        ul { margin: 0 0 15px 10px; padding: 0;
+            li { font-size: .6em; text-align: justify; line-height: 1.2em; margin-bottom: 5px; }
+        }
+    } 
+}
+
+.back-button { margin-top: 15px; }
+.passenger-data { margin-bottom: 30px;
+    .box-data-passenger { background-color: $white; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); margin-top: 10px; margin-bottom: 15px;
+        .titulos-data { padding: 10px 15px;
+            h2 { font-size: 1.1em; margin: 0; }
+        }
+        .container-data-box { padding: 15px 15px; 
+        }
+    }
+    
+    .input-nombre { @include form-icons(); background-position: left 4px; }
+    .input-apellidos { @include form-icons(); background-position: left 4px; }
+    .input-codigoPostal { @include form-icons(); background-position: left -24px; }
+    .input-lada { @include form-icons(); background-position: left -53px; }
+    .input-movil { @include form-icons(); background-position: left -53px; }
+    .input-edad { @include form-icons(); background-position: left -81px; }
+    .input-correo { @include form-icons(); background-position: left -108px; }
+
+    .input-titular { @include form-icons(); background-position: left 4px; }
+    .input-confirmacion { @include form-icons(); background-position: left 4px; }
+    .input-tarjeta { @include form-icons(); background-position: left -135px; }
+    .input-direccion { @include form-icons(); background-position: left -165px; }
+    .input-fecha { @include form-icons(); background-position: left -192px; }
+    .input-cvv { @include form-icons(); background-position: left -218px; }
+    .input-ciudad { @include form-icons(); background-position: left -278px; }
+    .input-pais { @include form-icons(); background-position: left -248px; }
+}
+
+.img-icon-data { padding: 3px 25px; font-size: .8em;
+    span { vertical-align: middle; }
+}
+
+// Selects con iconos //
+.box-select { background-color: $white; border: 1px solid $border-color; -webkit-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; margin-bottom: 18px;
+    &:hover { border-color: $blue; }    
+    .bi-select { margin: 5px 5px; padding: 0 0 0 30px; background: url(../images/v-sprites-2.png) no-repeat; background-size: 28px;
+        &.select-age { background-position: left -81px; }           
+        &.select-country { background-position: left -248px; }
+        &.select-state { background-position: left -278px; }
+        &.select-city { background-position: left -278px; }
+        &.select-time { background-position: left -278px; }
+        &.select-airline { background-position: left -278px; }
+        .form-select { border: none; border-radius: 0; color: $font-gray; padding: 6px 0; font-size: .9em;
+            &:focus { box-shadow: none; } 
+        }
+    }
+}
+
+
+.msi { margin: 15px 0 0;
+    .msi-block { border-bottom: 1px solid $border-color; padding: 2px;
+        &:last-child { border-bottom: none; }
+        &.active { background-color: $blue-active;
+            .form-check label { color: $blue; }
+        }
+        .bank-group { padding: 6px 0 0 5px;
+            .banks { background: url(/Content/images/v-sprites-3.jpg) no-repeat; background-size: 250px;display: inline-block; overflow: auto;
+                &.amex { background-position-x: 0px; width: 15px; height: 15px; }        
+                &.banamex { background-position-x: -15px; width: 14px; height: 15px;  }
+                &.santander { background-position-x: -30px; width: 15px; height: 15px;  }
+                &.hsbc { background-position-x: -45px; width: 28px; height: 15px;  }
+                &.banorte { background-position-x: -74px; width: 15px; height: 15px;  }
+                &.scotiabank { background-position-x: -90px; width: 13px; height: 15px;  }
+                &.bbva { background-position-x: -104px; width: 21px; height: 15px;  }
+                &.afirme { background-position-x: -125px; width: 20px; height: 15px;  }
+                &.inbursa { background-position-x: -144px; width: 15px; height: 15px;  }
+                &.bbva-wallet { background-position-x: -159px; width: 85px; height: 15px;  }
+            }
+        }
+        .form-check { margin: 3px 0;
+            label { font-size: .8em; color: $font-gray; }
+        }
+    }
+    .msi-price { font-family: "montserratsemibold"; line-height: 1.2em; color: $font-dark; text-align: right; font-size: 1em; margin: 5px 5px 0 0; 
+        small { font-size: .8em; }
+    }
+}
+
+.conditions { margin-top: 5px;
+    label { font-size: .8em; }
+}
+
+.special-request { margin-top: -5px;
+    a { font-size: .75em; }
+    label { font-size: .65em; color: $font-gray; line-height: 1.2em; }
+}
+
+
+///// V U E L O S /////
+
+.titulos-detalle { @include title-compra(); padding: 5px; background-color: $bg-soft-gray;
+    h6 { margin-bottom: 0px!important; }
+}
+
+.more-details { padding: 0px; }
+.container-detail { padding: 0px 5px; background: #fcfbff;
+    .icon-departure { float: left; font-size: 26px; margin-right: 10px; }
+    h4 { color: #001730; font-family: "montserratsemibold"; line-height: 0.9em; margin: 10px 0px 3px; font-size: 0.9em; }
+    p { font-size: 0.65em; color: #001730; font-family: "montserratregular"; }
+    .icon-backpack-bag { float: left;
+        .baggage2 { color: $blue; font-family: 'montserratsemibold'; font-size: .5em; margin: 6px 6px 3px 0px; float: left; }
+    }
+    .icon-suitcase { float: left;
+        .baggage2 { color: $blue; font-family: 'montserratsemibold'; font-size: .5em; margin: 6px 6px 3px 0px; float: left; }
+        .disable { color: $font-gray; font-size: 0.45em; margin: 7px 0px; }
+    }
+    .text-style0 { font-size: 9px; color: $font-gray; float: left; }
+    .text-style1 { margin-top: 15px; }
+    .text-style2 { font-size: 0.8em; font-family: "montserratsemibold"; line-height: 0.9em; margin-top: 20px; }
+    .text-style3 { font-size: 0.7em; color: #64819b; font-family: "montserratsemibold"; line-height: 1.5em; }
+    .flightdetail-text { text-align: center; }
+    .flight-divider { border-top: 1px solid $font-gray; margin: 6px 0px;    
+        .left-circle { height: 5px; width: 5px; background-color: $font-gray; float: left; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+        .right-circle { height: 5px; width: 5px; background-color: $font-gray; float: right; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+    }
+    .flight-divider2 { border-top: 1px solid $blue; margin: 15px 0px;    
+        .left-circle2 { height: 5px; width: 5px; background-color: $blue; float: left; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+        .right-circle2 { height: 5px; width: 5px; background-color: $blue; float: right; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+    }
+}

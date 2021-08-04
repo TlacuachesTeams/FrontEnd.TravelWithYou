@@ -1,0 +1,615 @@
+﻿<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        //Slide Galería
+
+        // Create and mount the thumbnails slider.
+        var secondarySlider = new Splide('#secondary-slider', {
+            rewind: true,
+            fixedWidth: 80,
+            fixedHeight: 50,
+            isNavigation: true,
+            gap: 5,
+            focus: 'center',
+            pagination: false,
+            arrows: false,
+            cover: true,
+            breakpoints: {
+                '600': {
+                    fixedWidth: 66,
+                    fixedHeight: 40,
+                }
+            }
+        }).mount();
+
+        // Create the main slider.
+        var primarySlider = new Splide('#primary-slider', {
+            type: 'fade',
+            heightRatio: 0.5,
+            pagination: false,
+            arrows: true,
+            cover: true,
+        });
+
+        // Set the thumbnails slider as a sync target and then call mount.
+        primarySlider.sync(secondarySlider).mount();
+
+    });
+</script>
+
+<!-- Main-->
+<main>
+
+    <!-- Cotizador -->
+    <section class="search-large">
+        <div class="container">
+
+            <a href="#" class="back-page"><span class="icon-arrow-left"></span> Regresar a la selección de hotel</a>
+
+            <div class="box-search-2">
+
+                <form>
+                    <div class="row">
+
+                        <div class="col-xl-4 col-lg-3 col-md-6 col-sm-12 col-12">
+                            <div class="box-input bi-text bi-icon">
+                                <input type="text" class="form-control input-hotel" id="Destino" placeholder="¿A dónde?">
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                            <div class="box-input bi-date bi-icon">
+                                <label for="Llegada" class="form-label">Llegada</label>
+                                <input type="text" class="form-control" id="datepicker" placeholder="10/12/2020">
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
+                            <div class="box-input bi-date bi-icon">
+                                <label for="Salida" class="form-label">Salida</label>
+                                <input type="text" class="form-control" id="Salida" placeholder="15/12/2020">
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12">
+                            <div class="box-input combo-room">
+                                <a data-toggle="collapse" href="#Combo" role="button" aria-expanded="false" aria-controls="Combo">
+                                    <div class="txt-short">
+                                        1 Hab. - 2 Adultos, 1 Niño
+                                    </div>
+                                    <span class="icon-down"></span>
+                                </a>
+                            </div>
+
+                            <div class="collapse combo-float" id="Combo">
+                                <div class="box-modal">
+
+                                    <div class="box-modal-inn">
+
+                                        <div class="row top-room">
+                                            <div class="col-lg-8 col-md-6 col-sm-6 col-8">
+                                                <label class="title-room">Habitacion 1</label>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-sm-6 col-6">
+                                                <!--<a href="#" class="delete-room">Eliminar</a>-->
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                                                <label for="" class="form-label">Adultos</label>
+                                                <div class="input-group">
+                                                    <button class="btn btn-primary" type="button">-</button>
+                                                    <input type="text" class="form-control input-number" value="1">
+                                                    <button class="btn btn-primary" type="button">+</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                                                <label for="" class="form-label">Niños</label>
+                                                <div class="input-group">
+                                                    <button class="btn btn-primary" type="button">-</button>
+                                                    <input type="text" class="form-control input-number" value="2">
+                                                    <button class="btn btn-primary" type="button">+</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-5 mb-1">
+                                                        <label for="" class="form-label">Edad (Niño 1)</label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Edad</option>
+                                                            <option value="1">0 años</option>
+                                                            <option value="2">1 año</option>
+                                                            <option value="3">2 años</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="box-modal-inn">
+
+                                        <div class="row top-room">
+                                            <div class="col-lg-8 col-md-6 col-sm-6 col-8">
+                                                <label class="title-room">Habitacion 2</label>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6 col-sm-6 col-4">
+                                                <a href="#" class="delete-room">Eliminar</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                                                <label for="" class="form-label">Adultos</label>
+                                                <div class="input-group">
+                                                    <button class="btn btn-primary" type="button">-</button>
+                                                    <input type="text" class="form-control input-number" value="1">
+                                                    <button class="btn btn-primary" type="button">+</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-5">
+                                                <label for="" class="form-label">Niños</label>
+                                                <div class="input-group">
+                                                    <button class="btn btn-primary" type="button">-</button>
+                                                    <input type="text" class="form-control input-number" value="0">
+                                                    <button class="btn btn-primary" type="button">+</button>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-5 mb-1">
+                                                        <label for="" class="form-label">Edad (Niño 1)</label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Edad</option>
+                                                            <option value="1">0 años</option>
+                                                            <option value="2">1 año</option>
+                                                            <option value="3">2 años</option>
+                                                        </select>
+                                                    </div>
+
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-5 mb-1">
+                                                        <label for="" class="form-label">Edad (Niño 2)</label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected>Edad</option>
+                                                            <option value="1">0 años</option>
+                                                            <option value="2">1 año</option>
+                                                            <option value="3">2 años</option>
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="more-room">Agregar habitación</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-xl-2 col-lg-3 col-md-6 col-sm-12 col-12 text-center">
+                            <button type="submit" class="btn btn-primary rounded-pill btn-search">Buscar</button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="hotel-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-8 col-sm-6 col-12">
+                    <h1>Kristal Cancún</h1>
+                    <div class="ranking">
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                        <span class="icon-star"></span>
+                    </div>
+                    <span class="zone"><strong>Zona:</strong> Cancún y alrededores</span>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <form action="/addons/121333122/?sid=121121212121212" method="post">
+                        <div class="first-price">
+                            <span class="special-offer rounded-pill">OFERTA ESPECIAL</span>
+                            <div class="box-price-inside">
+                                <span class="label-old-price">MXN $11,029</span>
+                                <p><small>MXN</small> $8,167</p>
+                                <span class="details">Impuestos promedio por noche. Impuestos incluidos</span>
+                                <button type="submit" class="btn btn-success btn-sm rounded-pill">Seleccionar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="menu-top">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Resumen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Habitaciones</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item hidden-a">
+                    <a class="nav-link" href="#">Politicas</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="hotel-main">
+        <div class="container">
+
+            <div class="section">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="hotel-gallery">
+                            <div class="meal-plan-offer">
+                                <span class="rounded-pill">TODO INCLUIDO</span>
+                            </div>
+                            <div class="row g-1">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                    <div class="gallery-img">
+                                        <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-12 gi-hidden-2">
+                                    <div class="row g-1">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <div class="gallery-img-2">
+                                                <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                            <div class="gallery-img-2">
+                                                <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 gi-hidden">
+                                            <div class="gallery-img-2">
+                                                <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 gi-hidden">
+                                            <div class="gallery-img-2">
+                                                <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a href="#" class="cover-gallery" data-toggle="modal" data-target="#exampleModal">
+                                <div class="open-gallery">
+                                    <span class="icon-camera"></span> Ver Galería completa
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                        <div class="hotel-info">
+                            <p>El Krystal Cancun Hotel & Resort tiene una ubicación ideal que permite a sus huéspedes disfrutar de dos maravillosas vistas, ya que de un lado se encuentran las aguas turquesas del Caribe y del otro las tranquilas aguas de la Laguna Nichupté. El hotel se encuentra convenientemente ubicado frente al Centro de Convenciones, centros comerciales y lugares de entretenimiento. Además, el Aeropuerto Internacional de Cancún (CUN) está a solo 20 kilómetros del hotel.</p>
+                            <p>Krystal Cancun Hotel & Resort cuenta con 325 habitaciones y suites completamente equipadas, recientemente remodeladas y con todas las amenidades para una relajante estancia. Algunas de las amenidades incluyen aire acondicionado, teléfono con marcado directo, secadora de cabello, plancha, baño privado con ducha y tina, detectores de humo y televisión por cable, entre otros. Las habitaciones también cuentan con cafetera, minibar e internet inalámbrico disponibles con un cargo adicional.</p>
+                        </div>
+                        <a href="#" class="more-info-hotel">Ver más</a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="room-info">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-6 col-6">
+                                    <p><strong>Plan de alimentos</strong></p>
+                                    <p>Solo habitación</p>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-6 col-6">
+                                    <p><strong>Tipo de habitación</strong></p>
+                                    <p>Estándar , 1 Cuarto 2 Adulto(s)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                    <div class="section amenities">
+                        <h4>Amenidades</h4>
+                        <ul>
+                            <li>Resguardo de equipaje</li>
+                            <li>Playa</li>
+                            <li>Servicios ejecutivos</li>
+                            <li>Renta de autos</li>
+                            <li>Deportes extremos</li>
+                            <li>Habitaciones libres de humo</li>
+                            <li>Estacionamiento</li>
+                            <li>Caja de seguridad</li>
+                            <li>Concierge</li>
+                            <li>Elevador</li>
+                            <li>Gimnasio</li>
+                            <li>Club de niños</li>
+                            <li>Concierge</li>
+                            <li>Salón de belleza</li>
+                            <li>Servicios médicos</li>
+                        </ul>
+                        <a href="#" class="more-info-amenities">Ver más</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="section map">
+                        <a href="#">Ver mapa completo</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <h2>¡Elige otras habitaciones!</h2>
+
+            <div class="tarifas-section">
+                <div class="row">
+                    <div class="col-lg-6 col-md-5 col-sm-5 col-5">
+                        <h5>Editor de Tarifas Call Center</h5>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <p>Proveedor</p>
+                        <span class="provider">Hotel Do</span>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <p>Tarifa Inicial</p>
+                        <span class="provider">1,850 - 12%</span>
+                    </div>
+                    <div class="col-lg-1 col-md-2 col-sm-2 col-2">
+                        <p>Margen</p>
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="0" aria-label="" aria-describedby="button-addon5">
+                            <button class="btn btn-primary" type="button" id="button-addon5"><span class="icon-right"></span></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-1">
+                        <button class="btn btn-sm btn-outline-primary btn-reset"><span class="icon-reset"></span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title-section">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-3">
+                        <span>Tipo de habitación</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                        <span>Plan de alimentos</span>
+                    </div>
+                    <div class="col-lg-5 col-md-4 col-sm-4 col-3">
+                        <span>Promociones</span>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-3">
+                        <span>Precio total</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section rooms">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>Habitación Estandar</h3>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                        <img src="/images/pic-hotel-1.jpg" alt="habitación estandar" class="img-fluid">
+                    </div>
+                    <div class="col-lg-10 col-md-10 col-sm-9 col-9">
+
+                        <div class="room-container">
+                            <div class="row">
+
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12 text-center">
+                                    <p class="m-plan">Sólo habitación</p>
+                                    <span class="t-plan">No reembolsable</span>
+                                    <a href="#" class="politics">Politica de cancelación</a>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                                    <ul class="promos">
+                                        <li><span class="icon-complements"></span><span>40% de descuento</span></li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12"></div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                                    <div class="box-price-inside">
+                                        <p><small>MXN</small> $8,167</p>
+                                        <span class="details">Impuestos promedio por noche. Impuestos incluidos</span>
+                                        <button class="btn btn-success btn-sm rounded-pill">Reservar habitación</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="room-container">
+                            <div class="row">
+
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12 text-center">
+                                    <p class="m-plan">Sólo habitación</p>
+                                    <span class="t-plan">No reembolsable</span>
+                                    <a href="#" class="politics">Politica de cancelación</a>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                                    <ul class="promos">
+                                        <li><span class="icon-complements"></span><span>40% de descuento</span></li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12"></div>
+                                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                                    <form action="/addons/121333122/?sid=121121212121212" method="post">
+                                        <div class="box-price-inside">
+                                            <p><small>MXN</small> $10,259</p>
+                                            <span class="details">Impuestos promedio por noche. Impuestos incluidos</span>
+
+                                            <input type="hidden" value="1" />
+                                            <button type="submit" class="btn btn-success btn-sm rounded-pill">Reservar habitación</button>
+
+
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            
+
+
+            <h2>Servicios del establecimiento</h2>
+
+            <div class="section hotel-services">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+                        <h4>Check In</h4>
+                        <p>Entrada de <strong>16:00 pm</strong></p>
+                        <ul>
+                            <li>Presentar identificación oficial al llegar</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+                        <h4>Check Out</h4>
+                        <p>Salida antes de las <strong>11:00 am</strong></p>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+                        <h4>Instrucciones especiales</h4>
+                        <p>Puede aplicarse un cargo por cada persona adicional, según la política del establecimiento.</p>
+                        <p>Se debe presentar un documento de identidad con foto emitido por las autoridades gubernamentales y una tarjeta de crédito o depósito en efectivo en el check-in para cubrir cualquier gasto imprevisto.</p>
+                        <p>Las solicitudes especiales no se pueden garantizar. Están sujetas a disponibilidad al momento del check-in y pueden conllevar cargos adicionales.</p>
+                        <p>No se aceptan mascotas ni animales de servicio</p>
+                        <p>No se aceptan tarjetas de débito</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+                        <h4>Otros</h4>
+                        <p>Puede aplicarse un cargo por cada persona adicional, según la política del establecimiento.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Galería de fotos</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Big images -->
+                <div class="splide" id="primary-slider">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1.jpg"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Thumbnails -->
+                <div class="splide" id="secondary-slider">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                            <li class="splide__slide"><img src="/Content/images/pic-hotel-1-thumbnail.jpg"></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Menu fixed -->
+@*<script src="/js/jquery-lastest.js"></script>*@
+<script>
+    $(document).ready(function () {
+        var altura = $('.menu-top').offset().top;
+
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop() > altura) {
+                $('.menu-top').addClass('menu-fixed');
+            } else {
+                $('.menu-top').removeClass('menu-fixed');
+            }
+        });
+
+    });
+</script>
+
+<!-- Slider -->
+<script src="/js/splide.min.js"></script>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+<!-- Option 1: Bootstrap Bundle with Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+

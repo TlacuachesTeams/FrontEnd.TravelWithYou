@@ -1,0 +1,65 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor  IHttpContextAccesor;
+<!doctype html>
+<html lang="es">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Viajemos Contigo</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicon/logoviajemoscontigo_16x16.png">
+    <link rel="stylesheet" href="~/css/fonts.css">
+    <link rel="stylesheet" href="~/css/bootstrap.css">
+    <link href="~/js/jquery-ui/jquery-ui.css" rel="stylesheet" />
+    <script src="~/js/jquery.js"></script>
+    <script src="~/js/jquery-ui/jquery-ui.js"></script>
+    <script src="~/js/splide.min.js"></script>
+    <script src="~/js/initsliders.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PQMNXRX');</script>
+    <!-- End Google Tag Manager -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoB1ZDdS3JMKHoUSpqqe3P8CizfqDA97E"></script>
+    <script src="~/js/googlemap.js"></script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQMNXRX"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!--Wait Page-->
+    @Html.Partial("~/views/shared/waitpage/waitpage.cshtml")
+    @await Component.InvokeAsync("Header")
+    <main>
+        @RenderBody();
+    </main>
+    @await Component.InvokeAsync("Footer")
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/pace.js"></script>
+    <script src="~/js/sweetalert.min.js"></script>
+    <script src="~/js/searchHotel.js"></script>
+    <script src="~/js/waitPage.js"></script>
+   
+    <script>
+        dataLayer.push({
+            event: "ev-load-home",
+            ip: "@IHttpContextAccesor.HttpContext.Request.HttpContext.Connection.RemoteIpAddress;",
+            quantity: 1
+        });
+    </script>
+
+</body>
+</html>

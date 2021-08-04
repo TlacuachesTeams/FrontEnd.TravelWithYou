@@ -1,0 +1,1041 @@
+
+body { font-family: 'montserratregular', Arial, Helvetica, sans-serif; background-color: $bg-gray; }
+a { color: $blue; text-decoration: none; }
+p { margin: 0; }
+
+.btn-primary { color: $white; background-color: $blue; 
+    &:hover, &:focus { color: $white; }    
+}
+.btn-success { color: $white; background-color: $green; 
+    &:hover, &:focus { color: $white; }
+}
+::placeholder { color: $font-soft-gray!important; }
+
+
+// Header
+header {
+    background: $white;
+    padding: 6px 0;
+    position: relative;
+    z-index: 999;
+    border-bottom: 36px solid $blue;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.5);
+
+    .navbar.navbar-expand-md.navbar-light.bg-faded {
+        min-height: 70px;
+    }
+
+    .logo {
+        width: 210px;
+    }
+}
+
+//Menu //
+.bt-menu { position: absolute; background: $font-soft-gray; border: none; color: $white; padding: 4px 7px 3px!important;
+    span { font-size: 1.4em; }
+}
+.btn-primary { color: $white; }
+.btn-outline-primary:hover { color: $white; }
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle { color: $white; }
+
+.nav-main { 
+    .first-menu { /*position: absolute; right: 180px;*/
+        li { 
+            a.nav-link { padding: 2px 12px 2px 0px!important; margin-left: 10px; font-size: .9em; color: $blue!important; text-decoration: none; border-right: 1px solid $blue;
+                span { font-size: 1.7em; float: left; margin-right: 2px; }
+            } 
+            a.nav-link:hover { color: $blue-dark!important; text-decoration: none;  }
+            a img { width: 18px; }
+            &:last-child a { border-right: 0; }
+        }        
+    }
+    .second-menu { position: absolute; margin: 100px 0 0 0; left: 0; top: 0; margin: 82px 0 0 0; width: inherit;
+        .navbar { padding: 0 0 6px 0; }
+        ul { 
+            li { 
+                &:first-child a { padding-left: 0; }
+                a { padding: 9px 20px 10px; margin: 0; font-size: .9em; font-family: 'montserratsemibold'; color: $white; text-decoration: none; letter-spacing: .04em;
+                    &:hover { color: $blue-active!important; }
+                    &.sac-active { color: $blue-active!important; }                                
+                }
+            }
+        }
+        .second-phone { float: right; margin: -25px 0 0 0; color: $white; font-family: 'montserratsemibold';
+            strong { font-size: 1.2em; }
+        }
+    }
+}
+
+.dropdown-main-menu { padding: 0;
+    a {color: black; font-size: .8em; }
+    a:hover { color: black; }
+}
+.navbar-light .navbar-toggler { color: $white; border-color: $blue; padding: 8px 12px;
+    .navbar-toggler-icon { color: $white!important; }
+}
+
+/*
+.sb-container { margin-top: 20px; }
+.select-product-block { width: 8%; float: left; }
+.search-box-block { width: 92%; float: left; }
+.search-mobile { display: none; }
+*/
+
+// Slider Carousel //
+.slider { background-color: $gray-200; }
+
+// Cotizador
+.search { position: relative; /* position: relative; margin-top: -520px; height: 520px;  z-index: 9999; */
+    .box-search { position: relative!important; margin-top: 10px; z-index: 9999; width: 550px; 
+        .box-search-inside { background-color: $bg-soft-gray; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,.5); box-shadow: 0 3px 5px 0 rgba(0,0,0,.5);
+            .nav-pills { 
+                .nav-link { font-family: 'montserratsemibold'; color: $font-gray; padding: 15px 10px; font-size: .9em; -webkit-border-radius: 0; border-radius: 0; min-width: 140px;
+                    &.active { color: $white; }
+                    &:hover { background-color: $blue; color: $white; -webkit-border-radius: 0; border-radius: 0; } 
+                }
+            }
+            .inside-search { padding: 15px 20px; min-height: 260px; }
+            .title-search { background-color: $bg-soft-gray; color: $font-dark; padding: 15px 20px;
+                .t1 { font-family: 'montserratsemibold'; font-size: 1.3em; line-height: 1.1em; }
+                .t2 { font-size: .9em; }
+            }
+            .tab-content { background-color: $white; border-left: 1px solid $border-color; }
+            .btn-search { padding: 6px 40px; font-family: 'montserratsemibold'; font-size: 1.1em; margin-top: 8px;
+                &:hover { color: $white!important; }
+                &focus { color: $white; }
+            }
+            .bottom-search { background-color: $bg-soft-gray; padding: 10px 15px; overflow: hidden;
+                p { color: $font-dark; line-height: 1.1em; font-size: .85em; text-align: center; }
+                a { color: $blue; float: right; font-family: 'montserratsemibold';  margin: 5px 10px 0 0; line-height: 1.1em; 
+                    &:hover { color: $blue-dark; }
+                }
+            }
+
+            .radio-flights { font-size: .8em; }
+            .data-select { color: $font-gray; font-size: .9em; padding: 8px; border: none;
+                &:focus { box-shadow: none; }
+                &:hover { border-color: $blue; }
+            }
+            .check-search { font-size: .8em; line-height: 1.1em; margin: -10px 0 10px 0; font-family: 'montserratsemibold'; color: $blue; }                
+        }
+    }        
+}
+
+.box-input { background-color: $white; border: 1px solid $border-color; -webkit-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; padding: 4px; margin-bottom: 18px;
+    &:hover { border-color: $blue; }
+    &.bi-text {         
+        .form-control { border: 0; color: $font-gray; font-size: .9em; padding: 7px 4px;
+            &:focus { box-shadow: none; color: $blue; }
+            &:active { box-shadow: none; color: $blue; }
+        }
+        &.bi-icon { 
+            .form-control { padding-left: 30px; }
+        }
+    }
+    &.bi-date { 
+        .form-control { border: 0; color: $font-gray; font-size: .9em; padding: 0;
+            &:focus { box-shadow: none; color: $blue; }
+            &:active { box-shadow: none; color: $blue; }
+        }
+        &.bi-icon { 
+            .form-control { padding-left: 30px; background: url(../images/v-sprites.png) no-repeat; background-position: left -317px; background-size: 28px; }
+        }
+        label { font-size: .7em; line-height: 1.15em; margin: 0 0 0 30px; float: left; }
+    }
+    &.combo-room { padding: 3px 10px 3px 4px; margin-bottom: 10px;
+        a { color: $font-gray; background: url(../images/v-sprites.png) no-repeat; background-position: left -280px; background-size: 28px; padding: 7px 0px 7px 30px; font-size: .9em; display: block;
+            &:hover { color: $blue; } 
+            .txt-short { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 85%; } 
+        }
+        span { float: right; margin-top: -22px; font-size: 1.8em; color: $blue; }
+    }   
+}
+
+/*
+.box-select { background-color: $white; border: 1px solid $border-color; -webkit-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; 
+    &:hover { border-color: $blue; }      
+    .bi-select { margin: 11px 5px; padding: 0 0 0 30px; background: url(../images/v-sprites-2.png) no-repeat; background-size: 28px;
+        &.select-age { background-position: left -88px; }
+        .form-select { border: none; border-radius: 0; color: $font-gray; padding: 0; font-size: .9em;
+            &:focus { box-shadow: none; } 
+        }
+    }
+}
+*/
+
+.input-hotel { background: url(../images/v-sprites.png) no-repeat; background-position: left -252px; background-size: 28px; }
+.input-flight { background: url(../images/v-sprites.png) no-repeat; background-position: left -27px; background-size: 28px; }
+.input-flight-2 { background: url(../images/v-sprites.png) no-repeat; background-position: left -338px; background-size: 28px; }
+.input-tour { background: url(../images/v-sprites.png) no-repeat; background-position: left -83px; background-size: 28px; }
+.input-traslado { background: url(../images/v-sprites.png) no-repeat; background-position: left -27px; background-size: 28px; }
+.input-traslado-2 { background: url(../images/v-sprites.png) no-repeat; background-position: left -252px; background-size: 28px; }
+.input-autos { background: url(../images/v-sprites.png) no-repeat; background-position: left -109px; background-size: 28px; }
+.input-autos-2 { background: url(../images/v-sprites.png) no-repeat; background-position: left -109px; background-size: 28px; }
+
+.input-numbers { background: url(../images/v-sprites.png) no-repeat; background-position: left -252px; background-size: 28px; }
+
+.box-modal { border: 1px solid $border-color; background-color: $white; padding: 5px 15px 5px 15px; position: relative; top: -5px; -webkit-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; 
+    .box-modal-inn { margin-bottom: 10px;
+        .title-room { font-family: 'montserratsemibold'; font-size: .9em; }
+        .delete-room { color: $red; font-size: .7em; float: right; margin: 3px 0 0 0; }
+        .form-label { font-size: .7em; margin: 0; }
+        .form-control { color: $font-gray; font-size: .9em; padding: 5px 10px 5px 10px; line-height: 1.2em; 
+            &:focus { box-shadow: none; }
+            &:hover { border-color: $blue; }
+        }
+        .form-select { color: $font-gray; font-size: .9em; padding: 5px; 
+            &:focus { box-shadow: none; }
+            &:hover { border-color: $blue; }
+        }
+        button { padding: 0 10px; font-size: 1.6em; line-height: 1.2em;
+            &:focus { box-shadow: none; } 
+        }
+        .top-room { margin-bottom: -5px; }
+    }
+    .more-room { font-family: 'montserratsemibold'; font-size: .8em; }    
+}
+
+// Only box //
+.only-box { margin: 0!important; }
+
+// Autocomplete
+.combo-hotel-list { min-height: 100px; position: absolute; background-color: $white; width: 300px; margin: 1px 0 0 0; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.3); box-shadow: 0 2px 4px 0 rgba(0,0,0,.3); z-index: 999; 
+    .combo-hl-block { border-bottom: 1px solid $bg-soft-gray; padding: 0; 
+    h5 { font-size: .65em; letter-spacing: .04em; margin: 0; padding: 4px 10px; font-weight: 600; color: $font-dark; background-color: $bg-gray; }
+    ul { margin: 0; padding: 0;
+        li { font-size: .8em; list-style: none;
+            &:last-child { border-bottom: 0; }
+            a { padding: 4px 10px 4px 25px; display: block; color: $font-gray;
+                &:hover { background-color: $dropdown-hover; text-decoration: none; color: $blue; } 
+                }
+            }
+        }
+    }
+}
+
+// Calendar colors //
+.hasDatepicker {         
+    .ui-widget.ui-widget-content { border-color: $white; width: 100%!important; }
+    .ui-datepicker table { margin-top: 8px; }
+    .ui-datepicker th { height: 30px; }
+    .ui-datepicker-calendar tr td { height: 40px; 
+        a { height: 40px; padding-top: 10px; }
+    }
+    .ui-datepicker-multi .ui-datepicker-group { float: inherit!important; }
+}
+
+
+
+// Banner MSI
+.msi-banner { background-color: $blue; text-align: center; padding: 5px 0;
+    img { max-width: 100%; }
+}
+
+// Estilos generales de Block
+.block { padding: 30px 0 50px;
+    h1 { font-family: 'montserratsemibold'; font-size: 2em; font-weight: 600; line-height: 1.2em; color: $font-dark; margin: 20px 0 5px 0; }
+    p { color: $font-dark; font-size: .9em; }
+}
+
+// Block Destinos
+.destinos { background: $bg-gray; padding: 30px 0 70px; }
+.box-destiny { background-color: $white; margin: 5px 10px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+    &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) }
+    .bg-destiny { border-bottom: 8px solid $red; }
+    .destiny-list { 
+        ul { margin: 0; padding: 5px 0 5px 15px;
+            li { list-style: none; float: left; text-align: center; margin: 5px 5px;
+                span { font-size: 1.4em; color: $font-gray; }
+                p { color: $font-gray; margin: -5px 0 0 0; font-size: .75em; }
+            }
+        }        
+    }
+    .destiny-price { 
+        p { font-size: 1.6em; font-family: 'montserratsemibold'; line-height: 1.3em; color: $font-dark; font-weight: 600; margin-left: 15px;
+            small { font-size: .6em; font-weight: 400; }
+
+        }
+        span { font-size: .8em; display: block; color: $font-gray; margin: 5px 0 0 15px; }      
+    }
+    button { margin: 15px 15px 0 0; float: right; padding-left: 15px; padding-right: 15px; font-size: .8em; font-family: 'montserratsemibold'; }
+}
+
+// Block Ofertas
+.ofertas { background: $bg-dark-gray; padding: 30px 0 70px; }
+.box-ofertas { background-color: $white; margin: 5px 15px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+    &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) } 
+    .label-discount { background-color: $bg-soft-gray; color: $font-dark; font-size: .8em; text-align: right; display: block; padding: 3px 10px; }
+    .label-promo { background: $red; color: $white; font-size: .9em; font-family: 'montserratsemibold'; position: absolute; margin: -145px 0 0 -10px; padding: 2px 10px; text-transform: uppercase; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; }
+
+    .img-ofertas { height: 160px; background: #e6eff4 url(../images/hotel.jpg) no-repeat; background-position: center; background-size: 90%;
+        img { width: 100%; height: 160px; object-fit: cover; }
+    }    
+    .inside-ofertas { padding: 10px 15px;
+        .box-first { min-height: 150px; 
+            .label-type { color: $red; font-size: .9em; font-weight: 600; font-family: 'montserratsemibold'; }
+            h3 { font-family: 'montserratsemibold'; font-size: 1.3em; line-height: 1.3em; font-weight: 600; color: $blue; margin: 4px 0 0 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+            .ranking { margin-top: -8px; 
+                span { font-size: .8em; color: $yellow; margin: 0 -4px 0 0; }
+            }
+            .label-zone { font-size: .8em; color: $font-gray; line-height: 1.2em; }
+            .label-date { font-size: .9em; color: $font-dark; line-height: 1.3em; margin-top: 6px; }
+            .box-data { margin: 5px 0; min-height: 30px;
+                p { font-size: .9em; font-family: 'montserratsemibold'; padding-top: 5px; }
+            }
+            .box-data-flight { margin: 5px 0; min-height: 62px; text-align: center;
+                img { margin-top: 12px; }
+                p { font-size: 1.1em; font-family: 'montserratsemibold'; font-weight: 600; line-height: .9em; margin-top: 8px; }
+                span { font-size: .85em; color: $font-gray; font-family: 'montserratsemibold'; line-height: .8em; }
+                small { font-size: .55em; color: $font-gray; }
+                .flight-divider { border-top: 1px solid $font-gray; margin-bottom: -2px;
+                    .left-circle { height: 5px; width: 5px; background-color: $font-gray; float: left; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+                    .right-circle { height: 5px; width: 5px; background-color: $font-gray; float: right; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+                }
+            }
+        }        
+        .box-price { border-top: 1px solid $border-color; padding: 10px 0; min-height: 105px;
+            .label-txt-price { font-size: .6em; line-height: 1.2em; display: block; }
+            .box-price-inside { margin-top: 0px; min-height: 56px;
+                .label-old-price { text-align: right; font-size: .8em; text-decoration: line-through; display: block; color: $font-gray; }
+                p { font-size: 1.6em; font-family: 'montserratsemibold'; line-height: 1.3em; color: $font-dark; font-weight: 600; text-align: right;
+                    small { font-size: .6em; font-weight: 400;  }
+                }                             
+            }
+            .box-bottom { 
+                button { font-size: .8em; font-family: 'montserratsemibold'; padding: 5px 15px; }
+                span { font-size: .6em; line-height: 1.2em; float: right; width: 45%; color: $font-gray; margin-top: 8px; text-align: right; }
+            }   
+        }
+    
+    }
+}
+
+// Splide //
+.block.ofertas .splide__arrow--prev, .block.destinos .splide__arrow--prev, .block.tours .splide__arrow--prev { left: -2em; background: $blue url(../images/left.png) no-repeat; background-size: 22px; background-position: 4px; }
+.block.ofertas .splide__arrow--next, .block.destinos .splide__arrow--next, .block.tours .splide__arrow--next { right: -2em; background: $blue url(../images/right.png) no-repeat; background-size: 22px; background-position: 6px; }
+.block.ofertas .splide__arrow svg, .block.destinos .splide__arrow svg, .block.tours .splide__arrow svg { display: none; }
+.splide__pagination { bottom: -1.5em; }
+
+// Block Tours
+.tours { background: $bg-gray; padding: 30px 0 70px; }
+.box-tours { background-color: $white; margin: 5px 12px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+    &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) }
+    .bg-tours { border-bottom: 8px solid $red; 
+        img {  min-height: 220px; }
+    }
+    .label-promo { background: $red; color: $white; font-size: .9em; font-family: 'montserratsemibold'; position: absolute; margin: -205px 0 0 -10px; padding: 2px 10px; /*text-transform: uppercase;*/ -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; }
+    .inside-tours { padding: 5px 10px; 
+        h3 { font-size: 1.1em; color: $font-gray; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin: 2px 0 3px 0; }
+        .price-tour { font-size: 1.6em; font-family: 'montserratsemibold'; line-height: 1.3em; color: $font-dark; font-weight: 600;
+            small { font-size: .6em; font-weight: 400;  }
+        }
+    }    
+    button { margin: 22px 15px 0 0; float: right; padding-left: 15px; padding-right: 15px; font-size: .8em; font-family: 'montserratsemibold'; }
+}
+
+
+// Etiquetas de Garantía
+.warranty-labels { text-align: center; background-color: #f5f6fa; padding-bottom: 20px; padding-top: 15px;
+    img { margin: 5px 0; }
+    h5 { font-size: 1em; font-family: 'montserratsemibold'; line-height: 1.3em; color: $font-dark; }
+    p { font-size: .8em; color: $font-gray; line-height: 1.25em; margin: 0 20px 10px;  }
+}
+
+// Footer
+footer { background-color: #001834; padding: 20px 0 0 0;
+    .menu-1 { min-height: 90px;
+        ul { margin: 0; padding: 10px 0;
+            li { font-size: .6em; color: #c8d1d6; list-style: none; line-height: 1.5em;
+                a { color: #c8d1d6; }
+            }
+        }
+    }
+    .social-media { padding: 10px 0;
+        h5 { font-size: .9em; line-height: 1em; color: $white; margin-bottom: 10px; }
+        a { margin: 0 12px 0 0; color: $white; background-color: #6bace6; padding: 7px; float: left; -webkit-border-radius: 5px 5px 5px 5px;  border-radius: 5px 5px 5px 5px;
+            &:hover { background-color: #357cb8; }
+            span { font-size: 1.3em; display: block; }
+        }
+    }
+    .menu { min-height: 100px;
+        ul { margin: 0; padding: 10px 0;
+            li { font-size: .8em; color: $red; list-style: none; line-height: 1.7em;
+                a { color: $red; }
+            }
+        }
+    }
+    .footer { padding: 10px 0; background-color: #011226; 
+        p { font-size: .6em; color: #c8d1d6; }
+    }    
+}
+
+
+// Cotizador 2
+.search-large { 
+    .box-search-2 { background: $white; margin: 15px 0 20px; padding: 10px; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; }
+    .combo-float { position: absolute; width: 400px; margin-top: 5px; z-index: 999; }
+    .box-modal { top: 0; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); }
+    .box-input { margin-bottom: 0; }
+    .btn-search { padding: 6px 30px; font-family: 'montserratsemibold'; font-size: 1.1em; margin-top: 4px;
+        &:hover { color: $white!important; }
+        &focus { color: $white; }
+    }
+    .radio-flights { font-size: .8em; }
+}
+
+// Filtros
+.filters { padding: 0 0 20px 0;
+    h2 { font-family: 'montserratsemibold'; font-size: 1.5em; font-weight: 600; line-height: 1.3em; margin: 7px 0 5px; color: $font-dark; }
+    .block-filters { margin: 0 0 20px 0;
+        p { margin: 0;  font-size: .9em; color: $font-dark; font-family: 'montserratsemibold'; }
+        .form-check-label { font-size: .7em; color: $font-gray; }
+        .title-label { font-size: .75em; color: $font-dark; }
+        .buttons-category { 
+            button { font-size: .75em; padding: 7px 8px 6px; color: $font-gray; background-color: $white; border-color: $border-color;
+                &:hover { color: $white; background-color: $blue; border-color: $blue; }
+                &.active { color: $white; background-color: $blue; border-color: $blue; }
+                span { font-size: 1.1em; margin: 2px 0 0 2px; float: right; }
+            }
+        }
+    }
+    .filter-price { 
+        .slider-component { min-height: 42px;
+            input { width: 70px; border: none; font-size: .85em; color: $font-gray; background: none;
+                &.input-range-end { float: right; text-align: right; }
+            }
+            .ui-slider { width: 90%; margin: 5px 10px; background: $border-color; height: 7px; border: none;
+                .ui-slider-range { background: $blue; }
+                .ui-slider-handle { -webkit-border-radius: 75px 75px 75px 75px;  border-radius: 75px 75px 75px 75px; margin-top: -2px; cursor: pointer; 
+                    &.ui-state-active { background: $white; border: 1px solid $blue; }
+                    &.ui-state-focus { background: $white; border: 1px solid $blue; }
+                }
+                .ui-state-default, .ui-widget-content .ui-state-default { border: 2px solid $border-color!important; 
+                    &.ui-state-hover { border: 2px solid $blue!important; }
+                }
+            }
+        }
+        
+    }
+}
+
+// Lista de Hoteles
+.hotel-list { 
+    h1 { font-family: 'montserratsemibold'; font-size: 1.8em; font-weight: 600; line-height: 1.3em; margin: 3px 0 0; color: $blue; }
+    .results { color: $font-soft-gray; font-size: .8em; line-height: 1.2em; margin-top: -4px; display: block; }
+    .filters-bar { background: $white; margin: 15px 0 12px; padding: 7px 10px 5px; overflow: hidden; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; 
+        p { margin: 0; font-size: .8em; color: $font-dark; font-family: 'montserratsemibold'; float: left; 
+            &.title-list { margin: 6px 0 0 0; }
+        }
+        a { color: $font-gray; text-decoration: none; border-right: 1px solid $border-color; padding: 0 5px; float: left; height: 25px; margin-top: 2px;
+            span { font-size: 1.5em; }
+            &:hover { text-decoration: none; color: $blue; }
+            &.active-list { 
+                span { color: $blue; }
+            }
+        }
+        .order-horizontal { float: right; margin: 0;
+            .form-group { margin-bottom: 0; 
+                label { margin: 0; 
+                    p { font-size: .9em; margin-top: 1px; color: $indigo; }
+                }
+                span { font-size: 1.7em; float: right; margin: -2px 5px 0 0; color: $font-gray; }
+                .select-text-form select { font-size: .8em; height: 30px; }
+                option { font-size: .9em; }
+                .select-text-form::after { top: 1px; }
+            }
+        }
+    }
+
+
+    .hotel-block { background-color: $white; min-height: 100px; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; overflow: hidden; margin-bottom: 15px;
+        &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); }
+        .hotel-block-info { padding: 10px 0 10px 0;
+            h3 { color: $blue; font-size: 1.4em; line-height: 1.1em; font-family: 'montserratsemibold'; font-weight: 600; margin: 0; }
+            span { font-size: .8em; line-height: 1.1em; color: $font-gray; display: block; margin-bottom: 5px; 
+                strong { font-family: 'montserratsemibold'; font-weight: normal; margin-right: 3px; color: $font-dark; }
+                &.zone { margin-bottom: 15px; }
+            }            
+            .ranking { margin-top: -8px; margin-bottom: 5px;
+                span { font-size: .8em; color: $yellow; margin: 0 -4px 0 0; display: inline; }
+            }
+        }
+        .right-block { border-left: 1px solid $border-color; padding-top: 10px; }
+        .special-offer { background-color: $yellow; color: $font-dark; font-family: 'montserratsemibold'; font-size: .7em; font-weight: 600; padding: 1px 10px 1px 10px; float: right; margin: 0 15px 10px 0; }
+        .box-price-inside { min-height: 56px; padding-right: 15px; width: 100%; overflow: hidden; margin-top: 10px;
+            .label-old-price { text-align: right; font-size: .85em; line-height: 1.1em; text-decoration: line-through; display: block; color: $font-gray; font-family: 'montserratsemibold'; }
+            p { font-size: 1.5em; font-family: 'montserratsemibold'; line-height: 1.2em; color: $font-dark; font-weight: 600; text-align: right;
+                small { font-size: .6em; font-weight: 400;  }
+            }            
+            .details { font-size: .55em; line-height: 1.2em; color: $font-gray; text-align: right; display: block; }                             
+            button { font-size: .8em; font-family: 'montserratsemibold'; padding: 5px 25px; margin: 10px auto 10px; display: block; }
+        }
+        &.second-view { 
+            .hotel-block-info { padding: 10px 15px; 
+                span { font-size: .75em; line-height: 1.2em; margin-bottom: 3px;
+                    &.zone { margin-bottom: 10px; }
+                }                
+            }
+            .hotel-img { height: 160px; background: #e6eff4 url(../images/hotel.jpg) no-repeat; background-position: center; background-size: 90%;
+                img { width: 100%; height: 160px; object-fit: cover;  }
+            }   
+            .right-block { padding-top: 0; }
+            .box-price-inside { padding: 5px 15px 5px; }
+        }
+    }
+}
+
+.back-page { color: $blue; font-size: .9em; font-family: 'montserratsemibold'; margin-top: 15px; display: block; line-height: 1em; 
+    span { font-size: 1.5em; float: left; margin: -4px 2px 0 0; }
+}
+.banner { margin-top: 68px; }
+
+
+// Hotel Detalle //
+.hotel-top { 
+    h1 { color: $blue; font-size: 1.6em; line-height: 1.1em; font-family: 'montserratsemibold'; font-weight: 600; margin: 10px 0 0 0; }
+    span { font-size: .8em; line-height: 1.1em; color: $font-gray; display: block; margin-bottom: 5px; 
+        strong { font-family: 'montserratsemibold'; font-weight: normal; margin-right: 3px; color: $font-dark; }
+        &.zone { margin-bottom: 15px; }
+    }            
+    .ranking { margin-top: -8px; margin-bottom: 5px;
+        span { font-size: .8em; color: $yellow; margin: 0 -4px 0 0; display: inline; }
+    }
+    .first-price {         
+        .special-offer { background-color: $yellow; color: $font-dark; font-family: 'montserratsemibold'; font-size: .7em; font-weight: 600; padding: 4px 10px 2px 10px; float: left; margin: 15px 0 -30px -10px; }
+        .box-price-inside { padding: 10px; width: 100%; background: $white; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);          
+            .label-old-price { text-align: right; font-size: .85em; line-height: 1.1em; text-decoration: line-through; display: block; color: $font-gray; font-family: 'montserratsemibold'; }
+            p { font-size: 1.5em; font-family: 'montserratsemibold'; line-height: 1.2em; color: $blue; font-weight: 600; text-align: right;
+                small { font-size: .6em; font-weight: 400;  }
+            }            
+            .details { font-size: .55em; line-height: 1.2em; color: $font-gray; text-align: right; display: block; }                             
+            button { font-size: .8em; font-family: 'montserratsemibold'; padding: 5px 25px; display: block; float: right; }
+        }
+    }
+}
+
+.menu-top { 
+    a { border-bottom: 3px solid $bg-gray; 
+        &:hover { border-color: $blue; }
+        &.active { border-color: $blue; background-color: #e1e5ee; }
+    }
+}
+
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed { position:fixed; z-index:1000; top:0; width:100%; background-color: $white; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); }
+.top-resume-fixed { position:fixed; z-index:1000; left: 0; top:0; width:100%; }
+
+
+.hotel-main { margin-top: 10px; 
+    .section { background-color: $white; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; margin: 0 0 20px 0; min-height: 50px; -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); 
+        /*.hotel-gallery {  }*/
+        .hotel-info { padding: 10px 20px 0 15px; margin-top: 5px; border-right: 1px solid $border-color;
+            p { font-size: .7em; line-height: 1.3; color: $font-gray; margin: 0 0 10px 0; text-align: justify; }            
+        }
+        .more-info-hotel { float: right; font-size: .8em; line-height: 1.1em; margin: -10px 20px 10px 15px; }
+        
+        .room-info { padding: 10px 0;
+            p { font-size: .7em; color: $font-gray; 
+                strong { color: $blue; font-family: 'montserratsemibold'; font-size: 1.2em; } 
+            }            
+        }
+        .meal-plan-offer { position: absolute; margin: 20px 0 0 -10px; z-index: 999;
+            span { background-color: $yellow; color: $font-dark; font-family: 'montserratsemibold'; font-size: .9em; font-weight: 600; line-height: 1.1em; padding: 5px 10px 4px 10px;  }
+        }
+
+        .gallery-img { height: 344px; background: #e6eff4;
+            img { width: 100%; height: 344px; object-fit: cover;  }
+        } 
+        .gallery-img-2{ height: 170px; background: #e6eff4;
+            img { width: 100%; height: 170px; object-fit: cover; }
+        } 
+        .cover-gallery { overflow: auto; height: 344px; display: block; position: relative; z-index: 99; width: 100%; margin-top: -344px;
+            &:hover { background-color: rgba(0, 0, 0, .2); color: rgba(0, 0, 0, .2); 
+                .open-gallery {  visibility: visible; width: 220px; margin: 150px auto 0; position: relative; z-index: 9999; background-color: $white; color: $blue; padding: 10px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); }
+            }
+            .open-gallery { visibility: hidden; }
+        }        
+
+        &.amenities { padding: 10px 15px;
+            h4 { font-size: .9em; font-weight: 600; font-family: 'montserratsemibold'; color: $blue; margin-top: 10px; }
+            ul { padding: 0; margin: 0; list-style: none; overflow: hidden;
+                li { font-size: .7em; color: $font-gray; width: 25%; float: left; }
+            }
+            .more-info-amenities { float: right; font-size: .8em; line-height: 1.1em; margin: 10px 20px 0 15px; }
+        }
+        &.map { font-size: .8em; text-align: center; }
+
+        &.rooms { padding: 15px; 
+            &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); }
+            h3 { font-size: .9em; color: $font-dark; font-family: 'montserratsemibold'; line-height: .9em; }
+            .room-container { border: 1px solid $blue; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; margin-bottom: 10px; 
+                .m-plan { font-size: .85em;  line-height: .9em; margin: 15px 0 5px 0; }
+                .t-plan { font-size: .6em; font-family: 'montserratsemibold'; background-color: $bg-gray; padding: 5px 10px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; }
+                .politics { font-size: .65em; font-family: 'montserratsemibold'; color: $blue; display: block; margin: 12px 0; }
+                .promos { padding: 0; margin: 15px 0 10px 0; list-style: none;
+                    li { color: $blue; font-size: .75em; font-family: 'montserratsemibold'; }
+                }
+                .box-price-inside { background-color: $blue; padding: 10px; color: $white; overflow: hidden; -webkit-border-radius: 0 4px 4px 0; border-radius: 0 4px 4px 0;
+                    p { font-size: 1.5em; font-family: 'montserratsemibold'; line-height: 1.2em; font-weight: 600; text-align: right;
+                        small { font-size: .6em; font-weight: 400;  }
+                    }            
+                    .details { font-size: .5em; line-height: 1.2em; text-align: right; display: block; }                             
+                    button { font-size: .8em; font-family: 'montserratsemibold'; padding: 5px 15px; display: block; margin: 15px 0 0 0; float: right; }
+                }
+                .box-price-aditional { padding: 10px; color: $font-dark; overflow: hidden; margin-top: 23px; 
+                    p { font-size: 1.4em; font-family: 'montserratsemibold'; line-height: 1.2em; font-weight: 600; text-align: right;
+                        small { font-size: .6em; font-weight: 400; }
+                        span { font-size: 1.6em; position: absolute; margin: 3px 0 0 -30px; }
+                    }            
+                    .details { font-size: .5em; line-height: 1.2em; text-align: right; display: block; }                 
+                }
+            }
+        }
+        &.hotel-services { padding: 15px;
+            &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); }
+            h4 { font-size: .9em; font-weight: 600; font-family: 'montserratsemibold'; color: $blue; margin-top: 10px; }
+            p { color: $font-gray; font-size: .7em; line-height: 1.3em; text-align: justify;  }
+            ul { padding: 0; margin: 5px 0 0 10px; overflow: hidden;
+                li { font-size: .65em; color: $font-gray; float: left; }
+            }           
+        }
+    }
+    
+    h2 { font-size: 1.4em; font-family: 'montserratsemibold'; color: $font-dark; margin: 15px 0 15px; }
+
+    .title-section { background-color: $blue; color: $white; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; margin: 0 0 10px 0; padding: 3px 0;
+        span { font-size: .8em; font-family: 'montserratsemibold'; padding: 4px 10px; }
+    }
+}
+
+#secondary-slider { margin-top: 10px; }
+.modal-title { font-size: 1.3em; font-family: 'montserratsemibold'; color: $blue; line-height: 1.3em; }
+
+.a-cc { font-size: .75em; padding: 5px 10px; border: 1px solid $blue; float: left; margin-bottom: 10px;
+    &:hover { color: $blue-dark; border-color: $blue-dark; } 
+}
+.tarifas-cc { padding: 10px 12px; border-radius: 0;
+    h5 { font-size: .8em; font-family: 'montserratsemibold'; color: $font-dark; }
+    p { font-size: .75em; color: $font-gray; margin-top: 10px; line-height: 1.1em;
+        &.tarifa-inicial { color: $blue; }
+        &.room-txt { font-size: .7em; margin-top: 5px; }
+    }
+    .input-group { width: 90%; margin: 5px 0 5px 0; 
+        span { float: left; }
+    }
+    .tarifa-active { background-color: #e9f0ff; }
+    .form-check { margin-top: 7px; }
+    .block-reset { border-top: 1px solid $border-color; padding-top: 4px; margin-top: 4px;
+        a { font-size: .8em; 
+            span { font-size: 1.6em; float: left; margin: 2px 2px 0 0; } 
+        }
+    }
+    .editor { border-left: 1px solid $border-color;
+        .input-group { width: 80%; }
+
+    }
+}
+
+.tarifas-section { background-color: $white; -webkit-border-radius: 0 5px 5px 0; border-radius: 0 5px 5px 0; margin: 10px 0; border-left: 4px solid $blue; padding: 6px 0;
+    h5 { font-size: 1.2em; font-family: 'montserratsemibold'; color: $blue; line-height: 1.3em; margin: 10px 0 5px 10px; }
+    p { font-size: .8em; color: $font-dark; font-family: 'montserratsemibold'; line-height: .9em; }
+    .provider { font-size: .75em; color: $font-gray; line-height: .9em; display: block; margin-top: 12px; }
+    .input-group { margin-top: 4px; 
+        span { float: left; }
+    }
+    .btn-reset { padding: 1px; margin: 16px 0 0 0;
+        span { font-size: 1.8em; float: left; }
+    }
+}
+
+
+// Vuelos //
+.airlines-block {  margin: 10px 0 20px 0;
+    .title-block { background-color: $bg-soft-gray; padding: 5px 15px; overflow: hidden; -webkit-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0;
+        h4 { font-size: .9em; color: $font-dark; font-family: 'montserratsemibold'; line-height: .9em; margin: 5px 0; float: left; }
+        a { float: right; font-size: .8em; font-family: 'montserratsemibold'; margin-top: 2px;  }
+    }
+    .table-block { background-color: $white;
+        table { border-color: $border-color; margin-bottom: 0; }
+        img { width: 70px; }
+        td { font-size: .8em; color: $font-dark; font-family: 'montserratsemibold'; padding: 5px; 
+            p { font-size: 1.1em; color: $font-gray;
+                small { font-size: .7em; }
+             }
+        }
+    }
+}
+.msi-flights { background: $blue; text-align: center; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; 
+    img { max-height: 60px; }
+}
+
+.flight-block { background-color: $white; min-height: 100px; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; margin-bottom: 15px; -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.1); box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+    &:hover { -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); }
+    
+    .departure-block { background-color: $bg-soft-gray; color: $font-dark; min-height: 100px; text-align: center; padding: 10px; height: 100%;
+        span { font-size: 1.3em; display: block; }
+        p { font-size: .8em; font-family: 'montserratsemibold'; font-weight: 600; line-height: 1.3em; margin-bottom: 4px; }
+        small { font-size: .7em; line-height: 1.2em; display: block; }
+    }
+    .main-flight { padding-top: 20px; border-right: 1px solid $border-color;
+        .box-data-flight { min-height: 62px; text-align: center;
+            img { margin-top: 4px; }
+            p { font-size: 1.1em; font-family: 'montserratsemibold'; font-weight: 600; line-height: .9em; margin-top: 8px; }
+            span { font-size: .8em; color: $font-gray; font-family: 'montserratsemibold'; line-height: .8em; display: block; margin-top: 3px; }
+            small { font-size: .55em; color: $font-gray; }
+            .flight-divider { border-top: 1px solid $font-gray; margin-bottom: -2px;
+                .left-circle { height: 5px; width: 5px; background-color: $font-gray; float: left; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+                .right-circle { height: 5px; width: 5px; background-color: $font-gray; float: right; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+            }      
+            .form-check { min-height: 0; padding: 0 10px; margin: 0; 
+                .form-check-input { margin-left: 4px; }
+            }      
+        }
+        .baggage { color: $font-dark; font-size: .7em; margin: 6px 0 3px; }
+        .icons-pack { 
+            span { font-size: 1.2em; color: $font-soft-gray;
+                &.active { color: $teal; }
+            }
+        } 
+        .flight-details { font-size: .7em; color: $blue; font-family: 'montserratsemibold'; margin-top: 20px; display: block; line-height: 1.1em; }
+    }
+    .f-block { margin-bottom: 20px; }
+    .price-flights { padding-right: 15px; min-height: 100px; width: 100%; overflow: hidden; margin-top: 10px;        
+        .label-person { text-align: right; font-size: .55em; line-height: 1.1em; display: block; color: $font-gray; }
+        .price { font-size: 1.5em; font-family: 'montserratsemibold'; line-height: 1.2em; color: $font-dark; font-weight: 600; text-align: right;
+            small { font-size: .6em; font-weight: 400;  }
+        }    
+        .list-price { overflow: hidden; margin: 5px 0 10px;
+            .details { font-size: .55em!important; line-height: 1.3em; color: $font-gray; font-weight: normal; float: left; width: 100%;
+                span { text-align: right; float: right; }
+                &.total { border-top: 1px solid $border-color; margin-top: 2px; padding-top: 2px; }
+            }  
+        }                              
+        button { font-size: .8em; font-family: 'montserratsemibold'; padding: 5px 25px; margin: 10px auto 10px; display: block; }                
+    }    
+    .special-offer { background-color: $yellow; color: $font-dark; font-family: 'montserratsemibold'; font-size: .7em; font-weight: 600; padding: 1px 10px 1px 10px; float: right; margin: 10px 15px 10px 0; }        
+}
+
+// Detalle de Vuelos
+.flight-resume { background-color: $bg-soft-gray; /*border: 1px solid $border-color;*/ min-height: 100px; padding: 10px; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px;    
+    .fr-block { background-color: $white; padding: 10px; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px; margin-bottom: 5px;        
+        .fr-title { color: $font-dark; font-family: 'montserratsemibold'; /*border-bottom: 1px solid $border-color;*/ margin-bottom: 10px;
+            h5 { font-size: .8em; }
+            p { font-size: .7em; text-align: right; 
+                span { color: $blue; font-family: 'montserratregular', }
+            }
+            .fr-p { color: $blue; background-color: $bg-soft-gray; margin: 0 0 0 0; text-align: left; margin: -10px -10px 5px -10px; text-align: left; padding: 6px 10px 5px 0; font-size: .8em; font-family: 'montserratsemibold'; font-weight: 600; line-height: 1em; }
+        }
+        .fr-departure { font-size: .7em; line-height: 1.1em; color: $font-dark; margin-bottom: 12px;
+            p { font-family: 'montserratsemibold'; }
+            span { display: block; font-size: .9em; color: $font-gray; }
+        }
+        .fr-airport { 
+            .fr-time { text-align: center; width: 45px; min-height: 45px; margin-right: 8px; float: left;
+                p { font-size: .9em; font-family: "montserratsemibold"; font-weight: 600; line-height: 0.9em; margin-top: 3px; }
+                span { font-size: 0.85em; color: #64819b; font-family: "montserratsemibold"; line-height: 0.8em; display: block; margin-top: 3px; }
+            }
+            .fr-city { color: $font-gray;
+                p { font-size: .65em; line-height: 1.2em; margin-bottom: 3px;
+                    strong { color: $font-dark; }
+                }
+            }
+        }
+        .fr-divider { text-align: center; margin-top: 5px;
+            small { font-size: .55em; color: $font-gray; }
+            .flight-divider { border-top: 1px solid $font-gray; margin-bottom: -2px; width: 80%; margin-left: 10%;
+                .left-circle { height: 5px; width: 5px; background-color: $font-gray; float: left; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+                .right-circle { height: 5px; width: 5px; background-color: $font-gray; float: right; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+            }   
+        }
+    }
+    .time-duration { text-align: center; margin: 5px 0;
+        p { font-size: .55em; color: $font-gray; 
+            strong { font-family: "montserratsemibold"; font-weight: normal; }
+        }
+    }
+    .fr-baggage { margin: 10px 0 0 0;
+        p { font-size: .7em; font-family: "montserratsemibold"; color: $font-dark; }
+        ul { margin: 0 0 10px 0; padding: 0;
+            li { font-size: .65em; list-style: none; line-height: 1.3em; margin-bottom: 4px; color: $font-gray; 
+                span { font-size: 1.2em; float: left; margin: 1px 4px 0 0;
+                    &.icon-check { color: $green; }
+                    &.icon-close { color: $red; }
+                }
+            }
+        }
+    }    
+}
+
+// Paquetes 
+.bp-title { font-size: 1em; font-family: 'montserratsemibold'; color: $blue; margin: 0 0 5px 0; }
+.best-package { background-color: $white; margin: 0 0 15px; border: 2px solid $blue; -webkit-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; overflow: hidden; -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); 
+    .title-block { background-color: $bg-soft-gray; padding: 6px 15px 5px; overflow: hidden; border-bottom: 1px solid $border-color;
+        h4 { font-size: .9em; font-family: 'montserratsemibold'; color: $font-dark; margin: 0; float: left; }
+        a { font-size: .7em; font-family: 'montserratsemibold';float: right; }
+    }
+    .block-bp-hotel { border-right: 1px solid $border-color; }    
+    .hotel-img { padding: 15px 0 15px 15px; }
+    .hotel-block-info { padding: 10px 10px 10px 0;        
+        h3 { color: $blue; font-size: 1.1em; line-height: 1.1em; font-family: 'montserratsemibold'; font-weight: 600; margin: 5px 0 0 0; }
+        span { font-size: .7em; line-height: 1.1em; color: $font-gray; display: block; margin-bottom: 5px; 
+            strong { font-family: 'montserratsemibold'; font-weight: normal; margin-right: 3px; color: $font-dark; }
+            &.zone { margin-bottom: 10px; }
+        }            
+        .ranking { margin-top: -6px; margin-bottom: 5px;
+            span { font-size: .8em; color: $yellow; margin: 0 -4px 0 0; display: inline; }
+        }
+    }
+    // Vuelos
+    .block-bp-vuelo { border-right: 1px solid $border-color; }    
+    .departure-block { background-color: $bg-soft-gray; color: $font-dark; min-height: 70px; text-align: center; padding: 10px; height: 100%; margin-right: 10px;
+        span { font-size: 1.1em; display: block; }
+        p { font-size: .8em; font-family: 'montserratsemibold'; font-weight: 600; line-height: 1.3em; margin-bottom: 2px; }
+        small { font-size: .6em; line-height: 1.2em; display: block; }
+    }
+    .main-flight { padding-top: 10px;
+        .box-data-flight { min-height: 50px; text-align: center;
+            img { margin-top: 15px; min-width: 40px; }
+            p { font-size: 1em; font-family: 'montserratsemibold'; font-weight: 600; line-height: .9em; margin-top: 8px; }
+            span { font-size: .85em; color: $font-gray; font-family: 'montserratsemibold'; line-height: .8em; }
+            small { font-size: .55em; color: $font-gray; }
+            .flight-divider { border-top: 1px solid $font-gray; margin-bottom: -2px;
+                .left-circle { height: 5px; width: 5px; background-color: $font-gray; float: left; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+                .right-circle { height: 5px; width: 5px; background-color: $font-gray; float: right; margin-top: -3px; -webkit-border-radius: 20px 20px 20px 20px; border-radius: 20px 20px 20px 20px; }
+            }      
+            .form-check { min-height: 0; padding: 0 10px; margin: 0; 
+                .form-check-input { margin-left: 4px; }
+            }      
+        }
+        .baggage { color: $font-dark; font-size: .7em; margin: 6px 0 3px; }
+        .icons-pack { 
+            span { font-size: 1.2em; color: $font-soft-gray;
+                &.active { color: $teal; }
+            }
+        } 
+        .flight-details { font-size: .65em; color: $blue; font-family: 'montserratsemibold'; margin-top: 20px; margin-right: 5px; display: block; line-height: 1.1em; }
+    }
+    //Price details
+    .right-block { padding-top: 10px; }
+    .special-offer { background-color: $yellow; color: $font-dark; font-family: 'montserratsemibold'; font-size: .7em; font-weight: 600; padding: 1px 10px 1px 10px; float: right; margin: 0 15px 10px 0; }
+    .box-price-inside { min-height: 56px; padding-right: 15px; width: 100%; overflow: hidden; margin-top: 10px;
+        .label-old-price { text-align: right; font-size: .75em; line-height: 1.1em; text-decoration: line-through; display: block; color: $font-gray; font-family: 'montserratsemibold'; }
+        p { font-size: 1.3em; font-family: 'montserratsemibold'; line-height: 1.2em; color: $font-dark; font-weight: 600; text-align: right;
+            small { font-size: .6em; font-weight: 400;  }
+        }            
+        .details { font-size: .55em; line-height: 1.2em; color: $font-gray; text-align: right; display: block; }                             
+        button { font-size: .8em; font-family: 'montserratsemibold'; padding: 5px 25px; margin: 10px auto 10px; display: block; }
+    }
+}
+.divider { border-top: 1px solid $border-color; margin: 0; }
+
+.package-info { color: $font-gray; padding: 8px 10px 0; background: $bg-soft-gray; overflow: hidden; -webkit-border-radius: 0 10px 10px 0; border-radius: 0 10px 10px 0; margin: -5px 0 10px 0;
+    p { font-size: .8em; float: left; color: $font-dark; font-family: 'montserratsemibold'; margin: 0 10px 0 0; line-height: 0.8em; } 
+    span { font-size: .8em; line-height: .9em; float: left;        
+        i { font-size: 1.2em; float: left; margin-top: -3px; color: $font-dark; } 
+        strong { color: $blue; font-size: 1.1em; float: left; font-weight: normal; font-family: 'montserratsemibold';  }
+    }
+    .pi-block { float: left; margin-left: 10px; margin-top: -5px; height: 22px; 
+        i { color: $font-soft-gray;
+            &.active { color: $teal; }            
+        }
+    }
+    a { float: right; font-size: .7em; font-family: 'montserratsemibold'; margin-top: -2px; }
+}
+
+
+.modal-header { padding: 5px 5px 5px 15px;
+    .modal-title-block { padding: 10px 0;
+        p { font-size: 1em; font-family: 'montserratsemibold'; line-height: .9em; color: $blue; }        
+    }
+    button { float: right; color: $font-gray; 
+        span { font-size: 1.4em; }
+    }
+}
+.modal-body { padding: 15px 5px; 
+    p { font-size: .8em; color: $font-gray; }
+    .confirm-pass { margin-top: 5px; padding: 5px 10px 10px; background-color: $bg-soft-gray;
+        label { font-size: .8em; color: $font-dark; font-family: 'montserratsemibold'; }
+        .input-group { 
+            input { color: $font-gray; font-size: .9em; }
+            button { font-family: 'montserratsemibold'; font-size: .8em; }
+        }
+    }
+}
+.sesion-expired { text-align: center; 
+    button { padding-left: 15px; padding-right: 15px; font-family: 'montserratsemibold'; font-size: .8em; }
+}
+
+
+
+
+// Source mixins
+
+// MIN Width
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+@include media-breakpoint-up(sm) { }
+@include media-breakpoint-up(md) { }
+@include media-breakpoint-up(lg) { }
+@include media-breakpoint-up(xl) { }
+@include media-breakpoint-up(xxl) { }
+
+
+// MAX Width
+// No media query necessary for xs breakpoint as it's effectively `@media (max-width: 0) { ... }`
+@include media-breakpoint-down(sm) { 
+    // Menu responsivo // 
+    .top-bar { border-bottom: 0; 
+        /*.navbar {  }*/
+    }
+    .logo { width: 120px; }
+    .bt-menu { position: unset; }
+    .nav-main { margin-top: 15px;
+        .first-menu, .second-menu { position: unset; right: 0; margin: 0; 
+            ul { 
+                li { border-bottom: 1px solid $blue-2;
+                    a { padding: 8px!important; background: none; margin: 0!important; display: block; color: $blue;
+                        &:hover { color: $blue!important; }
+                        &.sac-active { background: none; }
+                        &.nav-link { padding: 8px; border-right: 0; }
+                    }
+                } 
+            }
+        }
+        .first-menu ul li { padding-top: 4px; padding-bottom: 4px; }
+        .second-menu .second-phone { color: $font-gray; margin: 2px 0 0 0; }
+    }
+    .navbar-brand { position: absolute; left: 50%; transform: translateX(-50%); top: 6px; }
+    .dropdown-main-menu { left: unset; right: 0; }
+    .search .box-search .nav-pills .nav-link { min-width: 80px!important; }
+
+    .newsletter h4 { font-size: 1.4em; }
+    .search-large .box-input { margin-bottom: 10px!important; }
+    .search-large .combo-float { position: relative; width: 100%; margin-top: -5px; }
+    .hotel-list .filters-bar p { display: none; }
+
+    .hotel-main .section .hotel-info { border-right: 0; padding: 10px 15px 0 15px;  }
+    .hidden-a { display: none; }
+    .first-price { margin-bottom: 15px; }
+    .hotel-main .section.amenities ul li { width: 50%!important; }
+    .gi-hidden-2 { display: none; }
+    .block.ofertas .splide__arrow--prev, .block.destinos .splide__arrow--prev, .block.tours .splide__arrow--prev { left: -.3em; }
+    .block.ofertas .splide__arrow--next, .block.destinos .splide__arrow--next, .block.tours .splide__arrow--next { right: -.3em; }
+    .search .box-search { width: 350px!important; }
+
+    // Vuelos
+    .flight-block .departure-block { text-align: left; min-height: 40px;
+        span { float: left; }
+        p { float: left; margin: 2px 0 0 4px; }
+        small { float: left; margin: 4px 0 0 5px; }
+    }
+    .flight-block .main-flight .box-data-flight .form-check .form-check-input { margin-left: 15px; }
+    .flight-block .main-flight { border: none;
+        .baggage { float: left; }
+        .icons-pack { float: left; margin: 4px 0 0 8px; }
+        .flight-details { text-align: right; margin-top: 10px; margin-right: 10px; }        
+    }
+    .flight-block .main-flight .box-data-flight { min-height: 55px; }
+    .f-block { margin-bottom: 30px!important; }
+    .flight-block .price-flights { padding: 0 15px 10px 15px!important; }
+    .fb-pay { background-color: $bg-soft-gray; }
+    // Paquetes
+    .h-sm { display: none; }
+    .best-package .main-flight .box-data-flight { margin-left: 5px; }
+    .best-package .box-price-inside button { font-size: 0.7em; padding: 5px 15px; float: right; }
+    .best-package .main-flight .flight-details { margin-left: 10px; }
+    .best-package .special-offer { padding: 1px 5px 1px 5px; font-size: 0.6em; }
+
+    .top-resume-fixed { position: inherit; }
+    .package-info a { margin-top: -6px; margin-bottom: 2px; }
+}
+
+@include media-breakpoint-down(md) { 
+    // Menu responsivo // 
+    .top-bar { border-bottom: 0; 
+        /*.navbar { padding: 10px 0 0 0; }*/
+    }
+    .logo { width: 120px; }
+    .bt-menu { position: unset; }
+    .nav-main { margin-top: 15px;
+        .first-menu, .second-menu { position: unset; right: 0; margin: 0; 
+            ul { 
+                li { border-bottom: 1px solid $border-color;
+                    a { padding: 8px!important; background: none; margin: 0!important; display: block; color: $blue;
+                        &:hover { color: $blue-dark!important; }
+                        &.sac-active { background: none; }
+                        &.nav-link { padding: 8px; border-right: 0; }
+                    }
+                } 
+            }
+        }
+        .first-menu ul li { padding-top: 4px; padding-bottom: 4px; }
+        .second-menu .second-phone { color: $font-gray; margin: 2px 0 0 0; }
+    }
+    .search-large .box-input { margin-bottom: 10px; }
+    .search-large .combo-float { position: relative; width: 100%; margin-top: -5px;  }
+    .search-large .box-modal { -webkit-box-shadow: none; box-shadow: none; margin-bottom: 10px; }
+    .filters { display: none; }
+    .hotel-main .section .hotel-info { border-right: 0; padding: 10px 15px 0 15px;  }
+    .hotel-main .section .room-info { padding: 10px 15px; }
+    .hotel-main .section.amenities ul li { width: 33.3%; }
+    .hotel-main .section.rooms .room-container .promos { margin-left: 15px; }
+    .hotel-main .title-section { display: none; }
+    .gi-hidden { display: none; }
+    .search .box-search { width: 500px; }
+    .slider .carousel-inner { height: 250px!important; }
+    .slider .carousel-item img { max-width: 100%; height: auto; }
+    .flight-block .main-flight .box-data-flight { min-height: 50px; }
+    
+    // Paquetes  
+    .best-package .hotel-block-info span { display: none!important; }
+    .best-package .hotel-block-info span.zone { display: block!important; }
+    .best-package .hotel-block-info .ranking span { display: inline!important; }
+    .package-info a { margin-top: 0; margin-bottom: 2px; }
+    
+}
+
+@include media-breakpoint-down(lg) { 
+    .search-large .box-input { margin-bottom: 10px; }
+    .search-large .combo-float { margin-top: -5px; }
+    .slider { overflow: auto; }
+    .slider .carousel { margin-top: 520px; } 
+    .slider .carousel-inner { height: 350px; }
+    // Paquetes
+    .best-package .main-flight .flight-details { margin-top: 0px; margin-bottom: 4px; }
+    .best-package .hotel-block-info { padding-left: 15px; }
+    .best-package .departure-block { min-height: 50px; }
+    .best-package .main-flight { padding-top: 0; }
+    .best-package .main-flight .box-data-flight { min-height: 40px; margin-right: 5px; }
+    .best-package .main-flight .box-data-flight span { font-size: 0.8em; display: block; margin-top: 2px; }
+    .best-package .hotel-block-info span { font-size: 0.65em; line-height: .9em; }
+    .best-package .departure-block span { margin-top: 12px; }
+
+    //hidden
+    .h-md { display: none; }
+    .best-package .departure-block p, .best-package .departure-block small { display: none; }
+    .best-package .hotel-block-info span strong { display: none; }
+    .package-info p { width: 100%; margin-bottom: 5px; }    
+
+}
+@include media-breakpoint-down(xl) { }
+@include media-breakpoint-down(xxl) { }
+
+
+// Single Breakpoint (Solo segmento)
+@include media-breakpoint-only(xs) { }
+@include media-breakpoint-only(sm) { 
+    .pi-block { margin-left: 5px!important; }
+}
+@include media-breakpoint-only(md) { 
+    .pi-block { display: none; }
+}
+@include media-breakpoint-only(lg) { }
+@include media-breakpoint-only(xl) { }
+@include media-breakpoint-only(xxl) { }
+
+// XX-Large devices (larger desktops, 1500px and up)
+@media (min-width: 1500px) { 
+    .slider .carousel-item img { width: 100%; }
+    .slider .carousel-inner { height: 600px; }
+}
+

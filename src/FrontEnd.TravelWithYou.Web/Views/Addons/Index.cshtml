@@ -1,0 +1,484 @@
+﻿<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        //Slide Destinos
+        new Splide('#splide', {
+            perPage: 3,
+            perMove: 1,
+            breakpoints: {
+                '992': {
+                    perPage: 2,
+                    gap: '1rem',
+                },
+                '768': {
+                    perPage: 1,
+                    gap: '1rem',
+                },
+                '576': {
+                    perPage: 1,
+                    gap: '1rem',
+                },
+            }
+        }).mount();
+
+        // Slide Ofertas
+        new Splide('#splide-2', {
+            perPage: 3,
+            perMove: 1,
+            breakpoints: {
+                '1200': {
+                    perPage: 3,
+                    gap: '1rem',
+                },
+                '992': {
+                    perPage: 2,
+                    gap: '1rem',
+                },
+                '768': {
+                    perPage: 2,
+                    gap: '1rem',
+                },
+                '576': {
+                    perPage: 1,
+                    gap: '1rem',
+                },
+            }
+        }).mount();
+
+        //Slide Tours
+        new Splide('#splide-3', {
+            perPage: 3,
+            perMove: 1,
+            breakpoints: {
+                '992': {
+                    perPage: 2,
+                    gap: '1rem',
+                },
+                '768': {
+                    perPage: 1,
+                    gap: '1rem',
+                },
+                '576': {
+                    perPage: 1,
+                    gap: '1rem',
+                },
+            }
+        }).mount();
+
+    });
+</script>
+   
+    <!-- Main-->
+    <main>
+
+        <div class="covid-alerts">
+            <div class="alert alert-dark alert-dismissible fade show" role="alert">
+                <div class="container covid">
+                    Puede haber algunas restricciones de viaje en México debido al COVID 19.
+                    <button type="button" class="btn btn-sm" data-dismiss="alert" aria-label="Close">
+                        <span class="icon-close"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <!-- Red Alert -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <a href="#" class="back-page"><span class="icon-arrow-left"></span> Regresar a la selección de hotel</a>
+                </div>
+
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                    <section class="addons">
+
+                        <div class="congrats-box">
+                            <span class="icon-callcenter"></span>
+                            <div class="cb-txt">
+                                <p class="p1">Felicidades por tu elección</p>
+                                <p class="p4">Estas obteniendo el mejor precio. Queda poco para completar tu compra.¡Apresúrate! </p>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h1>Agrega más a tu viaje</h1>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <h2>Seguros y protección</h2>
+
+                                <div class="splide" id="splide">
+                                    <div class="splide__track">
+
+                                        <ul class="splide__list">
+                                            <li class="splide__slide">
+                                                <div class="box-insurance">
+                                                    <div class="bg-insurance">
+                                                        <img src="/Content/images/insurance-logo.png" class="img-fluid">
+                                                    </div>
+                                                    <div class="price-insurance">
+                                                        <button class="btn btn-primary btn-sm rounded-pill">Agregar</button>
+                                                        <span><small>MXN</small> $789</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="splide__slide">
+                                                <div class="box-insurance">
+                                                    <div class="bg-insurance">
+                                                        <img src="/Content/images/insurance-logo.png" class="img-fluid">
+                                                    </div>
+                                                    <div class="price-insurance">
+                                                        <button class="btn btn-primary btn-sm rounded-pill">Agregar</button>
+                                                        <span><small>MXN</small> $299</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="splide__slide">
+                                                <div class="box-insurance">
+                                                    <div class="bg-insurance">
+                                                        <img src="/Content/images/insurance-logo.png" class="img-fluid">
+                                                    </div>
+                                                    <div class="price-insurance">
+                                                        <button class="btn btn-primary btn-sm rounded-pill">Agregar</button>
+                                                        <span><small>MXN</small> $516</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="splide__slide">Slide 04</li>
+                                            <li class="splide__slide">Slide 05</li>
+                                            <li class="splide__slide">Slide 06</li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Lista de Paquetes -->
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                <div class="plus-box">
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                                            <p class="p1">Evita contratiempos y reserva tu vuelo</p>
+                                            <p class="p4">¿Sabias que reservando en paquete ahorras hasta un 40%?</p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-12 col-12 mt-2">
+                                            <p class="p1">Ve estas opciones</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12 mt-4">
+
+                                <h2>Hoteles...</h2>
+                                <div class="splide" id="splide-2">
+                                    <div class="splide__track">
+
+                                        <ul class="splide__list">
+
+                                            <li class="splide__slide">
+                                                <div class="box-ofertas">
+                                                    <div class="img-ofertas">
+                                                        <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                                    </div>
+                                                    <span class="label-promo">Desayuno incluido</span>
+                                                    <div class="inside-ofertas-2">
+                                                        <div class="box-first-2">
+                                                            <h3>Kristal Cancún</h3>
+                                                            <div class="ranking-2">
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                            </div>
+                                                            <p class="label-zone-2">Cancún</p>
+                                                            <div class="box-data-2">
+                                                                <p>Solo habitación</p>
+                                                            </div>
+                                                            <p class="label-plan">Estandar</p>
+                                                        </div>
+                                                        <div class="box-price-2">
+                                                            <span class="label-txt-price-2">
+                                                                Hotel + Vuelo por
+                                                                persona
+                                                            </span>
+                                                            <div class="box-price-inside-2">
+                                                                <span class="label-old-price-2">MXN $13,029</span>
+                                                                <p><small>MXN</small> $10,259</p>
+                                                            </div>
+                                                            <div class="box-bottom-2">
+                                                                <button class="btn btn-success btn-sm rounded-pill">
+                                                                    Me
+                                                                    interesa
+                                                                </button>
+                                                                <span>
+                                                                    Precio final por 2 personas MXN
+                                                                    $12,092
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="splide__slide">
+                                                <div class="box-ofertas">
+                                                    <div class="img-ofertas">
+                                                        <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                                    </div>
+                                                    <span class="label-promo">Desayuno incluido</span>
+                                                    <div class="inside-ofertas-2">
+                                                        <div class="box-first-2">
+                                                            <h3>Kristal Cancún</h3>
+                                                            <div class="ranking-2">
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                            </div>
+                                                            <p class="label-zone-2">Cancún</p>
+                                                            <div class="box-data-2">
+                                                                <p>Solo habitación</p>
+                                                            </div>
+                                                            <p class="label-plan">Estandar</p>
+                                                        </div>
+                                                        <div class="box-price-2">
+                                                            <span class="label-txt-price-2">
+                                                                Hotel + Vuelo por
+                                                                persona
+                                                            </span>
+                                                            <div class="box-price-inside-2">
+                                                                <span class="label-old-price-2">MXN $13,029</span>
+                                                                <p><small>MXN</small> $10,259</p>
+                                                            </div>
+                                                            <div class="box-bottom-2">
+                                                                <button class="btn btn-success btn-sm rounded-pill">
+                                                                    Me
+                                                                    interesa
+                                                                </button>
+                                                                <span>
+                                                                    Precio final por 2 personas MXN
+                                                                    $12,092
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="splide__slide">
+                                                <div class="box-ofertas">
+                                                    <div class="img-ofertas">
+                                                        <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                                    </div>
+                                                    <span class="label-promo">Desayuno incluido</span>
+                                                    <div class="inside-ofertas-2">
+                                                        <div class="box-first-2">
+                                                            <h3>Kristal Cancún</h3>
+                                                            <div class="ranking-2">
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                                <span class="icon-star"></span>
+                                                            </div>
+                                                            <p class="label-zone-2">Cancún</p>
+                                                            <div class="box-data-2">
+                                                                <p>Solo habitación</p>
+                                                            </div>
+                                                            <p class="label-plan">Estandar</p>
+                                                        </div>
+                                                        <div class="box-price-2">
+                                                            <span class="label-txt-price-2">
+                                                                Hotel + Vuelo por
+                                                                persona
+                                                            </span>
+                                                            <div class="box-price-inside-2">
+                                                                <span class="label-old-price-2">MXN $13,029</span>
+                                                                <p><small>MXN</small> $10,259</p>
+                                                            </div>
+                                                            <div class="box-bottom-2">
+                                                                <button class="btn btn-success btn-sm rounded-pill">
+                                                                    Me
+                                                                    interesa
+                                                                </button>
+                                                                <span>
+                                                                    Precio final por 2 personas MXN
+                                                                    $12,092
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li class="splide__slide">Slide 04</li>
+                                            <li class="splide__slide">Slide 05</li>
+                                            <li class="splide__slide">Slide 06</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+                <!--///////////////R E S U M E N  D E  C O M P R A/////////////////////-->
+
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <section class="resumen-compra">
+                        <div class="box-resumen-compra">
+                            <div class="titulos-compra">
+                                <h4 class="first">Resumen de compra</h4>
+                            </div>
+
+                            <!-- Hotel -->
+                            <div class="container-compra">
+                                <div class="row">
+                                    <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+                                        <div class="img-resumen">
+                                            <img src="/Content/images/pic-hotel-1.jpg" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 col-md-12 col-sm-12 col-12">
+                                        <h3 class="hotel-name-resumen">Holiday Inn Express</h3>
+                                        <div class="ranking">
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star"></span>
+                                            <span class="icon-star-half"></span>
+                                        </div>
+                                        <p class="text-black"><strong>Cancun y alrededores</strong></p>
+                                    </div>
+                                </div>
+                                <p>Solo habitacion</p>
+                                <p><strong>8 noches,</strong> 1 habitacion, 2 adultos</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                        <p class="info-text-2">Check In</p>
+                                        <p class="text-black"><strong>Martes, 15 Sep 2020</strong></p>
+                                        <p>15:00 hrs</p>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6  col-sm-12 col-12">
+                                        <p class="info-text-2">Check Out</p>
+                                        <p class="text-black"><strong>Martes, 23 Sep 2020</strong></p>
+                                        <p>15:00 hrs</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="titulos-compra">
+                                <h4>Servicios adicionales</h4>
+                            </div>
+
+                            <!-- Seguros -->
+                            <div class="container-additional">
+                                <div class="remove-addon">
+                                    <a href="#">Eliminar <span class="icon-close"></span></a>
+                                </div>
+                                <div class="cp-detail">
+                                    <p><a href="#">Seguro <span class="icon-info"></span></a></p> <strong><small>MXN</small>$2,924</strong>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="box-resumen-compra">
+                            <div class="titulos-compra">
+                                <h4 class="first">Resumen de pago</h4>
+                            </div>
+                            <div class="container-pagos">
+                                <div class="cp-detail">
+                                    <p>Hospedaje para 3 personas</p> <strong><small>MXN</small>$46,289</strong>
+                                </div>
+                                <div class="cp-detail">
+                                    <p><a href="#">Impuestos, tasas y cargos <span class="icon-info"></span></a></p>
+                                    <strong><small>MXN</small>$8,177</strong>
+                                </div>
+                            </div>
+
+                            <div class="container-total">
+                                <div class="cp-detail">
+                                    <p>Total</p> <strong><small>MXN</small>$52,871</strong>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <button class="btn btn-success rounded-pill bt-pagar">Continuar</button>
+
+                        <!-- Banner MSI -->
+                        <div class="msi-img">
+                            <img src="/Content/images/msi-small.jpg" class="img-fluid">
+                        </div>
+
+                        <!-- Información adicional -->
+                        <div class="additional-info-shop">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5>Cargos adicionales</h5>
+                                    <p>Te los cobrará el alojamiento cuando llegues a destino</p>
+
+                                    <div class="container-extra-taxes">
+                                        <div class="ce-detail">
+                                            <p>Seguro hotelero <br><span>Por persona por estadia</span></p>
+                                            <strong><small>MXN</small> $660</strong>
+                                        </div>
+
+                                        <div class="ce-detail">
+                                            <p>Tasa eco-ambiental <br><span>Por persona por estadia completa</span></p>
+                                            <strong><small>MXN</small> $210</strong>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-12">
+                                    <h5>Informacion importante sobre el vuelo</h5>
+                                    <div class="info-extra">
+                                        <p>Tu vuelo es una combinación de dos tarifas para viajes sencillos; cada una de ellas esta sujeta a las normas y restricciones que correspondan. Si uno de tus vuelo cambiò o se cancelo, no modificara necesariamente de forma automatica el otro vuelo. Cualquier cambio al otro vuelo puede tener un cargo.</p>
+                                        <hr>
+                                        <h6>Salida</h6>
+                                        <p></p>
+                                        <ul>
+                                            <li>Te informamos que la aerolínea con la que viajas tiene las siguientes restricciones con respecto a tu vuelo.</li>
+                                            <li>Los boletos no son reembolsables ni transferibles. No se permiten los cambios de nombre.</li>
+                                            <li>Normas y restricciones de tarifas:</li>
+                                            <li>Las aerolíneas pueden cambiar las terminales y los horarios de vuelo en cualquier momento.</li>
+                                            <li>Es obligatorio contar con los documentos de viaje correctos. Es tu responsabilidad verificar los documentos necesarios para el viaje.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Slider -->
+    <script src="/Content/js/splide.min.js"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+

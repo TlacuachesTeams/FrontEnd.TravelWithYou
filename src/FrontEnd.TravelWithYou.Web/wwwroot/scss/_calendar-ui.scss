@@ -1,0 +1,74 @@
+/*! HOME SEARCH FORM 2018-06-05
+* http://interjetvacations.com.mx
+* Includes: hotel, flight, packages
+* Copyright Viajemos Contigo Teams; Licensed IT */
+/* Layout helpers
+----------------------------------*/
+
+/*
+header {
+    position: relative;
+    z-index: 100000;
+}
+*/
+
+#ui-datepicker-div { z-index: 1000000 !important; }
+.ui-widget-content { color: #000a8b; }
+.ui-datepicker .ui-datepicker-title { margin: 0; font-size: .75em; font-weight: 600; color: #000a8b; }
+.ui-widget-header .ui-icon { background-image: url("/Content/themes/base/images/ui-icons_2e83ff_256x240.png"); }
+.ui-datepicker table { font-size: .75em; }
+.ui-datepicker th { padding: 0.25em .25em; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, 
+.ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active { color: #000a8b; }
+.ui-widget-header .ui-state-highlight { background: #c8d1dd; color: #000a8b; }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover { border: 1px solid #000a8b; background: #000a8b; font-weight: normal; color: #FFF; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus { border: 1px solid #c5c5c5; background: #c8d1dd; color: #000a8b; }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a { color: #fff; background: #00abf8; border: 1px solid #00abf8; }
+.ui-state-highlight a.ui-state-active { border: 1px solid #000a8b; background: #000a8b; color: #FFF; }
+.ui-front { z-index: 100000; }
+.ui-datepicker-calendar tr td.start-date, .ui-datepicker-calendar tr td.end-date { position: relative; }
+.ui-datepicker-calendar tr td.start-date:after, .ui-datepicker-calendar tr td.start-date:before, .ui-datepicker-calendar tr td.end-date:after, .ui-datepicker-calendar tr td.end-date:before { top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; }
+.ui-datepicker-calendar tr td.start-date:after, .ui-datepicker-calendar tr td.start-date:before { left: 100%; }
+.ui-datepicker-calendar tr td.end-date:after, .ui-datepicker-calendar tr td.end-date:before { right: 100%; }
+.ui-datepicker-calendar tr td.start-date:after, .ui-datepicker-calendar tr td.end-date:after { border-color: rgba(0, 10, 139, 0); border-left-color: #000a8b; border-width: 5px; margin-top: -5px; margin-left: -1px; }
+.ui-datepicker-calendar tr td.end-date:after { border-right-color: #000a8b; border-left-color: transparent; margin-right: -1px; }
+.ui-datepicker-calendar tr td.start-date:before, .ui-datepicker-calendar tr td.end-date:before { border-color: rgba(0, 10, 139, 0); border-left-color: #000a8b; border-width: 6px; margin-top: -6px; margin-left: -1px; }
+.ui-datepicker-calendar tr td.end-date:before { border-right-color: #000a8b; border-left-color: transparent; margin-right: -1px; }
+.ui-datepicker-calendar tr td.start-date a, .ui-datepicker-calendar tr td.end-date a { border: 1px solid #000a8b; background: #000a8b; color: #FFF; }
+.ui-datepicker-calendar tr td { padding: 0; }
+
+// Mis Estilos //
+.ui-datepicker td span, .ui-datepicker td a { text-align: center; }
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #fff; font-weight: bold; background: #fff; }
+.ui-datepicker-calendar thead tr { border-bottom: 1px solid #dce7ee; }
+span.ui-datepicker-year { font-weight: normal; }
+
+.ui-datepicker {
+    .ui-widget-header { background: #d0dcea; border: 0; 
+        .ui-datepicker-title { color: $blue-dark; }
+    }
+}
+
+td.ui-datepicker-unselectable.ui-state-disabled {
+    span.ui-state-default { color: $font-gray; }
+}
+
+// Autocomplete
+ul.ui-autocomplete { list-style: none; padding: 0; }
+ul.ui-autocomplete .ui-state-highlight, .ui-widget-content .ui-state-highlight { background: transparent; border: none; font-weight: bolder; color: #00abf8; }
+ul.ui-autocomplete .ui-state-highlight:hover { background: #e9f5ff; text-decoration: none; }
+ul.ui-autocomplete .ui-menu-item { font-size: .85em; list-style: none; cursor: pointer; padding: 3px 10px 3px 14px; }
+ul.ui-autocomplete .ui-menu-item:hover { background: #e9f5ff; }
+ul.ui-autocomplete .ui-state-active { background: transparent; text-decoration: none; border: none; }
+ul.ui-autocomplete .ui-menu-item .ui-menu-item-wrapper { color: #00abf8; }
+ul.ui-autocomplete .ui-menu-item .ui-menu-item-wrapper:hover { text-decoration: none; border: none; color: #2f7fa3; }
+ul.ui-autocomplete .ui-menu-item .ui-menu-item-wrapper:hover .ui-state-highlight { color: #2f7fa3; }
+.ui-autocomplete-category { font-size: .8em; margin: 0; padding: 4px 10px; background: #eff1f2; font-weight: 600; color: #212529; font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+.ui-autocomplete-category span { margin-right: 10px; }
+@media screen and (max-width: 768px ) {
+    .loader-page .loader-body {
+        width: 100%;
+    }
+}
+
+
