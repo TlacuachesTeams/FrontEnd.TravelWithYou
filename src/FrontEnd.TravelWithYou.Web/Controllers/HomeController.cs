@@ -4,6 +4,7 @@ using FrontEnd.TravelWithYou.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Threading.Tasks;
+using System;
 
 namespace FrontEnd.TravelWithYou.Web.Controllers
 {
@@ -17,9 +18,17 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
 
         [Route("")]
         public async Task<IActionResult> Index()
-        {
-            DestinationRS response = await destinationCore.GetDestinationsList();
-            return View(response);
+        {           
+            try
+            {
+                DestinationRS response = await destinationCore.GetDestinationsList();
+                return View(response);
+            }
+            catch(Exception ex)
+            {
+                ViewBag.ErrorCritical = $"Critical exception: {ex.Message}, Trace: {ex.StackTrace}";
+                return View("/Views/Shared/Error.cshtml");
+            }
         }
 
         [Route("hotels")]

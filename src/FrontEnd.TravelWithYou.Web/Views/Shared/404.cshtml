@@ -1,0 +1,22 @@
+﻿@using FrontEnd.TravelWithYou.Utils;
+<div class="error-404">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="error-404-img-top">
+                    <img src="~/images/404.png" alt="Viajemos Contigo 404" />
+                </div>
+                <div class="error-404-title">
+                    <div class="col-lg-12 text-center">
+                        <p>Lo sentimos la pagina que usted busca no existe.</p>
+                    </div>
+                </div>
+                <div class="error-404-hide">
+                    <div class="col-lg-12 text-center">                     
+                        <p>@ConvertToBase64.Encode(System.Environment.CurrentDirectory)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

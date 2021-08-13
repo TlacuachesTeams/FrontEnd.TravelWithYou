@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Linq;
+using System;
 
 namespace FrontEnd.TravelWithYou.Web.Controllers
 {
@@ -20,9 +21,17 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
         [Route("destinos")]
         public async Task<IActionResult> destinations()
         {
-           DestinationRS response = await destinationCore.GetDestinationsList();
-            //response.Countries.All(dt => dt.Destinations.OrderBy(dt => dt.DestinationName).ToList()).ToList();
-            return View(response);
+            try
+            {
+                DestinationRS response = await destinationCore.GetDestinationsList();
+                //response.Countries.All(dt => dt.Destinations.OrderBy(dt => dt.DestinationName).ToList()).ToList();
+                return View(response);
+            }
+            catch(Exception ex)
+            {
+                ViewBag.ErrorCritical = $"Critical exception: {ex.Message}, Trace: {ex.StackTrace}";
+                return View("/Views/Shared/Error.cshtml");
+            }
         }
 
         [HttpGet]
@@ -37,9 +46,17 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
         [Route("destino/{destinationuri}")]
         public async Task<IActionResult> destination(string destinationUri)
         {
-            ViewBag.DestinationUri = destinationUri;
-            DestinationRS response = await destinationCore.GetDestination(destinationUri);
-            return View(response);
+            try
+            {
+                ViewBag.DestinationUri = destinationUri;
+                DestinationRS response = await destinationCore.GetDestination(destinationUri);
+                return View(response);
+            }
+            catch(Exception ex)
+            {
+                ViewBag.ErrorCritical = $"Critical exception: {ex.Message}, Trace: {ex.StackTrace}";
+                return View("/Views/Shared/Error.cshtml");
+            }
         }
 
 

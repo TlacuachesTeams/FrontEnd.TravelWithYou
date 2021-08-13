@@ -1,25 +1,26 @@
-﻿@model ErrorViewModel
-@{
-    ViewData["Title"] = "Error";
-}
-
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
-
-@if (Model.ShowRequestId)
-{
-    <p>
-        <strong>Request ID:</strong> <code>@Model.RequestId</code>
-    </p>
-}
-
-<h3>Development Mode</h3>
-<p>
-    Swapping to <strong>Development</strong> environment will display more detailed information about the error that occurred.
-</p>
-<p>
-    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
-    It can result in displaying sensitive information from exceptions to end users.
-    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
-    and restarting the app.
-</p>
+﻿@using FrontEnd.TravelWithYou.Utils;
+<div class="error">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="error-img-top">
+                    <img src="~/images/error.png" alt="Viajemos Contigo Error" />
+                </div>
+                <div class="error-title">
+                    <div class="col-lg-12 text-center">
+                        <p>Lo sentimos la pagina no pudo ser cargada.</p>
+                    </div>
+                </div>
+                @if (ViewBag.ErrorCritical != null)
+                {
+                    <div class="error-hide">
+                        <div class="col-lg-12 text-center">
+                            <p>@ConvertToBase64.Encode(ViewBag.ErrorCritical)</p>
+                            <p>@ConvertToBase64.Encode(System.Environment.CurrentDirectory)</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

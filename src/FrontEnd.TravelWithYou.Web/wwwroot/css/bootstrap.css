@@ -1,5 +1,25 @@
 ﻿@charset "UTF-8";
 
+/*404*/
+.error-404, .error {
+    text-align: center;
+    margin: 30px 0;
+    min-height: 280px;
+}
+    .error-404 .error-404-img-top img, .error .error-img-top img {
+        width: 600px;
+        height: 260px;
+        vertical-align: middle;
+    }
+    .error-404 .error-404-title p, .error .error-title p {
+        font-size: 2.3rem;
+        color: #007aff;
+    }
+    .error-404 .error-404-hide, .error .error-hide {
+        display: none;
+    }
+
+/*Wait Page*/
 .wait-page {   
   left: 0;
   top: 0;

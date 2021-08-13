@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FrontEnd.TravelWithYou.Entities\FrontEnd.TravelWithYou.Entities.csproj" />
+    <ProjectReference Include="..\FrontEnd.TravelWithYou.Utils\FrontEnd.TravelWithYou.Utils.csproj" />
   </ItemGroup>
 
   <ItemGroup>
