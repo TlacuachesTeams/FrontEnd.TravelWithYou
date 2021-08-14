@@ -23,14 +23,19 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
         {
             try
             {
+                ViewBag.ReadFile = false;
                 DestinationRS response = await destinationCore.GetDestinationsList();
+                if (response != null)
+                {
+                    ViewBag.ReadFile = response.ReadFile;
+                }
                 //response.Countries.All(dt => dt.Destinations.OrderBy(dt => dt.DestinationName).ToList()).ToList();
                 return View(response);
             }
             catch(Exception ex)
             {
-                ViewBag.ErrorCritical = $"Critical exception: {ex.Message}, Trace: {ex.StackTrace}";
-                return View("/Views/Shared/Error.cshtml");
+                ViewBag.ErrorMessage = $"Critical exception: {ex.Message}, Trace: {ex.StackTrace}";
+                return View("/Views/Error/Error.cshtml");
             }
         }
 
@@ -48,14 +53,19 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
         {
             try
             {
+                ViewBag.ReadFile = false;
                 ViewBag.DestinationUri = destinationUri;
                 DestinationRS response = await destinationCore.GetDestination(destinationUri);
+                if (response != null)
+                {
+                    ViewBag.ReadFile = response.ReadFile;
+                }
                 return View(response);
             }
             catch(Exception ex)
             {
-                ViewBag.ErrorCritical = $"Critical exception: {ex.Message}, Trace: {ex.StackTrace}";
-                return View("/Views/Shared/Error.cshtml");
+                ViewBag.ErrorMessage = $"Critical exception: {ex.Message}, Trace: {ex.StackTrace}";
+                return View("/Views/Error/Error.cshtml");
             }
         }
 

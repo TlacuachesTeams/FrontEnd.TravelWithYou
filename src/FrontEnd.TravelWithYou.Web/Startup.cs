@@ -108,11 +108,12 @@ namespace FrontEnd.TravelWithYou.Web
                 app.UseDeveloperExceptionPage();
             }
             else
-            {
+            {                
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseStatusCodePagesWithReExecute("/Error/{0}");
             app.UseRequestLocalization();
 
             var builder = new ConfigurationBuilder()
@@ -125,14 +126,15 @@ namespace FrontEnd.TravelWithYou.Web
             app.UseStaticFiles();
             app.UseSession();
             app.UseAuthorization();
+           
             // using Microsoft.Extensions.FileProviders;
             // using System.IO;
-            //app.UseStaticFiles(new StaticFileOptions
-            //{
-            //    FileProvider = new PhysicalFileProvider(
-            //        Path.Combine(env.ContentRootPath, "json")),
-            //    RequestPath = "/json"
-            //});
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(Directory.GetCurrentDirectory())),
+                RequestPath = "/StaticFiles"
+            });
 
             app.UseRouting();
 

@@ -1,0 +1,27 @@
+﻿@using FrontEnd.TravelWithYou.Utils;
+<div class="error">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="error-img-top">
+                    <img src="~/images/error.png" alt="Viajemos Contigo Error" />
+                </div>
+                <div class="error-title">
+                    <div class="col-lg-12 text-center">
+                        <p>Lo sentimos la página no pudo ser cargada.</p>
+                    </div>
+                </div>
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <div class="error-hide">
+                        <div class="col-lg-12 text-center">
+                            <p>@ConvertToBase64.Encode(ViewBag.ErrorMessage)</p>
+                            <p>@ConvertToBase64.Encode(System.Environment.CurrentDirectory)</p>
+                            <p>RF:@ViewBag.ReadFile</p>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
