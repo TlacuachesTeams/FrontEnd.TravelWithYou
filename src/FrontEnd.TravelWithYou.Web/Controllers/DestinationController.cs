@@ -4,8 +4,11 @@ using FrontEnd.TravelWithYou.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Threading.Tasks;
-using System.Linq;
 using System;
+using System.Linq;
+using FrontEnd.TravelWithYou.Utils;
+using System.Collections.Generic;
+using FrontEnd.TravelWithYou.Entities.Common;
 
 namespace FrontEnd.TravelWithYou.Web.Controllers
 {
@@ -27,6 +30,11 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
                 DestinationRS response = await destinationCore.GetDestinationsList();
                 if (response != null)
                 {
+                    var firstCountry = response.Countries?.FirstOrDefault();                    
+                    List<KeyValue> replaceKeys = new List<KeyValue> {
+                        new KeyValue { Key = "{CountryName}", Value = firstCountry.CountryName }                       
+                    };
+                    ViewBag.Metas = HelperMetas.GetMetas(response.Metas?.Metas, "home-destinations", replaceKeys);
                     ViewBag.ReadFile = response.ReadFile;
                 }
                 //response.Countries.All(dt => dt.Destinations.OrderBy(dt => dt.DestinationName).ToList()).ToList();
@@ -59,6 +67,20 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
                 if (response != null)
                 {
                     ViewBag.ReadFile = response.ReadFile;
+                    var firstCountry = response.Countries?.FirstOrDefault();
+                    var firstDestination = firstCountry.Destinations?.FirstOrDefault();
+                    //Destination Not Exist
+                    if (firstDestination != null)
+                    {
+                        List<KeyValue> replaceKeys = new List<KeyValue> {
+                            new KeyValue { Key = "{CountryName}", Value = firstCountry.Title },
+                            new KeyValue { Key = "{DestinationName}", Value = firstDestination.DestinationName }
+                        };
+                        ViewBag.Metas = HelperMetas.GetMetas(response.Metas?.Metas, "destination", replaceKeys);
+                    }
+                    else {
+                        return View("/Views/Error/Error404.cshtml");
+                    }                    
                 }
                 return View(response);
             }

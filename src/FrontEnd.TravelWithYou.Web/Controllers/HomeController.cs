@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System;
+using FrontEnd.TravelWithYou.Utils;
+using FrontEnd.TravelWithYou.Entities.Common.AboutUs;
 
 namespace FrontEnd.TravelWithYou.Web.Controllers
 {
@@ -24,6 +26,7 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
                 ViewBag.ReadFile = false;
                 DestinationRS response = await destinationCore.GetDestinationsList();
                 if (response != null) {
+                    ViewBag.Metas = HelperMetas.GetMetas(response.Metas?.Metas,"home-principal");
                     ViewBag.ReadFile = response.ReadFile;
                 }
                 return View(response);
@@ -93,9 +96,10 @@ namespace FrontEnd.TravelWithYou.Web.Controllers
 
         [Route("aboutus")]
         [Route("acercadenosotros")]
-        public IActionResult AboutUs()
+        public async Task<IActionResult> AboutUs()
         {
-            return View();
+            AboutUs response = destinationCore.GetDestinationsList().Result.AboutUs;
+            return View(response);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

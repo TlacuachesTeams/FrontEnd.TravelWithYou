@@ -1,6 +1,141 @@
-﻿{  
+﻿{
+  "AboutUs": {
+    "H1": "Acerca de Nosotros",
+    "Title": "Acerca de Nosotros",
+    "Description": "Somos una empresa 100% mexicana con colaboradores de amplia experiencia en gestión turística y de comercio electrónico. <br/><b>Por eso ofrecemos:</b><br/> - Información relevante de los mejores destinos de México.<br/> - Puntos de interes y atractivos turisticos del destino. <br/> - Ubicación geográfica del destino ó atractivo."
+  },
+  "Metas": {
+    "Types": [
+      {
+        "Id": 1,
+        "Name": "meta"
+      },
+      {
+        "Id": 2,
+        "Name": "link"
+      },
+      {
+        "Id": 3,
+        "Name": "title"
+      }
+    ],
+    "Metas": [
+      {
+        "Page": "all",
+        "TypeId": 1,
+        "Name": "robots",
+        "Content": "index,follow"
+      },
+      {
+        "Page": "home-principal",
+        "TypeId": 3,
+        "Text": "agencia de viajes: viajemos contigo, destinos, puntos de interes, hoteles"
+      },
+      {
+        "Page": "home-principal",
+        "TypeId": 1,
+        "Property": "og:title",
+        "Content": "agencia de viajes: viajemos contigo, destinos, puntos de interes, hoteles"
+      },
+      {
+        "Page": "home-principal",
+        "TypeId": 1,
+        "Name": "description",
+        "Content": "Viajes baratos en Viajemos Contigo, agencia de viajes, destinos, punto de interes, hoteles"
+      },
+      {
+        "Page": "home-principal",
+        "TypeId": 1,
+        "Property": "og:description",
+        "Content": "Viajes baratos en Viajemos Contigo, agencia de viajes, destinos, punto de interes, hoteles"
+      },
+      {
+        "Page": "home-destinations",
+        "TypeId": 3,
+        "Text": "agencia de viajes: viajemos contigo en {CountryName}, destinos en {CountryName}, puntos de interes en {CountryName}, hoteles en {CountryName}"
+      },
+      {
+        "Page": "home-destinations",
+        "TypeId": 1,
+        "Property": "og:title",
+        "Content": "agencia de viajes: viajemos contigo en {CountryName}, destinos en {CountryName}, puntos de interes en {CountryName}, hoteles en {CountryName}"
+      },
+      {
+        "Page": "home-destinations",
+        "TypeId": 1,
+        "Name": "description",
+        "Content": "Información de destinos de {CountryName}, puntos de interes en destinos de {CountryName}, hoteles en destinos de {CountryName}, viajar a {CountryName}, viajemos a {CountryName}"
+      },
+      {
+        "Page": "home-destinations",
+        "TypeId": 1,
+        "Property": "og:description",
+        "Content": "Información de destinos de {CountryName}, puntos de interes en destinos de {CountryName}, hoteles en destinos de {CountryName}, viajar a {CountryName}, viajemos a {CountryName}"
+      },
+      {
+        "Page": "destination",
+        "TypeId": 3,
+        "Text": "agencia de viajes: viajemos contigo en {DestinationName}, destinos en {DestinationName}, puntos de interes en {DestinationName}, hoteles en {DestinationName}"
+      },
+      {
+        "Page": "destination",
+        "TypeId": 1,
+        "Property": "og:title",
+        "Content": "agencia de viajes: viajemos contigo en {DestinationName}, destinos en {DestinationName}, puntos de interes en {DestinationName}, hoteles en {DestinationName}"
+      },
+      {
+        "Page": "destination",
+        "TypeId": 1,
+        "Name": "description",
+        "Content": "{DestinationName}, Información de {DestinationName}, puntos de interes en {DestinationName}, hoteles en {DestinationName}, viajar a {DestinationName}, viajemos a {DestinationName}"
+      },
+      {
+        "Page": "destination",
+        "TypeId": 1,
+        "Property": "og:description",
+        "Content": "{DestinationName}, Información de {DestinationName}, puntos de interes en {DestinationName}, hoteles en {DestinationName}, viajar a {DestinationName}, viajemos a {DestinationName}"
+      },
+      {
+        "Page": "all",
+        "TypeId": 1,
+        "Property": "og:type",
+        "Content": "article"
+      },
+      {
+        "Page": "all",
+        "TypeId": 1,
+        "Property": "og:site_name",
+        "Content": "Viajemos Contigo"
+      },
+      {
+        "Page": "all",
+        "TypeId": 1,
+        "Property": "og:url",
+        "Content": "http://viajemoscontigo.com/"
+      },
+      {
+        "Page": "all",
+        "TypeId": 2,
+        "rel": "canonical",
+        "href": "http://viajemoscontigo.com/"
+      },
+      {
+        "Page": "all",
+        "TypeId": 1,
+        "Property": "og:image",
+        "Content": "http://viajemoscontigo.com/images/logoviajemoscontigo.png"
+      },
+      {
+        "Page": "all",
+        "TypeId": 1,
+        "name": "viewport",
+        "Content": "width=device-width, initial-scale=1"
+      }
+    ]
+  },
   "Countries": [
     {
+      "CountryName": "México",
       "Title": "Destinos de México",
       "Description": "Disfruta de los mejores destinos de México y alrededores",
       "Galleries": [

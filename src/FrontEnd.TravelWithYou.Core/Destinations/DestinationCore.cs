@@ -20,12 +20,18 @@ namespace FrontEnd.TravelWithYou.Core.Destinations
         {
             DestinationRS response = new DestinationRS();
             var data = await destinationData.GetDestinationsList();
-            response.Countries = data.Countries.Select(dt => new Country {
-                Title = dt.Title,
-                Description = dt.Description,
-                Galleries = dt.Galleries,
-                Destinations = dt.Destinations.Where(dt=> dt.DestinationUri.ToLower().Equals(destinationUri.ToLower())).OrderBy(dt=> dt.DestinationName).ToList()
-            }).ToList();
+            if (data != null) {
+                response.ReadFile = data.ReadFile;
+                response.Metas = data.Metas;
+                response.Countries = data.Countries.Select(dt => new Country
+                {
+                    Title = dt.Title,
+                    CountryName = dt.CountryName,
+                    Description = dt.Description,
+                    Galleries = dt.Galleries,
+                    Destinations = dt.Destinations.Where(dt => dt.DestinationUri.ToLower().Equals(destinationUri.ToLower())).OrderBy(dt => dt.DestinationName).ToList()
+                }).ToList();
+            }            
             return response;
         }
     }

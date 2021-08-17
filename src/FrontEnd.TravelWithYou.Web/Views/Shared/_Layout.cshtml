@@ -1,13 +1,19 @@
 ﻿@using Microsoft.AspNetCore.Http;
+ 
 @inject IHttpContextAccessor  IHttpContextAccesor;
 <!doctype html>
 <html lang="es">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <title>Viajemos Contigo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    @if (ViewBag.Metas != null)
+    {
+        foreach (var meta in ViewBag.Metas as List<string>)
+        {
+            @Html.Raw(meta);
+        }
+    }    
     <link rel="icon" type="image/png" sizes="16x16" href="~/favicon/logoviajemoscontigo_16x16.png">
     <link rel="stylesheet" href="~/css/fonts.css">
     <link rel="stylesheet" href="~/css/bootstrap.css">
