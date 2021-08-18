@@ -10,8 +10,8 @@ namespace FrontEnd.TravelWithYou.Entities.Common.PointsInterest
         public string Title { get; set; }
         public string ImagePath { get; set; }
         public string Description { get; set; }
-        public decimal Latitude { get; set; }
-        public decimal Longitude { get; set; }
+        public decimal? Latitude { get; set; }
+        public decimal? Longitude { get; set; }
         public List<Gallery> Galleries { get; set; }
     }
 }

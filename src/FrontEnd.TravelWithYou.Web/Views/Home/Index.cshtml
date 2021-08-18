@@ -51,12 +51,13 @@
                             <a href="#myCarousel">
                                 <picture>
                                     <source media="(min-width: 992px)" srcset="@gallery.ImagePathLarge">
-                                    <img src="@gallery.ImagePathSmall" 
-                                         onError="this.onerror=null;this.src='/images/destinations/nobanner.png';$(this).prev().attr('srcset','/images/destinations/nobanner.png');" 
+                                    <img src="@gallery.ImagePathSmall"
+                                         onError="this.onerror=null;this.src='/images/destinations/nobanner.png';$(this).prev().attr('srcset','/images/destinations/nobanner.png');"
                                          alt="@gallery.Title"
-                                         data-image="@gallery.ImagePathSmall"
-                                    >
-                                </picture>
+                                         title="@gallery.Title"
+                                         data-image="@gallery.ImagePathSmall">
+                                    <span class="label-destination">@gallery.Title</span>
+                                </picture>                              
                             </a>
                         </div>
                         index += 1;

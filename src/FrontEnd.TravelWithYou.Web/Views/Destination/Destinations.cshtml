@@ -1,6 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Http;
 @inject IHttpContextAccessor  IHttpContextAccesor;
 @using FrontEnd.TravelWithYou.Entities.Api.Destinations;
+@using FrontEnd.TravelWithYou.Entities.Common.Galleries;
 @model DestinationRS
 
 @if (Model != null)
@@ -13,33 +14,11 @@
         var firstCountry = Model.Countries.FirstOrDefault();
         /*var destination = firstCountry.Destinations.FirstOrDefault();*/
 
-        <section class="slider">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators" style="display:none;">
-                    @foreach (var gallery in firstCountry.Galleries)
-                    {
-                        if (index == 0)
+        @*<section class="slider">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators" style="display:none;">
+                        @foreach (var gallery in firstCountry.Galleries)
                         {
-                            active = " active";
-                        }
-                        else
-                        {
-                            active = "";
-                        }
-                        <li data-target="#myCarousel" data-slide-to="@index" class="@active"></li>
-                        index += 1;
-                    }
-                </ol>
-                <div class="carousel-inner">
-                    @{
-                        index = 0;
-                        active = "";
-                    }
-                    @foreach (var country in Model.Countries)
-                    {
-                        @foreach (var gallery in country.Galleries)
-                        {
-
                             if (index == 0)
                             {
                                 active = " active";
@@ -48,29 +27,61 @@
                             {
                                 active = "";
                             }
-                            <div class="carousel-item @active">
-                                <a href="#myCarousel">
-                                    <picture>
-                                        <source media="(min-width: 992px)" srcset="@gallery.ImagePathLarge">
-                                        <img src="@gallery.ImagePathSmall"
-                                             onError="this.onerror=null;this.src='/images/destinations/nobanner.png';$(this).prev().attr('srcset','/images/destinations/nobanner.png');"
-                                             alt="@gallery.Title"
-                                             data-image="@gallery.ImagePathSmall">
-                                    </picture>
-                                </a>
-                            </div>
+                            <li data-target="#myCarousel" data-slide-to="@index" class="@active"></li>
                             index += 1;
                         }
-                    }
+                    </ol>
+                    <div class="carousel-inner">
+                        @{
+                            index = 0;
+                            active = "";
+                        }
+                        @foreach (var country in Model.Countries)
+                        {
+                            @foreach (var gallery in country.Galleries)
+                            {
+
+                                if (index == 0)
+                                {
+                                    active = " active";
+                                }
+                                else
+                                {
+                                    active = "";
+                                }
+                                <div class="carousel-item @active">
+                                    <a href="#myCarousel">
+                                        <picture>
+                                            <source media="(min-width: 992px)" srcset="@gallery.ImagePathLarge">
+                                            <img src="@gallery.ImagePathSmall"
+                                                 onError="this.onerror=null;this.src='/images/destinations/nobanner.png';$(this).prev().attr('srcset','/images/destinations/nobanner.png');"
+                                                 alt="@gallery.Title"
+                                                 data-image="@gallery.ImagePathSmall">
+                                        </picture>
+                                    </a>
+                                </div>
+                                index += 1;
+                            }
+                        }
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
+            </section>*@
+
+        List<Gallery> galleries = new List<Gallery>();
+        galleries.AddRange(firstCountry.Galleries);
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    @await Html.PartialAsync("~/Views/Gallery/Gallery.cshtml", galleries)
+                </div>
             </div>
-        </section>
+        </div>
 
 
         <div class="w-100"></div>
@@ -123,25 +134,25 @@
                                         OrderType = "A"
                                     }));
                                     @*@foreach (var destination in country.Destinations)
-                                    {
-                                        string pathDestination = $"/destino/{destination.DestinationUri}";
-                                        <div name="box-destination" class="col-lg-2 col-md-2 col-sm-6 col-6">
-                                            <div class="box-destiny">
-                                                <div class="bg-destiny">
-                                                    <img src="@destination.ImagePath"
-                                                         onError="this.onerror=null;this.src='/images/destinations/nodestination.png';"
-                                                         title="@destination.DestinationName"
-                                                         alt="@destination.DestinationName"
-                                                         class="img-fluid"
-                                                         data-image="@destination.ImagePath">
-                                                </div>
-                                                <span class="label-destination">@destination.DestinationName</span>
-                                                <div class="col-lg-12 col-md-4 col-sm-12 col-12">
-                                                    <a href="@pathDestination" class="btn btn-primary btn-sm rounded-pill m-2">Ver más</a>
+                                        {
+                                            string pathDestination = $"/destino/{destination.DestinationUri}";
+                                            <div name="box-destination" class="col-lg-2 col-md-2 col-sm-6 col-6">
+                                                <div class="box-destiny">
+                                                    <div class="bg-destiny">
+                                                        <img src="@destination.ImagePath"
+                                                             onError="this.onerror=null;this.src='/images/destinations/nodestination.png';"
+                                                             title="@destination.DestinationName"
+                                                             alt="@destination.DestinationName"
+                                                             class="img-fluid"
+                                                             data-image="@destination.ImagePath">
+                                                    </div>
+                                                    <span class="label-destination">@destination.DestinationName</span>
+                                                    <div class="col-lg-12 col-md-4 col-sm-12 col-12">
+                                                        <a href="@pathDestination" class="btn btn-primary btn-sm rounded-pill m-2">Ver más</a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>                                       
-                                    }*@
+                                        }*@
                                 </div>
                             </div>
                         </div>

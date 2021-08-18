@@ -5874,6 +5874,21 @@ textarea.form-control-lg {
   height: auto;
 }
 
+.carousel-item .label-destination {
+    left:0;
+    background: #2eb31e;
+    color: #fff;
+    font-size: 0.9em;
+    font-family: "montserratsemibold";
+    position: absolute;
+    /* margin: -164px 0px 0 3px;*/
+    padding: 2px 10px;
+    text-transform: uppercase;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 1;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;

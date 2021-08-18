@@ -186,7 +186,7 @@
           "Title": "Coahuila",
           "Description": "Coahuila, oficialmente llamado Estado Libre y Soberano de Coahuila de Zaragoza, ​ es uno de los treinta y un estados que, junto con la Ciudad de México, forman México.​​ Su capital y ciudad más poblada es Saltillo.",
           "ImagePathLarge": "/images/destinations/mexico/banners/large-coahuila.jpg",
-          "ImagePathSmall": "/images/destinations/mexico/banners/small-cohauila.jpg"
+          "ImagePathSmall": "/images/destinations/mexico/banners/small-coahuila.jpg"
         },
         {
           "GalleryId": 8,
@@ -396,8 +396,8 @@
               "Title": "La Quebrada",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/laquebrada.jpg",
               "Description": "La Quebrada es un acantilado de 45 mts de altura y que ya es tradición aquí en Acapulco. Desde 1934 los clavados que realizaban los pobladores guerrerenses se fueron haciendo famosos debido a su grado de dificultad y peligro. La Quebrada además nos ofrece un Restaurant dónde podrás comer deliciosamente mientras admiras el paisaje de el Puerto de Acapulco, cuenta con un mirador desde dónde puedes observar los clavados además de ver a los pelícanos atrapando su comida.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -405,8 +405,8 @@
               "Title": "Punta Diamante",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/puntadiamante.jpg",
               "Description": "Acapulco Diamante, también conocida como Punta Diamante, es una de las tres zonas turísticas en las que se divide el puerto de Acapulco, en la costa sur de México.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -414,8 +414,8 @@
               "Title": "Capilla de la Paz",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/capillapaz.jpg",
               "Description": "La capilla Ecuménica La Paz, mejor conocida solamente como capilla de la Paz, está ubicada en la parte más alta del cerro El Guitarrón, brazo montañoso que rodea a la bahía de Acapulco, Guerrero, en el sur de México.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -423,8 +423,8 @@
               "Title": "Costera Miguel Alemán",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/costeramiguelaleman.jpg",
               "Description": "La Avenida Costera Miguel Alemán es la principal arteria vial y turística del puerto de Acapulco, Guerrero, en el sur de México. Se extiende en 12.2 km de longitud atravesando el amplio litoral de la Bahía de Acapulco del puerto de poniente a oriente.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -432,8 +432,8 @@
               "Title": "Clavadistas de la Quebrada con Cena",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/clavadistasquebradacena.jpg",
               "Description": "Desde el Hotel El Mirador, con su restaurante la Perla, podrás disfrutar del espectáculo de los clavadistas. Es una chulada, muy tradicional y bueno, la cena es una maravilla.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -441,8 +441,8 @@
               "Title": "Mural de Diego Rivera",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/muraldiegorivera.jpg",
               "Description": "Propiedad que fue el estudio del artista Diego Rivera, cuyo exterior está decorado con sus luminosos murales.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -450,8 +450,8 @@
               "Title": "Yate Bonanza",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/yatebonanza.jpg",
               "Description": "Vive una tarde o noche de fiesta en Acapulco a bordo del mejor yate de recreo; el Yate Bonanza. Disfruta del show latino tropical, baila al ritmo del grupo musical y pasa un momento de risa y diversión con los mejores imitadores de tus artistas favoritos.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -459,8 +459,8 @@
               "Title": "Zocalo",
               "ImagePath": "/images/destinations/mexico/acapulco/puntosinteres/zocalo.jpg",
               "Description": "La plaza Álvarez es la principal plaza del puerto de Acapulco, Guerrero, México, localizada en el centro de la ciudad, frente a la Avenida Costera Miguel Alemán, su principal arteria vehicular. Es conocida también como el Zócalo de Acapulco o Zócalo porteño.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             }
           ]
@@ -488,63 +488,63 @@
               "InterestPointId": 1,
               "Title": "Templo de San Antonio",
               "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/templosanantonio.jpg",
-              "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Description": "El templo de San Antonio es un monumento y obra maestra religiosa, localizado en el centro histórico de la Ciudad de Aguascalientes, en el estado del mismo nombre, diseñado y construido por el arquitecto práctico autodidacta Refugio Reyes Rivas. Su construcción se inicia en 1895 y la obra se concluye en 1908.",
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
               "InterestPointId": 2,
               "Title": "Catedral Basílica de Muestra Señora de la Asunción",
               "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/catedralasuncion.jpg",
-              "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Description": "La Catedral de Aguascalientes o Catedral Basílica de Nuestra Señora de la Asunción de Aguascalientes, está dedicada a Nuestra Señora de la Asunción. Es el principal edificio católico de la ciudad de Aguascalientes en México, y uno de los monumentos emblemáticos de la ciudad. Está ubicado en la Plaza de la Patria.",
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
               "InterestPointId": 3,
               "Title": "Templo del Señor del Encino",
               "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/temploencino.jpg",
-              "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Description": "El cura don Mateo José de Arteaga consiguió el solar para la construcción de la primera capilla, la cual data de 1764 consagrada el 4 de octubre del mismo año al Arcángel San Miguel. La construcción del actual templo comenzó el 12 de enero de 1773 a cargo del cura don Vicente Antonio Ferrer Alatorre que hace colocar los cimientos. Dicho templo fue dedicado al Señor del Encino el 10 y 11 de marzo de 1796 siendo párroco don Miguel Martínez de los Ríos. En ese año, el 13 de noviembre, comenzó la devoción popular al Cristo Negro del Encino, ya que en esa fecha se adjudica su aparición milagrosa, la cual según un vecino de la ciudad ocurrió cuando cortó el tronco de un encino del cual apareció la imagen de Jesucristo. La imagen del señor del Encino no es simétrica, posee el brazo izquierdo más largo que el derecho. Gabriel Agraz señala el labriego Claudio Santoyo vio que la rama de un encino en Santa María de los Lagos, tenía forma de cruz, por lo que la cortó, encontrando ahí la imagen de Cristo. Tres años después llevó el crucifijo a bendecir con el párroco. Agraz señala que se trata de la misma imagen, pues el acontecimiento data de 1744, 17 años antes de la veneración del Señor del Encino en Aguascalientes.",
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
               "InterestPointId": 4,
               "Title": "Palacio de Gobierno",
               "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/palaciogobierno.jpg",
-              "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Description": "Fue construido en 1700 y tiene una fachada de estilo neoclásico con dos niveles. El cuerpo central es de cantera rosa y todo el edificio se encuentra coronado por una cornisa perimetral y una balaustrada superior.",
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
               "InterestPointId": 5,
               "Title": "Patio de las Jacarandas",
               "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/patiojacarandas.jpg",
-              "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Description": "Los centros históricos encuentran su origen en sucesos fundantes de las ciudades donde se emplazan; sin embargo, aunque la memoria del espacio permanezca, los alrededores y la ciudad entera se transforman a un ritmo que a veces parece olvidarse de estos sitios. En la ciudad de Aguascalientes, el tiempo y sus expresiones no fueron sutiles al dejar huella de su paso por el centro histórico, donde construcciones modernas y contemporáneas han encontrado su lugar menguando el peso de sitios como el Teatro Morelos. Por iniciativa del Gobierno del Estado de Aguascalientes, arquitectos de la SICOM, unieron fuerzas con el artista Jan Hendrix para fijar el objetivo en la restauración del carácter receptor del centro, buscando lograr un diálogo simbiótico entre historia, significado y espacios donde el proyecto ‘Patio de las Jacarandas’ funcionaría como elemento catalizador.",
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
               "InterestPointId": 6,
               "Title": "Castillo Douglas",
               "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/castillodouglas.jpg",
-              "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Description": "El Castillo Ortega, ​ conocido como Castillo Douglas​​ es una construcción palaciega ubicada al centro de la Ciudad de Aguascalientes, México, que antiguamente sirvió como residencia y posteriormente fue deshabitado.",
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
               "InterestPointId": 7,
               "Title": "San Marcos Church",
-              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/castillodouglas.jpg",
-              "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "ImagePath": "/images/destinations/mexico/aguascalientes/puntosinteres/sanmarcoschurch.jpg",
+              "Description": "El Templo de San Marcos o Parroquia de Nuestra Señora del Carmen es una iglesia católica ubicada en el Barrio de San Marcos de la Ciudad de Aguascalientes. El templo fue fundado en 1764, dedicado a la Virgen del Carmen y a San Marcos evangelista, por lo cual se conmemoran dos fiestas patronales, un novenario el 16 de julio, dedicado a la Virgen del Carmen, y un triduo para San Marcos el 25 de abril. El Templo de San Marcos se encuentra ubicado dentro del Barrio de San Marcos, uno de los barrios más antiguos y representativos de la ciudad de Aguascalientes, y que es sede de la Feria Nacional de San Marcos. Antes, al templo se le conocía como Templo del Pueblo Nuevo de Indios de San Marcos, el cual fue fundado por un grupo de indios en 1604, pero se comenzó a construir en 1655 y pasó cien años inconcluso, hasta 1755 que se retomó y se terminó por completo.",
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             }
           ]
@@ -554,8 +554,8 @@
           "DestinationName": "Baja California Norte",
           "DestinationUri": "bajacalifornianorte",
           "ImagePath": "/images/destinations/mexico/bajacalifornianorte/destination-bajacalifornianorte.jpg",
-          "Title": "Aguascalientes",
-          "Description": "Aguascalientes es una ciudad de la zona central de México, conocida por los edificios coloniales españoles de su centro histórico. En la Plaza Patria se ubica la Catedral de Nuestra Señora de la Asunción, con pinturas del siglo XVIII de Miguel Cabrera. El Palacio de Gobierno del siglo XVII es conocido por sus numerosos arcos interiores tallados. El Museo Nacional de la Muerte exhibe arte funerario y artefactos desde la época precolombina hasta la actualidad.",
+          "Title": "Baja California Norte",
+          "Description": "Baja California es un estado Mexicano en la Península de Baja California que limita con el estado de California de Estados Unidos. El paisaje se extiende por montañas y playas en el océano Pacífico y el golfo de California. Las ciudades cerca de la frontera con Estados Unidos incluyen Tijuana, conocida como un destino comercial y de bohemia, como también la ciudad de Rosarito, con sus amplias playas en el Pacífico.",
           "Latitude": 32.5132984,
           "Longitude": -117.0412813,
           "Galleries": [
@@ -613,8 +613,8 @@
               "Title": "Torre Escénica",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/torreescenica.jpg",
               "Description": "La plataforma gira, así que le da una vista increíble de la laguna Nichupté y el mar Caribe. Vale la pena totalmente.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -622,8 +622,8 @@
               "Title": "Avenida Kukulcan",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/avenidakukulcan.jpg",
               "Description": "Puede tomar el servicio de transporte para ver tanto de Cancún como quieras a través de la Avenida Kukulkán. Muy divertido de ver la variedad de playas, hoteles, restaurantes, tiendas, sitios culturales, etc.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -631,8 +631,8 @@
               "Title": "Zona Arqueológica El Rey",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/zonaarqueologicaelrey.jpg",
               "Description": "El Rey es un yacimiento arqueológico de la cultura maya precolombina, localizado en el sureste de México, en el territorio que hoy ocupa el estado de Quintana Roo, precisamente en el centro turístico de Cancún.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -640,8 +640,8 @@
               "Title": "El Parque de Las Palapas",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/parquelaspalapas.jpg",
               "Description": "Parque pavimentado, con zonas de juego, mesas a la sombra y un escenario al aire libre para actuaciones.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -649,8 +649,8 @@
               "Title": "Parroquia de Cristo Resucitado",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/parroquiacristoresucitado.jpg",
               "Description": "Iglesia moderna al aire libre, con espacios verdes y misas en inglés y español.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -658,8 +658,8 @@
               "Title": "Avenida Tulum",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/avenidatulum.jpg",
               "Description": "El sitio en si es asombroso y es genial si puedes ir con un guía de turístico para escuchar el detalle de la historia.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -667,8 +667,8 @@
               "Title": "Estadio Beto Avila",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/estadiobetoavila.jpg",
               "Description": "El sitio en si es asombroso y es genial si puedes ir con un guía de turístico para escuchar el detalle de la historia.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -676,8 +676,8 @@
               "Title": "Templo de Alácran",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/temploalacran.jpg",
               "Description": "Templo del Alacrán Yamil Lu'um Cancún, el nombre se le dio por una representación zoomorfa de un alacrán que se encontró en él. Hallarás un templo sobre un acantilado con restos de algunas columnas y muros del adoratorio, se cree que funcionaba como un punto de observación o a manera de faro, la caminata en la playa hace a este sitio un lugar único.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -685,8 +685,8 @@
               "Title": "Zona Arqueológica de Yamil Lu'um",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/zonaarqueologicayamilluum.jpg",
               "Description": "Restos arqueológicos de un pequeño templo maya construido en torno del siglo XIII y ubicado en una loma costera.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -694,8 +694,8 @@
               "Title": "Plaza de Toros Cancún",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/plazadetoros.jpg",
               "Description": "La Plaza de Toros de Cancún, se encuentra localizada entre la Avenida Bonampak y Sayil, en el centro de la ciudad de Cancún, México, al paso obligado de miles de personas de la zona. Fue inaugurada el 20 de diciembre de 1989, y está catalogada como uno de los edificios representativos de la ciudad de Cancún. Es considerada un lugar emblemático, e incluso un icono del crecimiento económico y social de Cancún.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -703,8 +703,8 @@
               "Title": "Malecon Tajamar",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/malecontajamar.jpg",
               "Description": "Queda por el centrp de Cancún y cerca de plaza las Americas, por la avenida Bonampak.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -712,8 +712,8 @@
               "Title": "Mirador",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/mirador.jpg",
               "Description": "Esta playa la ubicamos en el kilómetro 18 del boulevard Kukulcán, en la Zona Hotelera de Cancún. La entrada a la playa es gratuita y está abierta a todas horas, pero ten en cuenta que los salvavidas solo estarán presentes durante el día.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -721,8 +721,8 @@
               "Title": "Playa Tortugas",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/playatortugas.jpg",
               "Description": "Playa Tortugas es una de las playas públicas más populares de Cancún y ofrece una cultura festiva diseñada cuidadosamente para los turistas. El trayecto en coche desde el centro de la ciudad es corto, y la playa está llena de gente de toda clase. El ambiente es emocionante, y este es el lugar indicado si lo que buscas es andar de fiesta en Cancún. Juega voleibol de playa o salta desde el muelle con la gente local, antes de relajarte con un cocktail. Playa Tortugas es una excelente playa para practicar actividades acuáticas, como snorkeling, natación y bungee jumping.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -730,8 +730,8 @@
               "Title": "Punta Cancún Faro",
               "ImagePath": "/images/destinations/mexico/cancun/puntosinteres/puntacancunfaro.jpg",
               "Description": "Punta Cancún es una saliente de tierra que marca el límite norte de la isla de Cancún del estado de Quintana Roo, en la costa oriental de la península de Yucatán sobre el litoral del mar Caribe.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             }
           ]
@@ -760,8 +760,8 @@
               "Title": "Zona Arqueologica Edzna",
               "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/edzna.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -769,8 +769,8 @@
               "Title": "Centro Histórico de San Francisno de Campeche",
               "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/sanfrancisco.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -778,8 +778,8 @@
               "Title": "Old City Wall",
               "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/oldcitymall.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -787,8 +787,8 @@
               "Title": "La Catedral",
               "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/lacatedral.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -796,8 +796,8 @@
               "Title": "El Malecón",
               "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/malecon.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -805,8 +805,8 @@
               "Title": "La Chicanná",
               "ImagePath": "/images/destinations/mexico/campeche/puntosinteres/chicana.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             }
           ]
@@ -835,8 +835,8 @@
               "Title": "Cristo de las Noas",
               "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/cristonoas.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -844,8 +844,8 @@
               "Title": "Iglesia de Santo Madero",
               "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/iglesiasantomadero.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -853,8 +853,8 @@
               "Title": "Poza Azul",
               "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/pozaazul.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -862,8 +862,8 @@
               "Title": "Catedral de Santiago de Saltillo",
               "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/catedralsantiago.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -871,8 +871,8 @@
               "Title": "Canal de la Perla",
               "ImagePath": "/images/destinations/mexico/coahuila/puntosinteres/canalperla.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             }
           ]
@@ -901,8 +901,8 @@
               "Title": "Castillo de Chapultepec",
               "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/chapultepec.jpg",
               "Description": "Este icono arquitectónico e histórico de la Ciudad de México, construido durante la época virreinal, fue sede del Heroico Colegio Militar, institución que tendría una actuación memorable en 1847 durante la Batalla de Chapultepec contra las fuerzas invasoras estadounidenses.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -910,8 +910,8 @@
               "Title": "Museo Nacional de Antropología",
               "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/museoantropologia.jpg",
               "Description": "Se encuentra situado en pleno Bosque de Chapultepec y desde 1964 alberga la colección antropológica y etnográfica más importante de México y una de las más grandes del mundo. México es un país de una variedad étnica y cultural única en el planeta y este museo recorre las particularidades de todos sus pueblos prehispánicos, con sus principales manifestaciones culturales.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -919,8 +919,8 @@
               "Title": "Catedral Metropolitana de la Ciudad de México",
               "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/catedralmetropolitana.jpg",
               "Description": "Esta catedral situada frente al zócalo es la más grande del continente americano y su construcción tomó 250 años, entre los siglos XVI y XIX, razón por la cual es un muestrario de estilos artísticos, entre los que se reconocen gótico, barroco, plateresco, churrigueresco y neoclásico. Sus enormes dimensiones pueden apreciarse a través de sus 5 naves, 51 bóvedas, varios altares, 16 capillas y 35 campanas. Alberga tesoros en pinturas, esculturas, objetos de culto y otras piezas. Son dignos de admiración el soberbio Altar de los Reyes, el Altar Mayor, el Altar del Perdón, el coro, el órgano español, el órgano mexicano, así como los retablos, esculturas y arquitectura de sus numerosas capillas.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -928,8 +928,8 @@
               "Title": "Palacio Nacional",
               "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/palacionacional.jpg",
               "Description": "Es sede del gobierno nacional mexicano y se encuentra frente al zócalo, en el centro histórico de la Ciudad de México. La primera versión fue levantada en el siglo XVI, pero a lo largo de los últimos 5 siglos ha sufrido varias reconstrucciones y modificaciones, sobresaliendo por sus líneas barrocas. Sobre el balcón central que da al zócalo se encuentra la campana que fue tañida por Hidalgo durante el Grito de Dolores que dio inicio a la Independencia de México. Desde ese balcón, cada 16 de septiembre, el Presidente de la República rememora el famoso grito emancipador. El Palacio Nacional recibe una gran afluencia de visitantes, que van principalmente a admirar los 5 murales realizados por Diego Rivera sobre temas históricos de México.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -937,8 +937,8 @@
               "Title": "Museo Frida Kahlo",
               "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/museofridakahlo.jpg",
               "Description": "Frida Kahlo se ha convertido en un icono, con miles de fans en el país y en todo el mundo y sus admiradores nacionales y extranjeros pueden tener una completa panorámica sobre su vida personal y artística, visitando la Casa Azul, casona familiar en la que nació y murió y sede de su museo. La Casa Azul se encuentra en el bello barrio mexiqueño de Coyoacán y sus acogedores espacios muestran cómo era la vida de soltera de Frida y también de casada, luego de su matrimonio con Diego Rivera.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -946,8 +946,8 @@
               "Title": "Palacio de Bellas Artes",
               "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/palaciobellasartes.jpg",
               "Description": "Es una espléndida edificación en art Nouveau y art Decó situada en el centro histórico de la Ciudad de México, inaugurada en 1934 como principal recinto cultural del país. Su sala central tiene 1.677 asientos y el gran telón del escenario, artísticamente realizado por la Casa Tiffany de Nueva York, pesa 24 toneladas y es antifuego. El Palacio de Bellas Artes es sede, entre otras instituciones culturales, de la Orquesta Sinfónica Nacional, la Compañía Nacional de Danza, la Compañía Nacional de Ópera y la Compañía Nacional de Teatro. Por el escenario del palacio han pasado las mejores orquestas sinfónicas del mundo y estrellas de la música culta, como María Callas, Teresa Braganza, Luciano Pavarotti, Plácido Domingo y Mstislav Rostropóvic; bailarines como Rudolf Nuréyev; y, abriendo un inusual espacio a la música pop, el popular cantante mexicano Juan Gabriel.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -955,8 +955,8 @@
               "Title": "Museo Suomaya",
               "ImagePath": "/images/destinations/mexico/ciudadmexico/puntosinteres/suomaya.jpg",
               "Description": "Fue instituido por el magnate mexicano Carlos Slim para honrar la memoria de su fallecida esposa, Doña Soumaya Domit, y cuenta con dos sedes, siendo la más importante la de Plaza Carso, en Nuevo Polanco. La edificación de Plaza Carso es un emblema arquitectónico de la Ciudad de México por su diseño atrevido y vanguardista y es uno de los edificios favoritos de los capitalinos para fotografiar. El museo exhibe una valiosa colección de cuadros, piezas y documentos, muchos provenientes de la colección personal de Slim. Están representados los antiguos maestros europeos y las grandes figuras impresionistas y vanguardistas. También hay una importante muestra de pintura y fotografía mexicana, así como exposiciones de estampas, miniaturas, relicarios, monedas, billetes, vestuario y arte comercial.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             }
           ]
@@ -1199,7 +1199,134 @@
               "ImagePathSmall": "/images/destinations/mexico/oaxaca/banners/small-oaxaca.jpg"
             }
           ],
-          "PointsInterest": []
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "Zona Arqueológica de Monte Albán",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/arqueologicamontealban.jpg",
+              "Description": "Zona arqueológica que data del año 500 a. C., con un museo, un restaurante y artesanía.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Hierve el Agua",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/hierveelagua.jpg",
+              "Description": "Hierve el Agua es un sistema de cascadas petrificadas, formadas por carbonato de calcio. Las cascadas son de origen natural y se formaron hace miles de años, por el escurrimiento de agua con alto contenido de minerales.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "Templo de Santo Domingo de Guzmán",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/templosantodomingoguzman.jpg",
+              "Description": "El Templo de Santo Domingo de Guzmán de la ciudad de Oaxaca de Juárez es un ejemplo de la arquitectura barroca novohispana.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "Mercado Benito Juárez",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/mercadobenitojuarez.jpg",
+              "Description": "Animado mercado cubierto con puestos de hortalizas, platos preparados, artesanía y artículos textiles.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Zócalo de Oaxaca",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/zocalooaxaca.jpg",
+              "Description": "Pequeña y concurrida plaza pública rodeada de restaurantes, puestos y edificios históricos.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Andador Turístico Macedonio Alcalá",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/andadormacedonioalcala.jpg",
+              "Description": "En el año 2006, el corredor turistico del centro, se amplio a la calle García Vigil, paralela a Macedonio Alcalá, fue modificada y recibió muchas mejoras que la convierten en otra de las calles más hermosas de la ciudad que conducen hacia el corazón del Zócalo y que permite una agradable caminata visitando tiendas de artesanías, restaurantes, museos y demás sitios de interes. En temporadas altas y festividades, las calles del corredor turistico se visten de fiesta y color. Todo el turismo se congrega en estas arterias principales.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 7,
+              "Title": "Convento de Cuilapam",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/conventocuilapan.jpg",
+              "Description": "El convento de Cuilápam fue un antiguo convento de México, que se encuentraa en el municipio de Cuilápam de Guerrero, en la región de los Valles Centrales de Oaxaca. Se trata de un edificio del siglo XVI, de impresionantes dimensiones, pero que nunca fue concluido.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 8,
+              "Title": "San Antonio Arrazola",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/sanantonioarrazola.jpg",
+              "Description": "San Antonio Arrazola se sitúa a 10 km de la carretera rumbo a Zaachila. Conocida comúnmente como 'Arrazola'. En la región de Oaxaca son populares los alebrijes tallados en madera de copal. La elaboración de estas artesanías es la base de la economía de los poblados de San Martín Tilcajete y San Antonio Arrazola, donde numerosas familias trabajan en la talla de figuras que luego colorean con pintura vinílica y comercializan en las plazas, mercados y talleres de la región. El alebrije de Oaxaca es una combinacion de la tradición de talla de madera de la región y la técnica creada por Linares. Esta artesanía se introdujo en la zona de Oaxaca en la década de 1980 gracias a la realización de un taller de demostración llevado a cabo en los Estados Unidos. Dicho taller fue organizado por Judith Bronowski y contó con la participación de Manuel Jiménez y la artesana textil María Sabina, ambos originarios de Oaxaca. Los diseños de Linares se adaptaron a la técnica de tallado de madera de copal, pues esta técnica era la dominada por los artesanos de la región. La adaptación del alebrije fue perfeccionada por Manuel Jiménez, oriundo de San Antonio Arrazola. Los alebrijes se elaboran con diferentes tipos de papel o de madera tallada y pintada con colores alegres y vibrantes, representados por jaguares, tigres, sirenas, gatos y nahuales. Aunque hoy en día se pueden elaborar con varias técnicas, esta comunidad se destaca por utilizar el tallado de madera, un conocimiento transmitido de generación en generación. Visita el Museo – Taller de Angélico Jiménez, nieto de don Manuel, para apreciar o adquirir alguna de estas piezas de arte.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 9,
+              "Title": "Amate Books",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/amatelibros.jpg",
+              "Description": "",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 10,
+              "Title": "Basílica de Nuestra Señora de la Soledad",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/basilicasenorasoledad.jpg",
+              "Description": "La Basílica de Nuestra Señora de la Soledad se localiza en la ciudad de Oaxaca de Juárez, al sureste de México. Fue construida entre 1682 y 1690, y es un santuario dedicado a la Virgen de la Soledad, patrona de la ciudad de Oaxaca.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 11,
+              "Title": "Exconvento de San Pablo",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/exconventosanpablo.jpg",
+              "Description": "El antiguo convento de San Pablo fue el primer convento de la orden de los dominicos fundado en la ciudad de Oaxaca, México. Fue nacionalizado a raíz de la llamadas Leyes de Reforma en 1860. La apertura de una calle en 1862 causó daños a la parte posterior del edificio. ",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 12,
+              "Title": "Zona Arqueológica de Atzompa",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/arqueologicaatzompa.jpg",
+              "Description": "Atzompa es un sitio arqueológico localizado a unos 8 km al oeste de la ciudad de Oaxaca en el Cerro del Bonete, en la localidad de Santa María Atzompa.​​​​ El sitio fue un conjunto monumental perteneciente a la cercana Monte Albán.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 13,
+              "Title": "Catedral de Oaxaca",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/catedraloaxaca.jpg",
+              "Description": "La Catedral de Nuestra Señora de la Asunción de la ciudad de Oaxaca, México, es la sede de la Arquidiócesis de Antequera. Su construcción fue iniciada en 1535, siendo consagrado el templo el 12 de julio de 1733. Está dedicada a Nuestra Señora de la Asunción.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 14,
+              "Title": "Auditorio Guelaguetza",
+              "ImagePath": "/images/destinations/mexico/oaxaca/puntosinteres/auditorioguelaguetza.jpg",
+              "Description": "El Auditorio Guelaguetza, es un centro de espectáculos, localizado en Carretera panamericana sin número, en Oaxaca de Juárez justo al lado de la zona hotelera perteneciente a la del Cerro del Fortín.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            }
+          ]
         },
         {
           "DestinationId": 21,
@@ -1319,7 +1446,107 @@
               "ImagePathSmall": "/images/destinations/mexico/tabasco/banners/small-tabasco.jpg"
             }
           ],
-          "PointsInterest": []
+          "PointsInterest": [
+            {
+              "InterestPointId": 1,
+              "Title": "Catedral del Senor de Tabasco",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/catedralsenortabasco.jpg",
+              "Description": "La Catedral del Sr. de Tabasco, en la ciudad de Villahermosa, es la iglesia central de la Diócesis de Tabasco.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 2,
+              "Title": "Zona Arqueológica de Comalcalco",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/zonaarqueologicacomalcalco.jpg",
+              "Description": "Comalcalco es un sitio arqueológico de la civilización maya que se localiza en el municipio de Comalcalco; en el estado mexicano de Tabasco, a unos 60 km de Villahermosa.​ Su nombre original era Joy Chan que significa en maya: 'Cielo Rodeado'.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 3,
+              "Title": "El Santuario de Los Girasoles",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/santuariogirasoles.jpg",
+              "Description": "Conocido como El Santuario de los Girasoles, se encuentra ubicado en el pueblo de Balancán, en Tabasco, y puedes ingresar a él, tan solo 20 días durante todo el año. Las flores pasan por su proceso de sembrado y riego para que cuando sea primavera florezcan.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 4,
+              "Title": "Hacienda Cacaotera La Luz",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/haciendacacaoteralaluz.jpg",
+              "Description": "A sólo cinco kilómetros de la zona arqueológica de Comalcalco, en el bello estado de Tabasco, encontramos una hacienda cacaotera ubicada en el bulevar Ingeniero Leandro Rovirosa Wade, conocido antiguamente como Barranco Occidental, y que actualmente forma parte del centro de la ciudad. Esta propiedad es llamada Hacienda La Luz, pero entre los habitantes de Comalcalco es mejor conocida como Hacienda Wolter, en memoria del doctor Otto Wolter Hayer, inmigrante alemán que la adquirió a principios de los años treinta y la convirtió en una de las primeras haciendas que industrializaron el cacao para fabricar el chocolate de la famosa región de La Chontalpa tabasqueña. El nombre de La Luz se lo dio el señor Ramón Torres, de quien el doctor Wolter adquirió estas tierras. La hacienda abarca unas 50 hectáreas enclavadas en pleno centro de la ciudad, a sólo dos cuadras del Parque Central, lo que la hace muy accesible a los visitantes. Al llegar a ella nos recibe un hermoso jardín con una enorme variedad de plantas tropicales, tanto florales como frutales, algunas típicas de la región y otras exóticas, cuya observación constituye la primera parte del recorrido. Durante éste vamos conociendo una gran diversidad de heliconias, jengibres y plantas tropicales; algunos frutales típicos como el jague, el caimito, el tepejilote, el tamarindo, la castaña, el marañón y el mango, así como plantas muy interesantes por sus usos, como la vainilla, la canela, el hule y la jícara, y otros frutales exóticos como la yabuticaba y la pitanga. Por esta parte del recorrido vale la pena hacer la visita durante la primavera, cuando el jardín está en pleno apogeo de floración y de frutos. La segunda parte de la visita la constituye un encuentro directo con uno de los cultivos más antiguos de México y más apreciados a nivel mundial: el cacao. Nos adentramos en la plantación de este fruto para conocer su historia, periodos de cosecha, procedimientos de cultivo, cuidados y aprovechamiento, y la parte más esperada, el proceso para fabricar, a partir de este sabroso fruto, la golosina por excelencia: el chocolate. Para ello caminamos hasta una bodega que data de los comienzos de esta fábrica casera, fundada por el doctor Wolter en 1958, en la que encontramos un enorme recipiente de madera de caoba de aproximadamente 10 metros de largo, al que llaman 'toya', y que es usado, según nos explican, para fermentar los granos de cacao verde...",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 5,
+              "Title": "Ruinas de Pomoná",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/ruinasponoma.jpg",
+              "Description": "Pomoná es un sitio arqueológico de la civilización maya que se localiza en México; en el municipio de Tenosique en el estado de Tabasco. Esta ciudad maya pertenece a la cuenca del Usumacinta, al igual que Moral Reforma, Palenque, Bonampak, Yaxchilan y Piedras Negras.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Mirador Torre del Caballero",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/miradortorrecaballo.jpg",
+              "Description": "Panorámica del río Grijalva, al fondo se aprecia el mirador 'Torre del Caballero', en la ciudad de Villahermosa, estado de Tabasco, México.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 6,
+              "Title": "Mirador de las Aguilas",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/miradoraguilas.jpg",
+              "Description": "Mirador de las Aguilas, mirador, está en Tabasco. Mirador de las Aguilas está situada al norte de Sector 3, circa de Parque Tomás Garrido Canabal.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 7,
+              "Title": "Iglesia de Cupilco",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/iglesiacupilco.jpg",
+              "Description": "La Iglesia y Santuario de La Asunción, o más conocida como Iglesia de Cupilco, se localiza en el poblado de Cupilco, municipio de Comalcalco, estado de Tabasco, México. Es un templo católico que alberga la imagen de la Virgen de la Asunción, (Patrona del estado de Tabasco) que fue construido a finales del siglo XVIII, y que recibe a una gran cantidad de peregrinos quienes vienen a venerar a la Virgen María en esta advocación, la cual fue coronada solemnemente por el Papa Juan Pablo II, cuando visitó el estado de Tabasco el 11 de mayo de 1990. Esta iglesia, es una de las más famosas del estado, gracias a su llamativa policromía. Es comúnmente el símbolo de Tabasco en muchas exposiciones turísticas tanto nacionales como internacionales, y es considerada Patrimonio Cultural de Tabasco.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 8,
+              "Title": "Arqueologica de Moral-Reforma",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/arqueologicamoralreforma.jpg",
+              "Description": "La Zona Arqueológica Moral-Reforma es un sitio maya del período clásico. Se encuentra en el municipio de Balancán, en el estado mexicano de Tabasco, sobre las llanuras inundables del río San Pedro Mártir, cerca de su desembocadura en el río Usumacinta.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 9,
+              "Title": "Puente Boca Del Cerro",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/puentebocadelcerro.jpg",
+              "Description": "Puente en Boca del Cerro. Municipio de Tenosique Tabasco.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            },
+            {
+              "InterestPointId": 10,
+              "Title": "Zona Arqueologica La Venta",
+              "ImagePath": "/images/destinations/mexico/tabasco/puntosinteres/arqueologicalaventa.jpg",
+              "Description": "La Venta fue el centro ceremonial y poblacional más importante y principal sitio arqueológico de la cultura olmeca, tuvo su época de apogeo entre 900 a. C. y 400 a. ... La superficie de la isla es de apenas unos 5,2 km², sin embargo, la extensión total de esta antigua ciudad olmeca se calcula en 200 hectáreas.",
+              "Latitude": null,
+              "Longitude": null,
+              "Galleries": []
+            }
+          ]
         },
         {
           "DestinationId": 27,
@@ -1425,8 +1652,8 @@
               "Title": "San Jose del Cabo Main Square",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/sanjosedelcabomainsquare.jpg",
               "Description": "Lugar imperdible si estas en San José del cabo, una arquitectura colonial bien conservada y la iglesia en su interior es hermosa",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1434,8 +1661,8 @@
               "Title": "Parroquia San José",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/parroquiasanjose.jpg",
               "Description": "El templo conserva tres vitrales emplomados de magnifica factura. Al centro de la nave principal arriba del altar mayor, se encuentra un vitral dedicado al Señor San José, allí podrá observar además del anagrama del santo, los símbolos icnográficos que le identifican. Otro vitral ubicado en la capilla de la Virgen de Guadalupe, representa los diversos símbolos marianos. Mientras que el vitral que se conserva en la capilla de Nuestro Padre Jesús Nazareno, muestra los símbolos de la Pasión de Cristo. El interior del templo es muy austero y sus monumentos sencillos. Tal vez la capilla de la Virgen de Guadalupe se distingue por su curioso trabajo de plateado, a que se sometió la cantera. En este lugar podrá observar un óleo de la Virgen de muy buena factura y una pequeña imagen del Santo Niño de Atocha, llamado aquí como Santo Niño de los Milagros, también podrá ver una curiosa imagen en miniatura de San Martín Caballero. En la capilla de Jesús Nazareno se conservan, además de dos esculturas del Nazareno, una profesional de tamaño natural y otra en miniatura. Destaca en este oratorio un muy buen óleo sobre tela del siglo XVIII conocido como Jesús de la Fe.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1443,8 +1670,8 @@
               "Title": "Rancho Collins",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/ranchocollins.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1452,8 +1679,8 @@
               "Title": "Plaza Bonita",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazabonita.jpg",
               "Description": "Plaza Bonita, un gran lugar para dar un paseo en el oeste de la Marina en Cabo San Lucas con bares, restaurantes, cafeterías y tiendas de souvenirs, cuero, joyería y más.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1461,8 +1688,8 @@
               "Title": "Plaza Amelia Wilkes",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
               "Description": "Plaza Amelia Wilkes es una plaza pintoresca, con bellos Jardines ubicada en el corazón de Cabo San Lucas, Baja California Sur. Debe su nombre a la célebre Cabeña Amelia Wilkes Ceseña, quien que dio su vida al robustecimiento de nuestras raíces e historia como cabeños.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1470,8 +1697,8 @@
               "Title": "Plaza Mijares",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
               "Description": "Enorme plaza urbana con mirador y un escenario donde se celebran varios eventos comunitarios.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1479,8 +1706,8 @@
               "Title": "Pedregal de Cabo San Lucas",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
               "Description": "Quiet Pedregal es una exclusiva área ubicada en una ladera con vistas panorámicas sobre el puerto deportivo y el océano. Los veraneantes frecuentan sus marisquerías y se alojan en complejos de lujo con bares en la piscina. Las cercanas playas de Lovers y Divorce Beach son famosas para nadar y tomar el sol, y los grupos de excursión de los barcos visitan la icónica formación rocosa de Arch. Un mercado semanal de agricultores ofrece frutas, pasteles y artesanías hechas a mano. ",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1488,8 +1715,8 @@
               "Title": "Calvary Chapel",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/plazaameliawilkes.jpg",
               "Description": "",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1497,8 +1724,8 @@
               "Title": "Iglesia de San Lucas",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/iglesiadesanlucas.jpg",
               "Description": "La popular iglesia católica del centro de Cabo San Lucas es la Parroquia de San Lucas Evangelista (iglesia parroquial de San Lucas, el evangelista), es la principal iglesia católica en el área de Cabo San Lucas para misas bilingües a las 12 del mediodía todos los domingos.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             },
             {
@@ -1506,8 +1733,8 @@
               "Title": "Cabo Unico Store",
               "ImagePath": "/images/destinations/mexico/loscabos/puntosinteres/iglesiadesanlucas.jpg",
               "Description": "Excelente y riquisimo lugar para comprar tequila o y otros destilados. El licor de vainilla y damiana son unicos de los cabos. Este es un lugar que no debes dejar de conocer.",
-              "Latitude": 1.0002220002,
-              "Longitude": 1.3333220,
+              "Latitude": null,
+              "Longitude": null,
               "Galleries": []
             }
           ]

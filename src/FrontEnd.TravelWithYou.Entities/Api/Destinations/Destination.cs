@@ -11,8 +11,8 @@ namespace FrontEnd.TravelWithYou.Entities.Destinations
         public string Description { get; set; }
         public string ImagePath { get; set; }
         public string DestinationUri {get;set;}
-        public decimal Latitude { get; set; }
-        public decimal Longitude { get; set; }
+        public decimal? Latitude { get; set; }
+        public decimal? Longitude { get; set; }
         public List<Gallery> Galleries {get;set;}
 
         public List<PointInterest> PointsInterest { get; set; }
